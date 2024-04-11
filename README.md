@@ -13,6 +13,8 @@
 * 마트 이곳저곳 다니며 도움이 필요한 사람을 도와준다.
 
 ## 블록도
+![image](https://github.com/2024lastdance/2024lastdance/assets/112371402/cf80c5ab-e869-495e-a222-bcb9f917e0d0)
+
 
 ## 분담파트
 * ROS2 - 석진모
