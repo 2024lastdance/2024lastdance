@@ -24,8 +24,7 @@ https://www.notion.so/71b85f8e52444099b91ac87357384003
 * 딥러닝(Audio) - 이경민
 
 ## 참고기술
-https://github.com/dusty-nv/jetson-inference/tree/master
-https://slamwithme.oopy.io/ba8dc87a-9b52-4dc3-a368-c828e8a76857
+* https://github.com/dusty-nv/jetson-inference/tree/master
+* https://slamwithme.oopy.io/ba8dc87a-9b52-4dc3-a368-c828e8a76857
 ## 참고블로그
-https://cafe.daum.net/SmartRobot
-
+* https://cafe.daum.net/SmartRobot
