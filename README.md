@@ -28,3 +28,12 @@ https://www.notion.so/71b85f8e52444099b91ac87357384003
 * https://slamwithme.oopy.io/ba8dc87a-9b52-4dc3-a368-c828e8a76857
 ## 참고블로그
 * https://cafe.daum.net/SmartRobot
+
+
+
+## 발표자료
+
+
+## 영상
+
+https://youtu.be/SEUnL01Dujs?si=LJ69eRZWxriuvmTn
