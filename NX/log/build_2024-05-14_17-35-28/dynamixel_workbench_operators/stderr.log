@@ -1,0 +1,10 @@
+[01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_operators/src/wheel_operator.cpp:[m[K In constructor ‘[01m[KDynamixelWorkbenchOperator::DynamixelWorkbenchOperator()[m[K’:
+[01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_operators/src/wheel_operator.cpp:146:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KDynamixelWorkbenchOperator::count_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  146 |     size_t [01;35m[Kcount_[m[K;
+      |            [01;35m[K^~~~~~[m[K
+[01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_operators/src/wheel_operator.cpp:144:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble DynamixelWorkbenchOperator::lin_vel_step[m[K’ [[01;35m[K-Wreorder[m[K]
+  144 |     double [01;35m[Klin_vel_step[m[K;
+      |            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_operators/src/wheel_operator.cpp:81:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   81 |     [01;35m[KDynamixelWorkbenchOperator[m[K() : Node("dynamixel_workbench_operator"), count_(0),lin_vel_step(0.01), ang_vel_step(0.1)
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

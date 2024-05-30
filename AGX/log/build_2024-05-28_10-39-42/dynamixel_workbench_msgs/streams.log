@@ -1,0 +1,12 @@
+[0.183s] Invoking command in '/home/jetson/ros2_ws/build/dynamixel_workbench_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/dynamixel_workbench_msgs -- -j8 -l8
+[0.473s] [  0%] Built target dynamixel_workbench_msgs__cpp
+[0.481s] [ 12%] Built target dynamixel_workbench_msgs__rosidl_generator_c
+[0.596s] make[1]: *** wait: No child processes.  Stop.
+[0.599s] make[1]: *** Waiting for unfinished jobs....
+[0.600s] make[1]: *** wait: No child processes.  Stop.
+[0.602s] make[1]: *** [CMakeFiles/Makefile2:442: CMakeFiles/dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+[0.603s] make[1]: *** [CMakeFiles/Makefile2:497: CMakeFiles/dynamixel_workbench_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+[0.618s] make[1]: *** [CMakeFiles/Makefile2:469: CMakeFiles/dynamixel_workbench_msgs__rosidl_typesupport_introspection_c.dir/all] Interrupt
+[0.628s] make[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/dynamixel_workbench_msgs__rosidl_typesupport_cpp.dir/all] Interrupt
+[0.629s] make[1]: *** [CMakeFiles/Makefile2:415: CMakeFiles/dynamixel_workbench_msgs__rosidl_typesupport_c.dir/all] Error 2
+[0.629s] make: *** [Makefile:141: all] Interrupt

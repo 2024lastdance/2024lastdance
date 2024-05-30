@@ -1,0 +1,17 @@
+/home/jetson/ros2_ws/install/initial_pose/lib/initial_pose/initialpose
+/home/jetson/ros2_ws/install/initial_pose/share/ament_index/resource_index/package_run_dependencies/initial_pose
+/home/jetson/ros2_ws/install/initial_pose/share/ament_index/resource_index/parent_prefix_path/initial_pose
+/home/jetson/ros2_ws/install/initial_pose/share/initial_pose/environment/ament_prefix_path.sh
+/home/jetson/ros2_ws/install/initial_pose/share/initial_pose/environment/ament_prefix_path.dsv
+/home/jetson/ros2_ws/install/initial_pose/share/initial_pose/environment/path.sh
+/home/jetson/ros2_ws/install/initial_pose/share/initial_pose/environment/path.dsv
+/home/jetson/ros2_ws/install/initial_pose/share/initial_pose/local_setup.bash
+/home/jetson/ros2_ws/install/initial_pose/share/initial_pose/local_setup.sh
+/home/jetson/ros2_ws/install/initial_pose/share/initial_pose/local_setup.zsh
+/home/jetson/ros2_ws/install/initial_pose/share/initial_pose/local_setup.dsv
+/home/jetson/ros2_ws/install/initial_pose/share/initial_pose/package.dsv
+/home/jetson/ros2_ws/install/initial_pose/share/ament_index/resource_index/packages/initial_pose
+/home/jetson/ros2_ws/install/initial_pose/share/initial_pose/cmake/ament_cmake_export_dependencies-extras.cmake
+/home/jetson/ros2_ws/install/initial_pose/share/initial_pose/cmake/initial_poseConfig.cmake
+/home/jetson/ros2_ws/install/initial_pose/share/initial_pose/cmake/initial_poseConfig-version.cmake
+/home/jetson/ros2_ws/install/initial_pose/share/initial_pose/package.xml

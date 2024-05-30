@@ -1,0 +1,3 @@
+[0.175s] Invoking command in '/home/jetson/ros2_ws/build/inital_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/inital_pose -- -j8 -l8
+[0.489s] [100%] Built target initialpose
+[0.567s] make: *** [Makefile:142: all] Interrupt

@@ -1,0 +1,78 @@
+[0.158s] Invoking command in '/home/jetsonnx/ros2_ws/build/msg_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetsonnx/ros2_ws/src/msg_pub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetsonnx/ros2_ws/install/msg_pub
+[0.716s] -- The C compiler identification is GNU 9.4.0
+[1.135s] -- The CXX compiler identification is GNU 9.4.0
+[1.182s] -- Check for working C compiler: /usr/bin/cc
+[1.646s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.652s] -- Detecting C compiler ABI info
+[2.272s] -- Detecting C compiler ABI info - done
+[2.352s] -- Detecting C compile features
+[2.354s] -- Detecting C compile features - done
+[2.373s] -- Check for working CXX compiler: /usr/bin/c++
+[2.961s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.964s] -- Detecting CXX compiler ABI info
+[3.598s] -- Detecting CXX compiler ABI info - done
+[3.670s] -- Detecting CXX compile features
+[3.674s] -- Detecting CXX compile features - done
+[3.689s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.809s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.809s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.606s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.906s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.145s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.191s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.623s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.742s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.101s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.378s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.387s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.392s] -- Looking for pthread.h
+[6.764s] -- Looking for pthread.h - found
+[6.766s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.276s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.277s] -- Looking for pthread_create in pthreads
+[7.692s] -- Looking for pthread_create in pthreads - not found
+[7.693s] -- Looking for pthread_create in pthread
+[8.020s] -- Looking for pthread_create in pthread - found
+[8.039s] -- Found Threads: TRUE  
+[8.627s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.951s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.957s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.957s] -- Configured cppcheck include dirs: 
+[8.958s] -- Configured cppcheck exclude dirs and/or files: 
+[8.963s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.964s] -- Configured cpplint exclude dirs and/or files: 
+[8.967s] -- Added test 'lint_cmake' to check CMake code style
+[8.972s] -- Added test 'uncrustify' to check C / C++ code style
+[8.972s] -- Configured uncrustify additional arguments: 
+[8.974s] -- Added test 'xmllint' to check XML markup files
+[9.138s] -- Configuring done
+[9.174s] -- Generating done
+[9.181s] -- Build files have been written to: /home/jetsonnx/ros2_ws/build/msg_pub
+[9.221s] Invoked command in '/home/jetsonnx/ros2_ws/build/msg_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetsonnx/ros2_ws/src/msg_pub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetsonnx/ros2_ws/install/msg_pub
+[9.235s] Invoking command in '/home/jetsonnx/ros2_ws/build/msg_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/msg_pub -- -j4 -l4
+[9.399s] [35m[1mScanning dependencies of target msg_pub[0m
+[10.020s] [ 50%] [32mBuilding CXX object CMakeFiles/msg_pub.dir/src/msg_publisher.cpp.o[0m
+[20.463s] [100%] [32m[1mLinking CXX executable msg_pub[0m
+[21.042s] [100%] Built target msg_pub
+[21.193s] Invoked command in '/home/jetsonnx/ros2_ws/build/msg_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/msg_pub -- -j4 -l4
+[21.327s] Invoking command in '/home/jetsonnx/ros2_ws/build/msg_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/msg_pub
+[21.357s] -- Install configuration: ""
+[21.359s] -- Execute custom install script
+[21.362s] -- Symlinking: /home/jetsonnx/ros2_ws/install/msg_pub/lib/msg_pub/msg_pub
+[21.402s] -- Symlinking: /home/jetsonnx/ros2_ws/install/msg_pub/share/ament_index/resource_index/package_run_dependencies/msg_pub
+[21.441s] -- Symlinking: /home/jetsonnx/ros2_ws/install/msg_pub/share/ament_index/resource_index/parent_prefix_path/msg_pub
+[21.477s] -- Symlinking: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/environment/ament_prefix_path.sh
+[21.515s] -- Symlinking: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/environment/ament_prefix_path.dsv
+[21.552s] -- Symlinking: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/environment/path.sh
+[21.600s] -- Symlinking: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/environment/path.dsv
+[21.639s] -- Symlinking: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/local_setup.bash
+[21.686s] -- Symlinking: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/local_setup.sh
+[21.726s] -- Symlinking: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/local_setup.zsh
+[21.768s] -- Symlinking: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/local_setup.dsv
+[21.813s] -- Symlinking: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/package.dsv
+[21.858s] -- Symlinking: /home/jetsonnx/ros2_ws/install/msg_pub/share/ament_index/resource_index/packages/msg_pub
+[21.900s] -- Symlinking: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.943s] -- Symlinking: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/cmake/msg_pubConfig.cmake
+[21.986s] -- Symlinking: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/cmake/msg_pubConfig-version.cmake
+[22.029s] -- Symlinking: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/package.xml
+[22.096s] Invoked command in '/home/jetsonnx/ros2_ws/build/msg_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/msg_pub

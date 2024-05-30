@@ -1,0 +1,25 @@
+[0.495s] Invoking command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers -- -j4 -l4
+[1.398s] [ 50%] Built target dynamixel_workbench_controllers
+[1.457s] [100%] Built target find_dynamixel
+[1.547s] Invoked command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers -- -j4 -l4
+[1.810s] Invoking command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers
+[1.963s] -- Install configuration: ""
+[1.968s] -- Execute custom install script
+[1.971s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/lib/dynamixel_workbench_controllers/find_dynamixel
+[1.973s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/lib/dynamixel_workbench_controllers/dynamixel_workbench_controllers
+[1.974s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/ament_index/resource_index/package_run_dependencies/dynamixel_workbench_controllers
+[1.977s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/ament_index/resource_index/parent_prefix_path/dynamixel_workbench_controllers
+[1.978s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/environment/ament_prefix_path.sh
+[1.981s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/environment/ament_prefix_path.dsv
+[1.984s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/environment/path.sh
+[1.985s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/environment/path.dsv
+[1.986s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/local_setup.bash
+[1.988s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/local_setup.sh
+[1.989s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/local_setup.zsh
+[1.995s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/local_setup.dsv
+[1.995s] -- Symlinking: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/package.dsv
+[2.034s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/ament_index/resource_index/packages/dynamixel_workbench_controllers
+[2.039s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/cmake/dynamixel_workbench_controllersConfig.cmake
+[2.040s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/cmake/dynamixel_workbench_controllersConfig-version.cmake
+[2.040s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/package.xml
+[2.050s] Invoked command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers

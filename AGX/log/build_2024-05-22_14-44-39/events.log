@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.001576] (-) JobUnselected: {'identifier': 'dynamixel_workbench_msgs'}
+[0.002149] (-) JobUnselected: {'identifier': 'dynamixel_workbench_operators'}
+[0.002596] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.002813] (turtlebot3_navigation2) JobQueued: {'identifier': 'turtlebot3_navigation2', 'dependencies': OrderedDict()}
+[0.003163] (turtlebot3_navigation2) JobStarted: {'identifier': 'turtlebot3_navigation2'}
+[0.098596] (-) TimerEvent: {}
+[0.186565] (turtlebot3_navigation2) JobProgress: {'identifier': 'turtlebot3_navigation2', 'progress': 'cmake'}
+[0.188647] (turtlebot3_navigation2) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/ros2_ws/src/turtlebot3_navigation2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jetson/ros2_ws/install/turtlebot3_navigation2'], 'cwd': '/home/jetson/ros2_ws/build/turtlebot3_navigation2', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.0.11 52784 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/ros2_ws/src'), ('SSH_TTY', '/dev/pts/1'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'Jetson-AGX'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/jetson/robot_ws'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Xavier (32 GB ram)'), ('JETSON_SERIAL_NUMBER', '1421921014907'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Galen'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.4/bin:/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', '192.168.0.11:0.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jetson/ros2_ws/build/turtlebot3_navigation2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.11 52784 192.168.0.117 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p2888-0004')]), 'shell': False}
+[0.198739] (-) TimerEvent: {}
+[0.299646] (-) TimerEvent: {}
+[0.400433] (-) TimerEvent: {}
+[0.501669] (-) TimerEvent: {}
+[0.602275] (-) TimerEvent: {}
+[0.702980] (-) TimerEvent: {}
+[0.803880] (-) TimerEvent: {}
+[0.905120] (-) TimerEvent: {}
+[1.006425] (-) TimerEvent: {}
+[1.109415] (-) TimerEvent: {}
+[1.212481] (-) TimerEvent: {}
+[1.314725] (-) TimerEvent: {}
+[1.415425] (-) TimerEvent: {}
+[1.516114] (-) TimerEvent: {}
+[1.616924] (-) TimerEvent: {}
+[1.718205] (-) TimerEvent: {}
+[1.818958] (-) TimerEvent: {}
+[1.919828] (-) TimerEvent: {}
+[2.020689] (-) TimerEvent: {}
+[2.121481] (-) TimerEvent: {}
+[2.155560] (turtlebot3_navigation2) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.221635] (-) TimerEvent: {}
+[2.322361] (-) TimerEvent: {}
+[2.423543] (-) TimerEvent: {}
+[2.526465] (-) TimerEvent: {}
+[2.629912] (-) TimerEvent: {}
+[2.732923] (-) TimerEvent: {}
+[2.833694] (-) TimerEvent: {}
+[2.934485] (-) TimerEvent: {}
+[3.035386] (-) TimerEvent: {}
+[3.053574] (turtlebot3_navigation2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.135537] (-) TimerEvent: {}
+[3.220329] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.235668] (-) TimerEvent: {}
+[3.336664] (-) TimerEvent: {}
+[3.437724] (-) TimerEvent: {}
+[3.539110] (-) TimerEvent: {}
+[3.640140] (-) TimerEvent: {}
+[3.741348] (-) TimerEvent: {}
+[3.762236] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.841531] (-) TimerEvent: {}
+[3.906414] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.941690] (-) TimerEvent: {}
+[4.042849] (-) TimerEvent: {}
+[4.143628] (-) TimerEvent: {}
+[4.244420] (-) TimerEvent: {}
+[4.345257] (-) TimerEvent: {}
+[4.446034] (-) TimerEvent: {}
+[4.525207] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.546669] (-) TimerEvent: {}
+[4.648829] (-) TimerEvent: {}
+[4.740561] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.742560] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.748892] (-) TimerEvent: {}
+[4.755375] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.849118] (-) TimerEvent: {}
+[4.949875] (-) TimerEvent: {}
+[5.050673] (-) TimerEvent: {}
+[5.090969] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[5.097227] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.150885] (-) TimerEvent: {}
+[5.251643] (-) TimerEvent: {}
+[5.352381] (-) TimerEvent: {}
+[5.453208] (-) TimerEvent: {}
+[5.554013] (-) TimerEvent: {}
+[5.613179] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.654382] (-) TimerEvent: {}
+[5.680129] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.682114] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.754414] (-) TimerEvent: {}
+[5.855028] (-) TimerEvent: {}
+[5.862240] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[5.955197] (-) TimerEvent: {}
+[6.056011] (-) TimerEvent: {}
+[6.122129] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[6.122938] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.156162] (-) TimerEvent: {}
+[6.256790] (-) TimerEvent: {}
+[6.357459] (-) TimerEvent: {}
+[6.458045] (-) TimerEvent: {}
+[6.558643] (-) TimerEvent: {}
+[6.659239] (-) TimerEvent: {}
+[6.759840] (-) TimerEvent: {}
+[6.860454] (-) TimerEvent: {}
+[6.961026] (-) TimerEvent: {}
+[7.061712] (-) TimerEvent: {}
+[7.162762] (-) TimerEvent: {}
+[7.163697] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.262876] (-) TimerEvent: {}
+[7.363568] (-) TimerEvent: {}
+[7.464872] (-) TimerEvent: {}
+[7.566105] (-) TimerEvent: {}
+[7.662735] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.666197] (-) TimerEvent: {}
+[7.671036] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Generating done\n'}
+[7.674856] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Build files have been written to: /home/jetson/ros2_ws/build/turtlebot3_navigation2\n'}
+[7.699473] (turtlebot3_navigation2) CommandEnded: {'returncode': 0}
+[7.702263] (turtlebot3_navigation2) JobProgress: {'identifier': 'turtlebot3_navigation2', 'progress': 'build'}
+[7.705355] (turtlebot3_navigation2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros2_ws/build/turtlebot3_navigation2', '--', '-j8', '-l8'], 'cwd': '/home/jetson/ros2_ws/build/turtlebot3_navigation2', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.0.11 52784 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/ros2_ws/src'), ('SSH_TTY', '/dev/pts/1'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'Jetson-AGX'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/jetson/robot_ws'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Xavier (32 GB ram)'), ('JETSON_SERIAL_NUMBER', '1421921014907'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Galen'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.4/bin:/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', '192.168.0.11:0.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jetson/ros2_ws/build/turtlebot3_navigation2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.11 52784 192.168.0.117 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p2888-0004')]), 'shell': False}
+[7.766667] (-) TimerEvent: {}
+[7.861917] (turtlebot3_navigation2) CommandEnded: {'returncode': 0}
+[7.870768] (-) TimerEvent: {}
+[7.949680] (turtlebot3_navigation2) JobProgress: {'identifier': 'turtlebot3_navigation2', 'progress': 'install'}
+[7.970879] (-) TimerEvent: {}
+[7.998742] (turtlebot3_navigation2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/ros2_ws/build/turtlebot3_navigation2'], 'cwd': '/home/jetson/ros2_ws/build/turtlebot3_navigation2', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.0.11 52784 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/ros2_ws/src'), ('SSH_TTY', '/dev/pts/1'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'Jetson-AGX'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/jetson/robot_ws'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Xavier (32 GB ram)'), ('JETSON_SERIAL_NUMBER', '1421921014907'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Galen'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.4/bin:/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', '192.168.0.11:0.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jetson/ros2_ws/build/turtlebot3_navigation2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.11 52784 192.168.0.117 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p2888-0004')]), 'shell': False}
+[8.045438] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.047273] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.050375] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py\n'}
+[8.070839] (-) TimerEvent: {}
+[8.087344] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm\n'}
+[8.121330] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml\n'}
+[8.155345] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/serverconf.yaml\n'}
+[8.171020] (-) TimerEvent: {}
+[8.189921] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.pgm\n'}
+[8.227361] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.yaml\n'}
+[8.264536] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml\n'}
+[8.271219] (-) TimerEvent: {}
+[8.303093] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml\n'}
+[8.341232] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz\n'}
+[8.371333] (-) TimerEvent: {}
+[8.382087] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2\n'}
+[8.424535] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2\n'}
+[8.466326] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh\n'}
+[8.471605] (-) TimerEvent: {}
+[8.505414] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv\n'}
+[8.545885] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh\n'}
+[8.571725] (-) TimerEvent: {}
+[8.587209] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv\n'}
+[8.629109] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash\n'}
+[8.667540] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh\n'}
+[8.671853] (-) TimerEvent: {}
+[8.703368] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh\n'}
+[8.744725] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv\n'}
+[8.772001] (-) TimerEvent: {}
+[8.783127] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv\n'}
+[8.819595] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2\n'}
+[8.862532] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake\n'}
+[8.872279] (-) TimerEvent: {}
+[8.903573] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake\n'}
+[8.944183] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml\n'}
+[8.972387] (-) TimerEvent: {}
+[8.997930] (turtlebot3_navigation2) CommandEnded: {'returncode': 0}
+[9.072658] (-) TimerEvent: {}
+[9.173335] (-) TimerEvent: {}
+[9.274950] (-) TimerEvent: {}
+[9.342852] (turtlebot3_navigation2) JobEnded: {'identifier': 'turtlebot3_navigation2', 'rc': 0}
+[9.346438] (-) EventReactorShutdown: {}

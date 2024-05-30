@@ -1,0 +1,25 @@
+{
+  "package_name": "dynamixel_workbench_msgs",
+  "non_idl_tuples": [
+    "/home/jetson/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/AX.msg",
+    "/home/jetson/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/EX.msg",
+    "/home/jetson/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/MX.msg",
+    "/home/jetson/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/MX2.msg",
+    "/home/jetson/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/MX2Ext.msg",
+    "/home/jetson/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/MXExt.msg",
+    "/home/jetson/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/PRO.msg",
+    "/home/jetson/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/PROExt.msg",
+    "/home/jetson/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/RX.msg",
+    "/home/jetson/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/XH.msg",
+    "/home/jetson/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/XL.msg",
+    "/home/jetson/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/XL320.msg",
+    "/home/jetson/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/XM.msg",
+    "/home/jetson/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/XMExt.msg",
+    "/home/jetson/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/DynamixelState.msg",
+    "/home/jetson/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/DynamixelStateList.msg",
+    "/home/jetson/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/DynamixelInfo.msg",
+    "/home/jetson/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:msg/DynamixelLoadInfo.msg",
+    "/home/jetson/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:srv/GetDynamixelInfo.srv",
+    "/home/jetson/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs:srv/DynamixelCommand.srv"
+  ]
+}

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers/find_dynamixel" "/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers/dynamixel_workbench_controllers" "TARGETS" "find_dynamixel" "dynamixel_workbench_controllers" "DESTINATION" "lib/dynamixel_workbench_controllers")

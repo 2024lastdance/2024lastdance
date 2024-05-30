@@ -1,0 +1,556 @@
+[0.740s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.741s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff95b56850>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff95b56850>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff95aeae20>)
+[1.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.393s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetsonnx/ros2_ws'
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.444s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.445s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.446s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.446s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.446s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.447s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.448s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.449s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.449s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.449s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.449s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.449s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.450s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'ignore'
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'ignore_ament_install'
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extensions ['colcon_pkg']
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'colcon_pkg'
+[1.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extensions ['colcon_meta']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'colcon_meta'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extensions ['ros']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'ros'
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extensions ['cmake', 'python']
+[1.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'cmake'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'python'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extensions ['python_setup_py']
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs) by extension 'python_setup_py'
+[1.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extension 'ignore'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extension 'ignore_ament_install'
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extensions ['colcon_pkg']
+[1.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extension 'colcon_pkg'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extensions ['colcon_meta']
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extension 'colcon_meta'
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extensions ['ros']
+[1.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel-workbench-msgs/dynamixel_workbench_msgs) by extension 'ros'
+[1.466s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel-workbench-msgs/dynamixel_workbench_msgs' with type 'ros.ament_cmake' and name 'dynamixel_workbench_msgs'
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_workbench_controllers) by extensions ['ignore', 'ignore_ament_install']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_workbench_controllers) by extension 'ignore'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_workbench_controllers) by extension 'ignore_ament_install'
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_workbench_controllers) by extensions ['colcon_pkg']
+[1.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_workbench_controllers) by extension 'colcon_pkg'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_workbench_controllers) by extensions ['colcon_meta']
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_workbench_controllers) by extension 'colcon_meta'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_workbench_controllers) by extensions ['ros']
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_workbench_controllers) by extension 'ros'
+[1.471s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel_workbench_controllers' with type 'ros.ament_cmake' and name 'dynamixel_workbench_controllers'
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_workbench_operators) by extensions ['ignore', 'ignore_ament_install']
+[1.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_workbench_operators) by extension 'ignore'
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_workbench_operators) by extension 'ignore_ament_install'
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_workbench_operators) by extensions ['colcon_pkg']
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_workbench_operators) by extension 'colcon_pkg'
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_workbench_operators) by extensions ['colcon_meta']
+[1.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_workbench_operators) by extension 'colcon_meta'
+[1.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_workbench_operators) by extensions ['ros']
+[1.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_workbench_operators) by extension 'ros'
+[1.476s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel_workbench_operators' with type 'ros.ament_cmake' and name 'dynamixel_workbench_operators'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_pub) by extensions ['ignore', 'ignore_ament_install']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_pub) by extension 'ignore'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_pub) by extension 'ignore_ament_install'
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_pub) by extensions ['colcon_pkg']
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_pub) by extension 'colcon_pkg'
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_pub) by extensions ['colcon_meta']
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_pub) by extension 'colcon_meta'
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_pub) by extensions ['ros']
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg_pub) by extension 'ros'
+[1.481s] DEBUG:colcon.colcon_core.package_identification:Package 'src/msg_pub' with type 'ros.ament_cmake' and name 'msg_pub'
+[1.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/odometry_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/odometry_ros2) by extension 'ignore'
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/odometry_ros2) by extension 'ignore_ament_install'
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/odometry_ros2) by extensions ['colcon_pkg']
+[1.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/odometry_ros2) by extension 'colcon_pkg'
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/odometry_ros2) by extensions ['colcon_meta']
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/odometry_ros2) by extension 'colcon_meta'
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/odometry_ros2) by extensions ['ros']
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/odometry_ros2) by extension 'ros'
+[1.486s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odometry_ros2' with type 'ros.ament_cmake' and name 'odometry_ros2'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[1.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[1.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[1.491s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_bringup) by extension 'ignore'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_bringup) by extension 'ignore_ament_install'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_bringup) by extensions ['colcon_pkg']
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_bringup) by extension 'colcon_pkg'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_bringup) by extensions ['colcon_meta']
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_bringup) by extension 'colcon_meta'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_bringup) by extensions ['ros']
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_bringup) by extension 'ros'
+[1.496s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_bringup' with type 'ros.ament_cmake' and name 'turtlebot3_bringup'
+[1.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.570s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/jetsonnx/ros2_ws/install
+[1.577s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 258 installed packages in /opt/ros/foxy
+[1.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.856s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_controllers' build argument 'cmake_args' from command line to 'None'
+[1.857s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_controllers' build argument 'cmake_target' from command line to 'None'
+[1.999s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.999s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[1.999s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[1.999s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[1.999s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[2.000s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[2.000s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.000s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_workbench_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers', 'merge_install': False, 'path': '/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers', 'symlink_install': True, 'test_result_base': None}
+[2.002s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_msgs' build argument 'cmake_args' from command line to 'None'
+[2.002s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_msgs' build argument 'cmake_target' from command line to 'None'
+[2.002s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.003s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.003s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.003s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.003s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.003s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.003s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.003s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_workbench_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs', 'merge_install': False, 'path': '/home/jetsonnx/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs', 'symlink_install': True, 'test_result_base': None}
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_operators' build argument 'cmake_args' from command line to 'None'
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_operators' build argument 'cmake_target' from command line to 'None'
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_operators' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_operators' build argument 'cmake_clean_cache' from command line to 'False'
+[2.006s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_operators' build argument 'cmake_clean_first' from command line to 'False'
+[2.006s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_operators' build argument 'cmake_force_configure' from command line to 'False'
+[2.006s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_operators' build argument 'ament_cmake_args' from command line to 'None'
+[2.006s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_operators' build argument 'catkin_cmake_args' from command line to 'None'
+[2.006s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_workbench_operators' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.006s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_workbench_operators' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_operators', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators', 'merge_install': False, 'path': '/home/jetsonnx/ros2_ws/src/dynamixel_workbench_operators', 'symlink_install': True, 'test_result_base': None}
+[2.008s] Level 5:colcon.colcon_core.verb:set package 'msg_pub' build argument 'cmake_args' from command line to 'None'
+[2.008s] Level 5:colcon.colcon_core.verb:set package 'msg_pub' build argument 'cmake_target' from command line to 'None'
+[2.008s] Level 5:colcon.colcon_core.verb:set package 'msg_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.008s] Level 5:colcon.colcon_core.verb:set package 'msg_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[2.008s] Level 5:colcon.colcon_core.verb:set package 'msg_pub' build argument 'cmake_clean_first' from command line to 'False'
+[2.009s] Level 5:colcon.colcon_core.verb:set package 'msg_pub' build argument 'cmake_force_configure' from command line to 'False'
+[2.009s] Level 5:colcon.colcon_core.verb:set package 'msg_pub' build argument 'ament_cmake_args' from command line to 'None'
+[2.009s] Level 5:colcon.colcon_core.verb:set package 'msg_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[2.009s] Level 5:colcon.colcon_core.verb:set package 'msg_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.009s] DEBUG:colcon.colcon_core.verb:Building package 'msg_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetsonnx/ros2_ws/build/msg_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetsonnx/ros2_ws/install/msg_pub', 'merge_install': False, 'path': '/home/jetsonnx/ros2_ws/src/msg_pub', 'symlink_install': True, 'test_result_base': None}
+[2.011s] Level 5:colcon.colcon_core.verb:set package 'odometry_ros2' build argument 'cmake_args' from command line to 'None'
+[2.011s] Level 5:colcon.colcon_core.verb:set package 'odometry_ros2' build argument 'cmake_target' from command line to 'None'
+[2.011s] Level 5:colcon.colcon_core.verb:set package 'odometry_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.011s] Level 5:colcon.colcon_core.verb:set package 'odometry_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.011s] Level 5:colcon.colcon_core.verb:set package 'odometry_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[2.011s] Level 5:colcon.colcon_core.verb:set package 'odometry_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[2.011s] Level 5:colcon.colcon_core.verb:set package 'odometry_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[2.011s] Level 5:colcon.colcon_core.verb:set package 'odometry_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.012s] Level 5:colcon.colcon_core.verb:set package 'odometry_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.012s] DEBUG:colcon.colcon_core.verb:Building package 'odometry_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetsonnx/ros2_ws/build/odometry_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetsonnx/ros2_ws/install/odometry_ros2', 'merge_install': False, 'path': '/home/jetsonnx/ros2_ws/src/odometry_ros2', 'symlink_install': True, 'test_result_base': None}
+[2.013s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[2.013s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[2.014s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.014s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.014s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[2.014s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[2.014s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[2.014s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.014s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.014s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetsonnx/ros2_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetsonnx/ros2_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/jetsonnx/ros2_ws/src/sllidar_ros2', 'symlink_install': True, 'test_result_base': None}
+[2.016s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_args' from command line to 'None'
+[2.016s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_target' from command line to 'None'
+[2.016s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.016s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.017s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.017s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.017s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.017s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.017s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.017s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetsonnx/ros2_ws/build/turtlebot3_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup', 'merge_install': False, 'path': '/home/jetsonnx/ros2_ws/src/turtlebot3_bringup', 'symlink_install': True, 'test_result_base': None}
+[2.018s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.022s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.023s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers' with build type 'ament_cmake'
+[2.025s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers'
+[2.034s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.035s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.035s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.068s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetsonnx/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs' with build type 'ament_cmake'
+[2.071s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetsonnx/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs'
+[2.075s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.075s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.102s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetsonnx/ros2_ws/src/dynamixel_workbench_operators' with build type 'ament_cmake'
+[2.105s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetsonnx/ros2_ws/src/dynamixel_workbench_operators'
+[2.108s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.109s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.135s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetsonnx/ros2_ws/src/msg_pub' with build type 'ament_cmake'
+[2.139s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetsonnx/ros2_ws/src/msg_pub'
+[2.143s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.143s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers -- -j4 -l4
+[2.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/dynamixel_workbench_msgs -- -j4 -l4
+[2.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_operators': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/dynamixel_workbench_operators -- -j4 -l4
+[2.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetsonnx/ros2_ws/build/msg_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetsonnx/ros2_ws/src/msg_pub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetsonnx/ros2_ws/install/msg_pub
+[2.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers -- -j4 -l4
+[2.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_operators' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/dynamixel_workbench_operators -- -j4 -l4
+[3.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_operators': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/dynamixel_workbench_operators
+[3.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers
+[3.238s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench_operators)
+[3.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_operators' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/dynamixel_workbench_operators
+[3.275s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators' for CMake module files
+[3.278s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators' for CMake config files
+[3.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_operators', 'cmake_prefix_path')
+[3.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/hook/cmake_prefix_path.ps1'
+[3.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/hook/cmake_prefix_path.dsv'
+[3.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/hook/cmake_prefix_path.sh'
+[3.343s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/lib'
+[3.344s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/bin'
+[3.345s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/lib/pkgconfig/dynamixel_workbench_operators.pc'
+[3.346s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/lib/python3.8/site-packages'
+[3.347s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/bin'
+[3.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/package.ps1'
+[3.357s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/package.dsv'
+[3.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/package.sh'
+[3.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/package.bash'
+[3.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/package.zsh'
+[3.374s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/colcon-core/packages/dynamixel_workbench_operators)
+[3.406s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench_controllers)
+[3.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers
+[3.413s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers' for CMake module files
+[3.433s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers' for CMake config files
+[3.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_controllers', 'cmake_prefix_path')
+[3.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/hook/cmake_prefix_path.ps1'
+[3.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/hook/cmake_prefix_path.dsv'
+[3.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/hook/cmake_prefix_path.sh'
+[3.448s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/lib'
+[3.449s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/bin'
+[3.449s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/lib/pkgconfig/dynamixel_workbench_controllers.pc'
+[3.450s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/lib/python3.8/site-packages'
+[3.451s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/bin'
+[3.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/package.ps1'
+[3.454s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/package.dsv'
+[3.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/package.sh'
+[3.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/package.bash'
+[3.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/package.zsh'
+[3.472s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/colcon-core/packages/dynamixel_workbench_controllers)
+[3.622s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench_operators)
+[3.624s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators' for CMake module files
+[3.628s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators' for CMake config files
+[3.631s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_operators', 'cmake_prefix_path')
+[3.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/hook/cmake_prefix_path.ps1'
+[3.637s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/hook/cmake_prefix_path.dsv'
+[3.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/hook/cmake_prefix_path.sh'
+[3.674s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/lib'
+[3.681s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/bin'
+[3.681s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/lib/pkgconfig/dynamixel_workbench_operators.pc'
+[3.684s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/lib/python3.8/site-packages'
+[3.685s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/bin'
+[3.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/package.ps1'
+[3.690s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/package.dsv'
+[3.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/package.sh'
+[3.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/package.bash'
+[3.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/package.zsh'
+[3.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/colcon-core/packages/dynamixel_workbench_operators)
+[3.709s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetsonnx/ros2_ws/src/odometry_ros2' with build type 'ament_cmake'
+[3.711s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetsonnx/ros2_ws/src/odometry_ros2'
+[3.712s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.713s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.752s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench_controllers)
+[3.759s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers' for CMake module files
+[3.765s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers' for CMake config files
+[3.768s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_controllers', 'cmake_prefix_path')
+[3.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/hook/cmake_prefix_path.ps1'
+[3.774s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/hook/cmake_prefix_path.dsv'
+[3.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/hook/cmake_prefix_path.sh'
+[3.779s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/lib'
+[3.779s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/bin'
+[3.780s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/lib/pkgconfig/dynamixel_workbench_controllers.pc'
+[3.781s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/lib/python3.8/site-packages'
+[3.783s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/bin'
+[3.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/package.ps1'
+[3.790s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/package.dsv'
+[3.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/package.sh'
+[3.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/package.bash'
+[3.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/package.zsh'
+[3.799s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/colcon-core/packages/dynamixel_workbench_controllers)
+[3.805s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetsonnx/ros2_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[3.806s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetsonnx/ros2_ws/src/sllidar_ros2'
+[3.807s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.808s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetsonnx/ros2_ws/build/odometry_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/odometry_ros2 -- -j4 -l4
+[3.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetsonnx/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[4.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/dynamixel_workbench_msgs -- -j4 -l4
+[4.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetsonnx/ros2_ws/build/odometry_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/odometry_ros2 -- -j4 -l4
+[4.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetsonnx/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[4.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetsonnx/ros2_ws/build/odometry_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/odometry_ros2
+[4.709s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odometry_ros2)
+[4.712s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/odometry_ros2' for CMake module files
+[4.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetsonnx/ros2_ws/build/odometry_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/odometry_ros2
+[4.717s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/odometry_ros2' for CMake config files
+[4.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('odometry_ros2', 'cmake_prefix_path')
+[4.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/odometry_ros2/share/odometry_ros2/hook/cmake_prefix_path.ps1'
+[4.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetsonnx/ros2_ws/install/odometry_ros2/share/odometry_ros2/hook/cmake_prefix_path.dsv'
+[4.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/odometry_ros2/share/odometry_ros2/hook/cmake_prefix_path.sh'
+[4.731s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/odometry_ros2/lib'
+[4.732s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/odometry_ros2/bin'
+[4.732s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/odometry_ros2/lib/pkgconfig/odometry_ros2.pc'
+[4.733s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/odometry_ros2/lib/python3.8/site-packages'
+[4.734s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/odometry_ros2/bin'
+[4.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/odometry_ros2/share/odometry_ros2/package.ps1'
+[4.739s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetsonnx/ros2_ws/install/odometry_ros2/share/odometry_ros2/package.dsv'
+[4.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/odometry_ros2/share/odometry_ros2/package.sh'
+[4.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/odometry_ros2/share/odometry_ros2/package.bash'
+[4.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/odometry_ros2/share/odometry_ros2/package.zsh'
+[4.746s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetsonnx/ros2_ws/install/odometry_ros2/share/colcon-core/packages/odometry_ros2)
+[4.907s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odometry_ros2)
+[4.910s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/odometry_ros2' for CMake module files
+[4.915s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/odometry_ros2' for CMake config files
+[4.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('odometry_ros2', 'cmake_prefix_path')
+[4.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/odometry_ros2/share/odometry_ros2/hook/cmake_prefix_path.ps1'
+[4.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetsonnx/ros2_ws/install/odometry_ros2/share/odometry_ros2/hook/cmake_prefix_path.dsv'
+[4.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/odometry_ros2/share/odometry_ros2/hook/cmake_prefix_path.sh'
+[4.936s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/odometry_ros2/lib'
+[4.937s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/odometry_ros2/bin'
+[4.937s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/odometry_ros2/lib/pkgconfig/odometry_ros2.pc'
+[4.938s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/odometry_ros2/lib/python3.8/site-packages'
+[4.939s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/odometry_ros2/bin'
+[4.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/odometry_ros2/share/odometry_ros2/package.ps1'
+[4.943s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetsonnx/ros2_ws/install/odometry_ros2/share/odometry_ros2/package.dsv'
+[4.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/odometry_ros2/share/odometry_ros2/package.sh'
+[4.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/odometry_ros2/share/odometry_ros2/package.bash'
+[4.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/odometry_ros2/share/odometry_ros2/package.zsh'
+[4.951s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetsonnx/ros2_ws/install/odometry_ros2/share/colcon-core/packages/odometry_ros2)
+[4.956s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetsonnx/ros2_ws/src/turtlebot3_bringup' with build type 'ament_cmake'
+[4.958s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetsonnx/ros2_ws/src/turtlebot3_bringup'
+[4.959s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.959s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetsonnx/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/sllidar_ros2
+[5.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetsonnx/ros2_ws/build/turtlebot3_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/turtlebot3_bringup -- -j4 -l4
+[5.194s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[5.197s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/sllidar_ros2' for CMake module files
+[5.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetsonnx/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/sllidar_ros2
+[5.210s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/sllidar_ros2' for CMake config files
+[5.214s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[5.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[5.220s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetsonnx/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[5.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[5.231s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/sllidar_ros2/lib'
+[5.231s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/sllidar_ros2/bin'
+[5.232s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[5.234s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/sllidar_ros2/lib/python3.8/site-packages'
+[5.235s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/sllidar_ros2/bin'
+[5.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[5.239s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetsonnx/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[5.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[5.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[5.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[5.251s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetsonnx/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[5.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetsonnx/ros2_ws/build/turtlebot3_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/turtlebot3_bringup -- -j4 -l4
+[5.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetsonnx/ros2_ws/build/turtlebot3_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/turtlebot3_bringup
+[5.575s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_bringup)
+[5.578s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup' for CMake module files
+[5.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetsonnx/ros2_ws/build/turtlebot3_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/turtlebot3_bringup
+[5.583s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup' for CMake config files
+[5.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_bringup', 'cmake_prefix_path')
+[5.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.ps1'
+[5.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.dsv'
+[5.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.sh'
+[5.605s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/bin'
+[5.605s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/lib/pkgconfig/turtlebot3_bringup.pc'
+[5.606s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/lib/python3.8/site-packages'
+[5.607s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/bin'
+[5.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.ps1'
+[5.612s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.dsv'
+[5.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.sh'
+[5.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.bash'
+[5.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.zsh'
+[5.620s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/colcon-core/packages/turtlebot3_bringup)
+[5.644s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[5.648s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/sllidar_ros2' for CMake module files
+[5.651s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/sllidar_ros2' for CMake config files
+[5.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[5.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[5.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetsonnx/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[5.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[5.662s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/sllidar_ros2/lib'
+[5.663s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/sllidar_ros2/bin'
+[5.663s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[5.665s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/sllidar_ros2/lib/python3.8/site-packages'
+[5.666s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/sllidar_ros2/bin'
+[5.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[5.671s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetsonnx/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[5.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[5.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[5.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[5.679s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetsonnx/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[5.752s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_bringup)
+[5.753s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup' for CMake module files
+[5.756s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup' for CMake config files
+[5.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_bringup', 'cmake_prefix_path')
+[5.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.ps1'
+[5.762s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.dsv'
+[5.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.sh'
+[5.769s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/bin'
+[5.770s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/lib/pkgconfig/turtlebot3_bringup.pc'
+[5.770s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/lib/python3.8/site-packages'
+[5.771s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/bin'
+[5.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.ps1'
+[5.774s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.dsv'
+[5.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.sh'
+[5.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.bash'
+[5.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.zsh'
+[5.781s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/colcon-core/packages/turtlebot3_bringup)
+[6.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/dynamixel_workbench_msgs
+[7.238s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench_msgs)
+[7.242s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs' for CMake module files
+[7.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/dynamixel_workbench_msgs
+[7.247s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs' for CMake config files
+[7.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_msgs', 'cmake_prefix_path')
+[7.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/cmake_prefix_path.ps1'
+[7.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/cmake_prefix_path.dsv'
+[7.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/cmake_prefix_path.sh'
+[7.272s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/lib'
+[7.273s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_msgs', 'ld_library_path_lib')
+[7.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/ld_library_path_lib.ps1'
+[7.275s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/ld_library_path_lib.dsv'
+[7.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/ld_library_path_lib.sh'
+[7.278s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/bin'
+[7.279s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/lib/pkgconfig/dynamixel_workbench_msgs.pc'
+[7.280s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages'
+[7.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_msgs', 'pythonpath')
+[7.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/pythonpath.ps1'
+[7.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/pythonpath.dsv'
+[7.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/pythonpath.sh'
+[7.287s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/bin'
+[7.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.ps1'
+[7.291s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.dsv'
+[7.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.sh'
+[7.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.bash'
+[7.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.zsh'
+[7.302s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/colcon-core/packages/dynamixel_workbench_msgs)
+[8.977s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_workbench_msgs)
+[8.979s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs' for CMake module files
+[8.983s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs' for CMake config files
+[8.999s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_msgs', 'cmake_prefix_path')
+[9.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/cmake_prefix_path.ps1'
+[9.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/cmake_prefix_path.dsv'
+[9.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/cmake_prefix_path.sh'
+[9.012s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/lib'
+[9.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_msgs', 'ld_library_path_lib')
+[9.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/ld_library_path_lib.ps1'
+[9.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/ld_library_path_lib.dsv'
+[9.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/ld_library_path_lib.sh'
+[9.023s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/bin'
+[9.023s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/lib/pkgconfig/dynamixel_workbench_msgs.pc'
+[9.025s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages'
+[9.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_workbench_msgs', 'pythonpath')
+[9.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/pythonpath.ps1'
+[9.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/pythonpath.dsv'
+[9.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/hook/pythonpath.sh'
+[9.038s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/bin'
+[9.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.ps1'
+[9.044s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.dsv'
+[9.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.sh'
+[9.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.bash'
+[9.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.zsh'
+[9.058s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/colcon-core/packages/dynamixel_workbench_msgs)
+[11.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetsonnx/ros2_ws/build/msg_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetsonnx/ros2_ws/src/msg_pub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetsonnx/ros2_ws/install/msg_pub
+[11.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetsonnx/ros2_ws/build/msg_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/msg_pub -- -j4 -l4
+[23.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetsonnx/ros2_ws/build/msg_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/msg_pub -- -j4 -l4
+[23.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetsonnx/ros2_ws/build/msg_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/msg_pub
+[24.222s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msg_pub)
+[24.227s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/msg_pub' for CMake module files
+[24.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetsonnx/ros2_ws/build/msg_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/msg_pub
+[24.242s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/msg_pub' for CMake config files
+[24.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_pub', 'cmake_prefix_path')
+[24.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/hook/cmake_prefix_path.ps1'
+[24.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/hook/cmake_prefix_path.dsv'
+[24.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/hook/cmake_prefix_path.sh'
+[24.266s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/msg_pub/lib'
+[24.266s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/msg_pub/bin'
+[24.267s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/msg_pub/lib/pkgconfig/msg_pub.pc'
+[24.268s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/msg_pub/lib/python3.8/site-packages'
+[24.269s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/msg_pub/bin'
+[24.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/package.ps1'
+[24.273s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/package.dsv'
+[24.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/package.sh'
+[24.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/package.bash'
+[24.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/package.zsh'
+[24.280s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetsonnx/ros2_ws/install/msg_pub/share/colcon-core/packages/msg_pub)
+[24.386s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(msg_pub)
+[24.392s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/msg_pub' for CMake module files
+[24.399s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/msg_pub' for CMake config files
+[24.401s] Level 1:colcon.colcon_core.shell:create_environment_hook('msg_pub', 'cmake_prefix_path')
+[24.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/hook/cmake_prefix_path.ps1'
+[24.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/hook/cmake_prefix_path.dsv'
+[24.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/hook/cmake_prefix_path.sh'
+[24.420s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/msg_pub/lib'
+[24.420s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/msg_pub/bin'
+[24.421s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/msg_pub/lib/pkgconfig/msg_pub.pc'
+[24.422s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/msg_pub/lib/python3.8/site-packages'
+[24.423s] Level 1:colcon.colcon_core.environment:checking '/home/jetsonnx/ros2_ws/install/msg_pub/bin'
+[24.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/package.ps1'
+[24.426s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/package.dsv'
+[24.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/package.sh'
+[24.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/package.bash'
+[24.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/package.zsh'
+[24.434s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetsonnx/ros2_ws/install/msg_pub/share/colcon-core/packages/msg_pub)
+[24.437s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[24.438s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[24.438s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[24.439s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[24.469s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[24.470s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[24.470s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[24.519s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.Notifications exited with status 1
+[24.519s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[24.521s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetsonnx/ros2_ws/install/local_setup.ps1'
+[24.526s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetsonnx/ros2_ws/install/_local_setup_util_ps1.py'
+[24.531s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetsonnx/ros2_ws/install/setup.ps1'
+[24.536s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetsonnx/ros2_ws/install/local_setup.sh'
+[24.539s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetsonnx/ros2_ws/install/_local_setup_util_sh.py'
+[24.542s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetsonnx/ros2_ws/install/setup.sh'
+[24.548s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetsonnx/ros2_ws/install/local_setup.bash'
+[24.550s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetsonnx/ros2_ws/install/setup.bash'
+[24.555s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetsonnx/ros2_ws/install/local_setup.zsh'
+[24.557s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetsonnx/ros2_ws/install/setup.zsh'

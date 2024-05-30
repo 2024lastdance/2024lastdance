@@ -1,0 +1,20 @@
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:[m[K In member function ‘[01m[Kvoid InitalposePublisher::publish_initalpose_msg()[m[K’:
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:39:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseWithCovarianceStamped = struct geometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose1[m[K’; did you mean ‘[01m[Kpose[m[K’?
+   39 |         pose.[01;31m[Kpose1[m[K.pose2.position.x=0.0;
+      |              [01;31m[K^~~~~[m[K
+      |              [32m[Kpose[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:40:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseWithCovarianceStamped = struct geometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose1[m[K’; did you mean ‘[01m[Kpose[m[K’?
+   40 |         pose.[01;31m[Kpose1[m[K.pose2.position.y=0.0;
+      |              [01;31m[K^~~~~[m[K
+      |              [32m[Kpose[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:41:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseWithCovarianceStamped = struct geometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose1[m[K’; did you mean ‘[01m[Kpose[m[K’?
+   41 |         pose.[01;31m[Kpose1[m[K.pose2.position.z=0.0;
+      |              [01;31m[K^~~~~[m[K
+      |              [32m[Kpose[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:42:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PoseWithCovarianceStamped = struct geometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose1[m[K’; did you mean ‘[01m[Kpose[m[K’?
+   42 |         pose.[01;31m[Kpose1[m[K.pose2.orientation.w=0.1;
+      |              [01;31m[K^~~~~[m[K
+      |              [32m[Kpose[m[K
+make[2]: *** [CMakeFiles/initialpose.dir/build.make:63: CMakeFiles/initialpose.dir/src/initialpose.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/initialpose.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

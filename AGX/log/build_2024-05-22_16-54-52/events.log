@@ -1,0 +1,944 @@
+[0.000000] (-) TimerEvent: {}
+[0.000661] (dynamixel_workbench_msgs) JobQueued: {'identifier': 'dynamixel_workbench_msgs', 'dependencies': OrderedDict()}
+[0.001110] (dynamixel_workbench_operators) JobQueued: {'identifier': 'dynamixel_workbench_operators', 'dependencies': OrderedDict()}
+[0.001851] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.002136] (turtlebot3_navigation2) JobQueued: {'identifier': 'turtlebot3_navigation2', 'dependencies': OrderedDict()}
+[0.002566] (dynamixel_workbench_msgs) JobStarted: {'identifier': 'dynamixel_workbench_msgs'}
+[0.034210] (dynamixel_workbench_operators) JobStarted: {'identifier': 'dynamixel_workbench_operators'}
+[0.061401] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.088402] (turtlebot3_navigation2) JobStarted: {'identifier': 'turtlebot3_navigation2'}
+[0.099958] (-) TimerEvent: {}
+[0.128242] (dynamixel_workbench_msgs) JobProgress: {'identifier': 'dynamixel_workbench_msgs', 'progress': 'cmake'}
+[0.164083] (dynamixel_workbench_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jetson/ros2_ws/install/dynamixel_workbench_msgs'], 'cwd': '/home/jetson/ros2_ws/build/dynamixel_workbench_msgs', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.0.109 58451 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('BROWSER', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-66b453db-2cee-4e03-99cb-4cc1e9613ba2.sock'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'Jetson-AGX'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jetson/robot_ws'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Xavier (32 GB ram)'), ('JETSON_SERIAL_NUMBER', '1421921014907'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Galen'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.4/bin:/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', '192.168.0.11:0.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0fdac5dd00.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/turtlebot3_navigation2:/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jetson/ros2_ws/build/dynamixel_workbench_msgs'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.109 58451 192.168.0.117 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/turtlebot3_navigation2:/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p2888-0004')]), 'shell': False}
+[0.186020] (dynamixel_workbench_operators) JobProgress: {'identifier': 'dynamixel_workbench_operators', 'progress': 'cmake'}
+[0.200114] (-) TimerEvent: {}
+[0.301184] (-) TimerEvent: {}
+[0.326212] (dynamixel_workbench_operators) JobProgress: {'identifier': 'dynamixel_workbench_operators', 'progress': 'build'}
+[0.330471] (dynamixel_workbench_operators) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros2_ws/build/dynamixel_workbench_operators', '--', '-j8', '-l8'], 'cwd': '/home/jetson/ros2_ws/build/dynamixel_workbench_operators', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.0.109 58451 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('BROWSER', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-66b453db-2cee-4e03-99cb-4cc1e9613ba2.sock'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'Jetson-AGX'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jetson/robot_ws'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Xavier (32 GB ram)'), ('JETSON_SERIAL_NUMBER', '1421921014907'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Galen'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.4/bin:/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', '192.168.0.11:0.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0fdac5dd00.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/turtlebot3_navigation2:/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jetson/ros2_ws/build/dynamixel_workbench_operators'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.109 58451 192.168.0.117 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/turtlebot3_navigation2:/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p2888-0004')]), 'shell': False}
+[0.348172] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[0.401394] (-) TimerEvent: {}
+[0.485755] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[0.486846] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros2_ws/build/sllidar_ros2', '--', '-j8', '-l8'], 'cwd': '/home/jetson/ros2_ws/build/sllidar_ros2', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.0.109 58451 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('BROWSER', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-66b453db-2cee-4e03-99cb-4cc1e9613ba2.sock'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'Jetson-AGX'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jetson/robot_ws'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Xavier (32 GB ram)'), ('JETSON_SERIAL_NUMBER', '1421921014907'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Galen'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.4/bin:/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', '192.168.0.11:0.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0fdac5dd00.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/turtlebot3_navigation2:/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jetson/ros2_ws/build/sllidar_ros2'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.109 58451 192.168.0.117 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/turtlebot3_navigation2:/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p2888-0004')]), 'shell': False}
+[0.504139] (-) TimerEvent: {}
+[0.506773] (turtlebot3_navigation2) JobProgress: {'identifier': 'turtlebot3_navigation2', 'progress': 'cmake'}
+[0.516726] (turtlebot3_navigation2) JobProgress: {'identifier': 'turtlebot3_navigation2', 'progress': 'build'}
+[0.517969] (turtlebot3_navigation2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros2_ws/build/turtlebot3_navigation2', '--', '-j8', '-l8'], 'cwd': '/home/jetson/ros2_ws/build/turtlebot3_navigation2', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.0.109 58451 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('BROWSER', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-66b453db-2cee-4e03-99cb-4cc1e9613ba2.sock'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'Jetson-AGX'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jetson/robot_ws'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Xavier (32 GB ram)'), ('JETSON_SERIAL_NUMBER', '1421921014907'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Galen'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.4/bin:/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', '192.168.0.11:0.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0fdac5dd00.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/turtlebot3_navigation2:/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jetson/ros2_ws/build/turtlebot3_navigation2'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.109 58451 192.168.0.117 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/turtlebot3_navigation2:/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p2888-0004')]), 'shell': False}
+[0.533741] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.535725] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.539173] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.604266] (-) TimerEvent: {}
+[0.671523] (turtlebot3_navigation2) CommandEnded: {'returncode': 0}
+[0.704788] (-) TimerEvent: {}
+[0.762736] (turtlebot3_navigation2) JobProgress: {'identifier': 'turtlebot3_navigation2', 'progress': 'install'}
+[0.805957] (turtlebot3_navigation2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/ros2_ws/build/turtlebot3_navigation2'], 'cwd': '/home/jetson/ros2_ws/build/turtlebot3_navigation2', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.0.109 58451 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('BROWSER', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-66b453db-2cee-4e03-99cb-4cc1e9613ba2.sock'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'Jetson-AGX'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jetson/robot_ws'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Xavier (32 GB ram)'), ('JETSON_SERIAL_NUMBER', '1421921014907'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Galen'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.4/bin:/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', '192.168.0.11:0.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0fdac5dd00.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/turtlebot3_navigation2:/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jetson/ros2_ws/build/turtlebot3_navigation2'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.109 58451 192.168.0.117 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/turtlebot3_navigation2:/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p2888-0004')]), 'shell': False}
+[0.877299] (-) TimerEvent: {}
+[0.878525] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.879656] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.880365] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py\n'}
+[0.880913] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm\n'}
+[0.881260] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml\n'}
+[0.881767] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/serverconf.yaml\n'}
+[0.882119] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.pgm\n'}
+[0.882450] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.yaml\n'}
+[0.883314] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml\n'}
+[0.884236] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml\n'}
+[0.886077] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz\n'}
+[0.888730] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2\n'}
+[0.890296] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2\n'}
+[0.891578] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh\n'}
+[0.892925] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv\n'}
+[0.894163] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh\n'}
+[0.895354] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv\n'}
+[0.896630] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash\n'}
+[0.897856] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh\n'}
+[0.899031] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh\n'}
+[0.900274] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv\n'}
+[0.901634] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv\n'}
+[0.938442] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2\n'}
+[0.939692] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake\n'}
+[0.940634] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake\n'}
+[0.941877] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml\n'}
+[0.948695] (turtlebot3_navigation2) CommandEnded: {'returncode': 0}
+[0.978257] (-) TimerEvent: {}
+[1.081430] (-) TimerEvent: {}
+[1.108234] (turtlebot3_navigation2) JobEnded: {'identifier': 'turtlebot3_navigation2', 'rc': 0}
+[1.118428] (sllidar_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sllidar_node\x1b[0m\n'}
+[1.119618] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.154683] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.169821] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.181530] (-) TimerEvent: {}
+[1.191137] (dynamixel_workbench_operators) StdoutLine: {'line': b'[100%] Built target dynamixel_workbench_operators\n'}
+[1.196040] (sllidar_ros2) StdoutLine: {'line': b'[ 10%] Built target sllidar_client\n'}
+[1.236582] (dynamixel_workbench_operators) CommandEnded: {'returncode': 0}
+[1.281754] (-) TimerEvent: {}
+[1.311260] (sllidar_ros2) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o\x1b[0m\n'}
+[1.327066] (dynamixel_workbench_operators) JobProgress: {'identifier': 'dynamixel_workbench_operators', 'progress': 'install'}
+[1.334889] (dynamixel_workbench_operators) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/ros2_ws/build/dynamixel_workbench_operators'], 'cwd': '/home/jetson/ros2_ws/build/dynamixel_workbench_operators', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.0.109 58451 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('BROWSER', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-66b453db-2cee-4e03-99cb-4cc1e9613ba2.sock'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'Jetson-AGX'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jetson/robot_ws'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Xavier (32 GB ram)'), ('JETSON_SERIAL_NUMBER', '1421921014907'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Galen'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.4/bin:/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', '192.168.0.11:0.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0fdac5dd00.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/turtlebot3_navigation2:/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jetson/ros2_ws/build/dynamixel_workbench_operators'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.109 58451 192.168.0.117 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/turtlebot3_navigation2:/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p2888-0004')]), 'shell': False}
+[1.344935] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.369785] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.372847] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.375550] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/lib/dynamixel_workbench_operators/dynamixel_workbench_operators\n'}
+[1.377188] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/ament_index/resource_index/package_run_dependencies/dynamixel_workbench_operators\n'}
+[1.379094] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/ament_index/resource_index/parent_prefix_path/dynamixel_workbench_operators\n'}
+[1.380719] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/environment/ament_prefix_path.sh\n'}
+[1.381874] (-) TimerEvent: {}
+[1.382752] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/environment/ament_prefix_path.dsv\n'}
+[1.384074] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/environment/path.sh\n'}
+[1.385795] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/environment/path.dsv\n'}
+[1.387616] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/local_setup.bash\n'}
+[1.389679] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/local_setup.sh\n'}
+[1.391389] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/local_setup.zsh\n'}
+[1.393038] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/local_setup.dsv\n'}
+[1.393897] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/package.dsv\n'}
+[1.431370] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/ament_index/resource_index/packages/dynamixel_workbench_operators\n'}
+[1.433071] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/cmake/dynamixel_workbench_operatorsConfig.cmake\n'}
+[1.435208] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/cmake/dynamixel_workbench_operatorsConfig-version.cmake\n'}
+[1.441510] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/package.xml\n'}
+[1.448452] (dynamixel_workbench_operators) CommandEnded: {'returncode': 0}
+[1.483031] (-) TimerEvent: {}
+[1.589593] (-) TimerEvent: {}
+[1.608832] (dynamixel_workbench_operators) JobEnded: {'identifier': 'dynamixel_workbench_operators', 'rc': 0}
+[1.689834] (-) TimerEvent: {}
+[1.790729] (-) TimerEvent: {}
+[1.891740] (-) TimerEvent: {}
+[1.992740] (-) TimerEvent: {}
+[2.022026] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.092963] (-) TimerEvent: {}
+[2.133292] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[2.193203] (-) TimerEvent: {}
+[2.294040] (-) TimerEvent: {}
+[2.394924] (-) TimerEvent: {}
+[2.495905] (-) TimerEvent: {}
+[2.508327] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.596043] (-) TimerEvent: {}
+[2.696862] (-) TimerEvent: {}
+[2.797724] (-) TimerEvent: {}
+[2.898636] (-) TimerEvent: {}
+[2.999508] (-) TimerEvent: {}
+[3.100389] (-) TimerEvent: {}
+[3.201329] (-) TimerEvent: {}
+[3.302116] (-) TimerEvent: {}
+[3.402882] (-) TimerEvent: {}
+[3.503765] (-) TimerEvent: {}
+[3.604588] (-) TimerEvent: {}
+[3.705362] (-) TimerEvent: {}
+[3.806196] (-) TimerEvent: {}
+[3.907005] (-) TimerEvent: {}
+[4.007896] (-) TimerEvent: {}
+[4.108736] (-) TimerEvent: {}
+[4.209621] (-) TimerEvent: {}
+[4.310568] (-) TimerEvent: {}
+[4.411484] (-) TimerEvent: {}
+[4.512423] (-) TimerEvent: {}
+[4.613358] (-) TimerEvent: {}
+[4.714302] (-) TimerEvent: {}
+[4.815214] (-) TimerEvent: {}
+[4.916192] (-) TimerEvent: {}
+[5.017149] (-) TimerEvent: {}
+[5.118100] (-) TimerEvent: {}
+[5.219035] (-) TimerEvent: {}
+[5.319981] (-) TimerEvent: {}
+[5.420945] (-) TimerEvent: {}
+[5.521873] (-) TimerEvent: {}
+[5.622743] (-) TimerEvent: {}
+[5.723682] (-) TimerEvent: {}
+[5.824623] (-) TimerEvent: {}
+[5.959144] (-) TimerEvent: {}
+[6.060095] (-) TimerEvent: {}
+[6.161000] (-) TimerEvent: {}
+[6.261991] (-) TimerEvent: {}
+[6.362938] (-) TimerEvent: {}
+[6.395800] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41\x1b[m\x1b[K,\n'}
+[6.396681] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[6.397010] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[6.397268] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros2_ws/src/sllidar_ros2/src/sllidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[6.397516] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[6.398132] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[6.398419] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.398693] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[6.398958] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[6.399207] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros2_ws/src/sllidar_ros2/src/sllidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[6.399464] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[6.399717] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[6.400042] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.463073] (-) TimerEvent: {}
+[6.563984] (-) TimerEvent: {}
+[6.664922] (-) TimerEvent: {}
+[6.765769] (-) TimerEvent: {}
+[6.866674] (-) TimerEvent: {}
+[6.967572] (-) TimerEvent: {}
+[7.068450] (-) TimerEvent: {}
+[7.169322] (-) TimerEvent: {}
+[7.270312] (-) TimerEvent: {}
+[7.371198] (-) TimerEvent: {}
+[7.472051] (-) TimerEvent: {}
+[7.572981] (-) TimerEvent: {}
+[7.673837] (-) TimerEvent: {}
+[7.714120] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)\n'}
+[7.718750] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)\n'}
+[7.723102] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)\n'}
+[7.738790] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[7.774053] (-) TimerEvent: {}
+[7.874946] (-) TimerEvent: {}
+[7.976052] (-) TimerEvent: {}
+[8.076950] (-) TimerEvent: {}
+[8.177871] (-) TimerEvent: {}
+[8.278852] (-) TimerEvent: {}
+[8.379768] (-) TimerEvent: {}
+[8.480751] (-) TimerEvent: {}
+[8.581743] (-) TimerEvent: {}
+[8.682582] (-) TimerEvent: {}
+[8.783436] (-) TimerEvent: {}
+[8.884341] (-) TimerEvent: {}
+[8.985206] (-) TimerEvent: {}
+[9.086139] (-) TimerEvent: {}
+[9.187052] (-) TimerEvent: {}
+[9.287969] (-) TimerEvent: {}
+[9.388875] (-) TimerEvent: {}
+[9.489789] (-) TimerEvent: {}
+[9.590669] (-) TimerEvent: {}
+[9.691598] (-) TimerEvent: {}
+[9.792580] (-) TimerEvent: {}
+[9.856680] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.892784] (-) TimerEvent: {}
+[9.993646] (-) TimerEvent: {}
+[10.094511] (-) TimerEvent: {}
+[10.195611] (-) TimerEvent: {}
+[10.296693] (-) TimerEvent: {}
+[10.397675] (-) TimerEvent: {}
+[10.498651] (-) TimerEvent: {}
+[10.599618] (-) TimerEvent: {}
+[10.700680] (-) TimerEvent: {}
+[10.801708] (-) TimerEvent: {}
+[10.902721] (-) TimerEvent: {}
+[11.007907] (-) TimerEvent: {}
+[11.108780] (-) TimerEvent: {}
+[11.131657] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.208958] (-) TimerEvent: {}
+[11.309805] (-) TimerEvent: {}
+[11.369780] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[11.409935] (-) TimerEvent: {}
+[11.510684] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[11.511347] (-) TimerEvent: {}
+[11.611940] (-) TimerEvent: {}
+[11.712792] (-) TimerEvent: {}
+[11.737404] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.738112] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[11.738490] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[11.812994] (-) TimerEvent: {}
+[11.913820] (-) TimerEvent: {}
+[12.014628] (-) TimerEvent: {}
+[12.115500] (-) TimerEvent: {}
+[12.216442] (-) TimerEvent: {}
+[12.317293] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)\n'}
+[12.318046] (-) TimerEvent: {}
+[12.322020] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)\n'}
+[12.418282] (-) TimerEvent: {}
+[12.519763] (-) TimerEvent: {}
+[12.572120] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.620027] (-) TimerEvent: {}
+[12.721517] (-) TimerEvent: {}
+[12.822653] (-) TimerEvent: {}
+[12.923445] (-) TimerEvent: {}
+[13.024383] (-) TimerEvent: {}
+[13.125211] (-) TimerEvent: {}
+[13.226092] (-) TimerEvent: {}
+[13.326959] (-) TimerEvent: {}
+[13.427912] (-) TimerEvent: {}
+[13.447977] (sllidar_ros2) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX executable sllidar_node\x1b[0m\n'}
+[13.528099] (-) TimerEvent: {}
+[13.628967] (-) TimerEvent: {}
+[13.729856] (-) TimerEvent: {}
+[13.830675] (-) TimerEvent: {}
+[13.931925] (-) TimerEvent: {}
+[14.032783] (-) TimerEvent: {}
+[14.088043] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[14.102290] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/jetson/ros2_ws/build/dynamixel_workbench_msgs\n'}
+[14.133114] (dynamixel_workbench_msgs) CommandEnded: {'returncode': 0}
+[14.136181] (-) TimerEvent: {}
+[14.144005] (dynamixel_workbench_msgs) JobProgress: {'identifier': 'dynamixel_workbench_msgs', 'progress': 'build'}
+[14.144597] (dynamixel_workbench_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros2_ws/build/dynamixel_workbench_msgs', '--', '-j8', '-l8'], 'cwd': '/home/jetson/ros2_ws/build/dynamixel_workbench_msgs', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.0.109 58451 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('BROWSER', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-66b453db-2cee-4e03-99cb-4cc1e9613ba2.sock'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'Jetson-AGX'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jetson/robot_ws'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Xavier (32 GB ram)'), ('JETSON_SERIAL_NUMBER', '1421921014907'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Galen'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.4/bin:/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', '192.168.0.11:0.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0fdac5dd00.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/turtlebot3_navigation2:/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jetson/ros2_ws/build/dynamixel_workbench_msgs'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.109 58451 192.168.0.117 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/turtlebot3_navigation2:/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p2888-0004')]), 'shell': False}
+[14.236435] (-) TimerEvent: {}
+[14.337726] (-) TimerEvent: {}
+[14.438574] (-) TimerEvent: {}
+[14.483878] (dynamixel_workbench_msgs) StdoutLine: {'line': b'[  0%] Built target dynamixel_workbench_msgs__cpp\n'}
+[14.538780] (-) TimerEvent: {}
+[14.639630] (-) TimerEvent: {}
+[14.690194] (dynamixel_workbench_msgs) StdoutLine: {'line': b'[ 12%] Built target dynamixel_workbench_msgs__rosidl_generator_c\n'}
+[14.739881] (-) TimerEvent: {}
+[14.842649] (-) TimerEvent: {}
+[14.876545] (dynamixel_workbench_msgs) StdoutLine: {'line': b'[ 24%] Built target dynamixel_workbench_msgs__rosidl_typesupport_cpp\n'}
+[14.881224] (dynamixel_workbench_msgs) StdoutLine: {'line': b'[ 37%] Built target dynamixel_workbench_msgs__rosidl_typesupport_introspection_cpp\n'}
+[14.909921] (dynamixel_workbench_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_workbench_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[14.942866] (-) TimerEvent: {}
+[14.987497] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_node\n'}
+[15.032046] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[15.044922] (-) TimerEvent: {}
+[15.059627] (dynamixel_workbench_msgs) StdoutLine: {'line': b'[ 49%] Built target dynamixel_workbench_msgs__rosidl_typesupport_c\n'}
+[15.065145] (dynamixel_workbench_msgs) StdoutLine: {'line': b'[ 61%] Built target dynamixel_workbench_msgs__rosidl_typesupport_introspection_c\n'}
+[15.145097] (-) TimerEvent: {}
+[15.246264] (-) TimerEvent: {}
+[15.252463] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[15.254915] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/ros2_ws/build/sllidar_ros2'], 'cwd': '/home/jetson/ros2_ws/build/sllidar_ros2', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.0.109 58451 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('BROWSER', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-66b453db-2cee-4e03-99cb-4cc1e9613ba2.sock'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'Jetson-AGX'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jetson/robot_ws'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Xavier (32 GB ram)'), ('JETSON_SERIAL_NUMBER', '1421921014907'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Galen'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.4/bin:/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', '192.168.0.11:0.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0fdac5dd00.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/turtlebot3_navigation2:/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jetson/ros2_ws/build/sllidar_ros2'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.109 58451 192.168.0.117 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/turtlebot3_navigation2:/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p2888-0004')]), 'shell': False}
+[15.346673] (-) TimerEvent: {}
+[15.430623] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.433767] (sllidar_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[15.438974] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[15.440457] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py\n'}
+[15.441826] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[15.443348] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[15.444885] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[15.446180] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[15.446704] (-) TimerEvent: {}
+[15.447500] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[15.448819] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[15.449969] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[15.450484] (dynamixel_workbench_msgs) StdoutLine: {'line': b'[ 73%] Built target dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[15.451177] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[15.452392] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[15.453612] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[15.454811] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[15.455998] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[15.457248] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[15.458390] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[15.459574] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[15.461923] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[15.463080] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[15.464252] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[15.465334] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[15.466558] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[15.467808] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[15.469080] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[15.471072] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[15.473368] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[15.474520] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[15.476046] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[15.478424] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[15.480077] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[15.481361] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[15.482921] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[15.484235] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[15.485785] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[15.487332] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[15.488982] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[15.490166] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[15.491110] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[15.526553] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[15.546845] (-) TimerEvent: {}
+[15.646752] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.647472] (-) TimerEvent: {}
+[15.648505] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.650247] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[15.651449] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[15.652868] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[15.662932] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[15.719052] (dynamixel_workbench_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[15.747769] (-) TimerEvent: {}
+[15.848878] (-) TimerEvent: {}
+[15.949641] (-) TimerEvent: {}
+[15.956389] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[16.049912] (-) TimerEvent: {}
+[16.144826] (dynamixel_workbench_msgs) StdoutLine: {'line': b'[ 85%] Built target dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c\n'}
+[16.150087] (-) TimerEvent: {}
+[16.250792] (-) TimerEvent: {}
+[16.351592] (-) TimerEvent: {}
+[16.363639] (dynamixel_workbench_msgs) StdoutLine: {'line': b'[ 85%] Built target dynamixel_workbench_msgs\n'}
+[16.451779] (-) TimerEvent: {}
+[16.552552] (-) TimerEvent: {}
+[16.588147] (dynamixel_workbench_msgs) StdoutLine: {'line': b'[ 86%] Built target dynamixel_workbench_msgs__py\n'}
+[16.652777] (-) TimerEvent: {}
+[16.753475] (-) TimerEvent: {}
+[16.854070] (-) TimerEvent: {}
+[16.954753] (-) TimerEvent: {}
+[17.029463] (dynamixel_workbench_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dynamixel_workbench_msgs/libdynamixel_workbench_msgs__python.so\x1b[0m\n'}
+[17.054916] (-) TimerEvent: {}
+[17.155631] (-) TimerEvent: {}
+[17.256337] (-) TimerEvent: {}
+[17.356944] (-) TimerEvent: {}
+[17.400193] (dynamixel_workbench_msgs) StdoutLine: {'line': b'[ 97%] Built target dynamixel_workbench_msgs__python\n'}
+[17.457114] (-) TimerEvent: {}
+[17.557851] (-) TimerEvent: {}
+[17.658641] (-) TimerEvent: {}
+[17.759420] (-) TimerEvent: {}
+[17.780279] (dynamixel_workbench_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dynamixel_workbench_msgs/dynamixel_workbench_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[17.781248] (dynamixel_workbench_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/dynamixel_workbench_msgs/dynamixel_workbench_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[17.781639] (dynamixel_workbench_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dynamixel_workbench_msgs/dynamixel_workbench_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[17.859626] (-) TimerEvent: {}
+[17.960443] (-) TimerEvent: {}
+[18.061147] (-) TimerEvent: {}
+[18.161913] (-) TimerEvent: {}
+[18.220054] (dynamixel_workbench_msgs) StdoutLine: {'line': b'[ 99%] Built target dynamixel_workbench_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[18.220685] (dynamixel_workbench_msgs) StdoutLine: {'line': b'[ 99%] Built target dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[18.221274] (dynamixel_workbench_msgs) StdoutLine: {'line': b'[100%] Built target dynamixel_workbench_msgs__rosidl_typesupport_c__pyext\n'}
+[18.262109] (-) TimerEvent: {}
+[18.270166] (dynamixel_workbench_msgs) CommandEnded: {'returncode': 0}
+[18.362704] (-) TimerEvent: {}
+[18.464144] (-) TimerEvent: {}
+[18.565346] (-) TimerEvent: {}
+[18.667599] (-) TimerEvent: {}
+[18.768423] (-) TimerEvent: {}
+[18.869232] (-) TimerEvent: {}
+[18.971515] (-) TimerEvent: {}
+[19.072544] (-) TimerEvent: {}
+[19.173290] (-) TimerEvent: {}
+[19.273974] (-) TimerEvent: {}
+[19.374981] (-) TimerEvent: {}
+[19.476221] (-) TimerEvent: {}
+[19.576954] (-) TimerEvent: {}
+[19.678355] (-) TimerEvent: {}
+[19.706764] (dynamixel_workbench_msgs) JobProgress: {'identifier': 'dynamixel_workbench_msgs', 'progress': 'install'}
+[19.711556] (dynamixel_workbench_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/ros2_ws/build/dynamixel_workbench_msgs'], 'cwd': '/home/jetson/ros2_ws/build/dynamixel_workbench_msgs', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.0.109 58451 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('BROWSER', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-66b453db-2cee-4e03-99cb-4cc1e9613ba2.sock'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'Jetson-AGX'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jetson/robot_ws'), ('COLCON_PREFIX_PATH', '/home/jetson/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Xavier (32 GB ram)'), ('JETSON_SERIAL_NUMBER', '1421921014907'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Galen'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.4/bin:/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', '192.168.0.11:0.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0fdac5dd00.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/jetson/ros2_ws/install/turtlebot3_navigation2:/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jetson/ros2_ws/build/dynamixel_workbench_msgs'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.109 58451 192.168.0.117 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros2_ws/install/turtlebot3_navigation2:/home/jetson/ros2_ws/install/sllidar_ros2:/home/jetson/ros2_ws/install/dynamixel_workbench_operators:/home/jetson/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p2888-0004')]), 'shell': False}
+[19.760385] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.763257] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[19.765010] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/ament_index/resource_index/rosidl_interfaces/dynamixel_workbench_msgs\n'}
+[19.778303] (-) TimerEvent: {}
+[19.806498] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/ax.h\n'}
+[19.840839] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ax__functions.h\n'}
+[19.876444] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ax__struct.h\n'}
+[19.878448] (-) TimerEvent: {}
+[19.912614] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ax__type_support.h\n'}
+[19.947134] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_info__functions.h\n'}
+[19.978651] (-) TimerEvent: {}
+[19.983094] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_info__struct.h\n'}
+[20.022861] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_info__type_support.h\n'}
+[20.062224] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_load_info__functions.h\n'}
+[20.078801] (-) TimerEvent: {}
+[20.098044] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_load_info__struct.h\n'}
+[20.139139] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_load_info__type_support.h\n'}
+[20.179149] (-) TimerEvent: {}
+[20.181657] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state__functions.h\n'}
+[20.222033] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state__struct.h\n'}
+[20.261009] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state__type_support.h\n'}
+[20.279344] (-) TimerEvent: {}
+[20.302525] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state_list__functions.h\n'}
+[20.342354] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state_list__struct.h\n'}
+[20.379534] (-) TimerEvent: {}
+[20.382041] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state_list__type_support.h\n'}
+[20.421957] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ex__functions.h\n'}
+[20.462274] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ex__struct.h\n'}
+[20.479708] (-) TimerEvent: {}
+[20.501859] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ex__type_support.h\n'}
+[20.540162] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2__functions.h\n'}
+[20.579572] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2__struct.h\n'}
+[20.580610] (-) TimerEvent: {}
+[20.618404] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2__type_support.h\n'}
+[20.651951] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2_ext__functions.h\n'}
+[20.680810] (-) TimerEvent: {}
+[20.692119] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2_ext__struct.h\n'}
+[20.732092] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2_ext__type_support.h\n'}
+[20.774557] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx__functions.h\n'}
+[20.781220] (-) TimerEvent: {}
+[20.814581] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx__struct.h\n'}
+[20.881609] (-) TimerEvent: {}
+[21.009306] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx__type_support.h\n'}
+[21.009901] (-) TimerEvent: {}
+[21.043698] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx_ext__functions.h\n'}
+[21.080199] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx_ext__struct.h\n'}
+[21.110104] (-) TimerEvent: {}
+[21.122568] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx_ext__type_support.h\n'}
+[21.164719] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro__functions.h\n'}
+[21.206160] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro__struct.h\n'}
+[21.210501] (-) TimerEvent: {}
+[21.253794] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro__type_support.h\n'}
+[21.292150] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro_ext__functions.h\n'}
+[21.310615] (-) TimerEvent: {}
+[21.332009] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro_ext__struct.h\n'}
+[21.372972] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro_ext__type_support.h\n'}
+[21.410806] (-) TimerEvent: {}
+[21.411615] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/rx__functions.h\n'}
+[21.451504] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/rx__struct.h\n'}
+[21.494423] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/rx__type_support.h\n'}
+[21.510995] (-) TimerEvent: {}
+[21.534713] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xh__functions.h\n'}
+[21.575561] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xh__struct.h\n'}
+[21.611283] (-) TimerEvent: {}
+[21.614138] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xh__type_support.h\n'}
+[21.648488] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl320__functions.h\n'}
+[21.689295] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl320__struct.h\n'}
+[21.711573] (-) TimerEvent: {}
+[21.729987] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl320__type_support.h\n'}
+[21.763247] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl__functions.h\n'}
+[21.803543] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl__struct.h\n'}
+[21.812180] (-) TimerEvent: {}
+[21.844292] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl__type_support.h\n'}
+[21.883146] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm__functions.h\n'}
+[21.912285] (-) TimerEvent: {}
+[21.922927] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm__struct.h\n'}
+[21.962165] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm__type_support.h\n'}
+[21.996128] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm_ext__functions.h\n'}
+[22.012450] (-) TimerEvent: {}
+[22.035349] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm_ext__struct.h\n'}
+[22.075121] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm_ext__type_support.h\n'}
+[22.112632] (-) TimerEvent: {}
+[22.114923] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/dynamixel_info.h\n'}
+[22.155920] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/dynamixel_load_info.h\n'}
+[22.197774] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/dynamixel_state.h\n'}
+[22.212816] (-) TimerEvent: {}
+[22.239216] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/dynamixel_state_list.h\n'}
+[22.278430] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/ex.h\n'}
+[22.311282] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/mx.h\n'}
+[22.313074] (-) TimerEvent: {}
+[22.351326] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/mx2.h\n'}
+[22.386221] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/mx2_ext.h\n'}
+[22.413208] (-) TimerEvent: {}
+[22.431082] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/mx_ext.h\n'}
+[22.471039] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/pro.h\n'}
+[22.510213] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/pro_ext.h\n'}
+[22.513581] (-) TimerEvent: {}
+[22.550325] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[22.588890] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/rx.h\n'}
+[22.613644] (-) TimerEvent: {}
+[22.628623] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/xh.h\n'}
+[22.667074] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/xl.h\n'}
+[22.707006] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/xl320.h\n'}
+[22.713947] (-) TimerEvent: {}
+[22.746838] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/xm.h\n'}
+[22.781775] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/xm_ext.h\n'}
+[22.814110] (-) TimerEvent: {}
+[22.821122] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/dynamixel_command__functions.h\n'}
+[22.858969] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/dynamixel_command__struct.h\n'}
+[22.897112] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/dynamixel_command__type_support.h\n'}
+[22.914289] (-) TimerEvent: {}
+[22.937066] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/get_dynamixel_info__functions.h\n'}
+[22.974113] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/get_dynamixel_info__struct.h\n'}
+[23.010264] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/get_dynamixel_info__type_support.h\n'}
+[23.014610] (-) TimerEvent: {}
+[23.048049] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/dynamixel_command.h\n'}
+[23.087029] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/get_dynamixel_info.h\n'}
+[23.114750] (-) TimerEvent: {}
+[23.126558] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/environment/library_path.sh\n'}
+[23.167238] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/environment/library_path.dsv\n'}
+[23.215289] (-) TimerEvent: {}
+[23.218861] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ax__rosidl_typesupport_fastrtps_c.h\n'}
+[23.255923] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_info__rosidl_typesupport_fastrtps_c.h\n'}
+[23.292851] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_load_info__rosidl_typesupport_fastrtps_c.h\n'}
+[23.315377] (-) TimerEvent: {}
+[23.329890] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state__rosidl_typesupport_fastrtps_c.h\n'}
+[23.362943] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state_list__rosidl_typesupport_fastrtps_c.h\n'}
+[23.400624] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ex__rosidl_typesupport_fastrtps_c.h\n'}
+[23.415527] (-) TimerEvent: {}
+[23.439695] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2__rosidl_typesupport_fastrtps_c.h\n'}
+[23.479714] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2_ext__rosidl_typesupport_fastrtps_c.h\n'}
+[23.515780] (-) TimerEvent: {}
+[23.518426] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx__rosidl_typesupport_fastrtps_c.h\n'}
+[23.551631] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx_ext__rosidl_typesupport_fastrtps_c.h\n'}
+[23.591637] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro__rosidl_typesupport_fastrtps_c.h\n'}
+[23.615939] (-) TimerEvent: {}
+[23.630072] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro_ext__rosidl_typesupport_fastrtps_c.h\n'}
+[23.663057] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/rx__rosidl_typesupport_fastrtps_c.h\n'}
+[23.702168] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xh__rosidl_typesupport_fastrtps_c.h\n'}
+[23.716078] (-) TimerEvent: {}
+[23.735354] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl320__rosidl_typesupport_fastrtps_c.h\n'}
+[23.774367] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl__rosidl_typesupport_fastrtps_c.h\n'}
+[23.808020] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm__rosidl_typesupport_fastrtps_c.h\n'}
+[23.816429] (-) TimerEvent: {}
+[23.847405] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm_ext__rosidl_typesupport_fastrtps_c.h\n'}
+[23.887812] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[23.916537] (-) TimerEvent: {}
+[23.927243] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/dynamixel_command__rosidl_typesupport_fastrtps_c.h\n'}
+[23.965636] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/get_dynamixel_info__rosidl_typesupport_fastrtps_c.h\n'}
+[24.005387] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/libdynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[24.016716] (-) TimerEvent: {}
+[24.058953] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ax__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.096384] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.116859] (-) TimerEvent: {}
+[24.134265] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_load_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.171390] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.209146] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.217172] (-) TimerEvent: {}
+[24.247008] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ex__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.284748] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.317288] (-) TimerEvent: {}
+[24.323233] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2_ext__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.362582] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.395036] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx_ext__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.417447] (-) TimerEvent: {}
+[24.435669] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.473702] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro_ext__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.512779] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/rx__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.517909] (-) TimerEvent: {}
+[24.550792] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xh__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.583608] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl320__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.618043] (-) TimerEvent: {}
+[24.623085] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.662470] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.699446] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm_ext__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.718195] (-) TimerEvent: {}
+[24.739374] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[24.778648] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/dynamixel_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.811727] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/get_dynamixel_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.818542] (-) TimerEvent: {}
+[24.852562] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/libdynamixel_workbench_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[24.889674] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ax__rosidl_typesupport_introspection_c.h\n'}
+[24.918752] (-) TimerEvent: {}
+[24.924343] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_info__rosidl_typesupport_introspection_c.h\n'}
+[24.960785] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_load_info__rosidl_typesupport_introspection_c.h\n'}
+[24.998953] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state__rosidl_typesupport_introspection_c.h\n'}
+[25.018949] (-) TimerEvent: {}
+[25.039731] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state_list__rosidl_typesupport_introspection_c.h\n'}
+[25.078984] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ex__rosidl_typesupport_introspection_c.h\n'}
+[25.116867] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2__rosidl_typesupport_introspection_c.h\n'}
+[25.119192] (-) TimerEvent: {}
+[25.154022] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2_ext__rosidl_typesupport_introspection_c.h\n'}
+[25.187025] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx__rosidl_typesupport_introspection_c.h\n'}
+[25.219391] (-) TimerEvent: {}
+[25.226447] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx_ext__rosidl_typesupport_introspection_c.h\n'}
+[25.264403] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro__rosidl_typesupport_introspection_c.h\n'}
+[25.302653] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro_ext__rosidl_typesupport_introspection_c.h\n'}
+[25.319537] (-) TimerEvent: {}
+[25.338784] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/rx__rosidl_typesupport_introspection_c.h\n'}
+[25.377972] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xh__rosidl_typesupport_introspection_c.h\n'}
+[25.412879] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl320__rosidl_typesupport_introspection_c.h\n'}
+[25.420035] (-) TimerEvent: {}
+[25.450908] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl__rosidl_typesupport_introspection_c.h\n'}
+[25.485077] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm__rosidl_typesupport_introspection_c.h\n'}
+[25.520052] (-) TimerEvent: {}
+[25.523364] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm_ext__rosidl_typesupport_introspection_c.h\n'}
+[25.563516] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[25.602310] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/dynamixel_command__rosidl_typesupport_introspection_c.h\n'}
+[25.620200] (-) TimerEvent: {}
+[25.637555] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/get_dynamixel_info__rosidl_typesupport_introspection_c.h\n'}
+[25.693352] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/ax.hpp\n'}
+[25.720479] (-) TimerEvent: {}
+[25.730487] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ax__builder.hpp\n'}
+[25.767023] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ax__struct.hpp\n'}
+[25.806706] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ax__traits.hpp\n'}
+[25.820655] (-) TimerEvent: {}
+[25.843223] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ax__type_support.hpp\n'}
+[25.921152] (-) TimerEvent: {}
+[26.023797] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_info__builder.hpp\n'}
+[26.024414] (-) TimerEvent: {}
+[26.060469] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_info__struct.hpp\n'}
+[26.095382] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_info__traits.hpp\n'}
+[26.124605] (-) TimerEvent: {}
+[26.138166] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_info__type_support.hpp\n'}
+[26.178856] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_load_info__builder.hpp\n'}
+[26.218494] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_load_info__struct.hpp\n'}
+[26.224764] (-) TimerEvent: {}
+[26.252274] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_load_info__traits.hpp\n'}
+[26.290119] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_load_info__type_support.hpp\n'}
+[26.324970] (-) TimerEvent: {}
+[26.333124] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state__builder.hpp\n'}
+[26.371533] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state__struct.hpp\n'}
+[26.410202] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state__traits.hpp\n'}
+[26.425099] (-) TimerEvent: {}
+[26.449458] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state__type_support.hpp\n'}
+[26.486758] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state_list__builder.hpp\n'}
+[26.525404] (-) TimerEvent: {}
+[26.527391] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state_list__struct.hpp\n'}
+[26.566258] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state_list__traits.hpp\n'}
+[26.606145] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state_list__type_support.hpp\n'}
+[26.625542] (-) TimerEvent: {}
+[26.643893] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ex__builder.hpp\n'}
+[26.682703] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ex__struct.hpp\n'}
+[26.722110] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ex__traits.hpp\n'}
+[26.725871] (-) TimerEvent: {}
+[26.759762] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ex__type_support.hpp\n'}
+[26.798192] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2__builder.hpp\n'}
+[26.825983] (-) TimerEvent: {}
+[26.836357] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2__struct.hpp\n'}
+[26.874573] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2__traits.hpp\n'}
+[26.915430] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2__type_support.hpp\n'}
+[26.926151] (-) TimerEvent: {}
+[26.954784] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2_ext__builder.hpp\n'}
+[26.993348] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2_ext__struct.hpp\n'}
+[27.026361] (-) TimerEvent: {}
+[27.031029] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2_ext__traits.hpp\n'}
+[27.071296] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2_ext__type_support.hpp\n'}
+[27.110877] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx__builder.hpp\n'}
+[27.126595] (-) TimerEvent: {}
+[27.149100] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx__struct.hpp\n'}
+[27.187319] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx__traits.hpp\n'}
+[27.226852] (-) TimerEvent: {}
+[27.228427] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx__type_support.hpp\n'}
+[27.266141] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx_ext__builder.hpp\n'}
+[27.298641] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx_ext__struct.hpp\n'}
+[27.327014] (-) TimerEvent: {}
+[27.338483] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx_ext__traits.hpp\n'}
+[27.377824] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx_ext__type_support.hpp\n'}
+[27.415347] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro__builder.hpp\n'}
+[27.427295] (-) TimerEvent: {}
+[27.455124] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro__struct.hpp\n'}
+[27.495320] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro__traits.hpp\n'}
+[27.527406] (-) TimerEvent: {}
+[27.533987] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro__type_support.hpp\n'}
+[27.575659] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro_ext__builder.hpp\n'}
+[27.614666] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro_ext__struct.hpp\n'}
+[27.627586] (-) TimerEvent: {}
+[27.648251] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro_ext__traits.hpp\n'}
+[27.686115] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro_ext__type_support.hpp\n'}
+[27.718818] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/rx__builder.hpp\n'}
+[27.728064] (-) TimerEvent: {}
+[27.758522] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/rx__struct.hpp\n'}
+[27.791641] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/rx__traits.hpp\n'}
+[27.827927] (-) TimerEvent: {}
+[27.831252] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/rx__type_support.hpp\n'}
+[27.870297] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xh__builder.hpp\n'}
+[27.902872] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xh__struct.hpp\n'}
+[27.928065] (-) TimerEvent: {}
+[27.943077] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xh__traits.hpp\n'}
+[27.983188] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xh__type_support.hpp\n'}
+[28.022182] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl320__builder.hpp\n'}
+[28.028245] (-) TimerEvent: {}
+[28.055983] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl320__struct.hpp\n'}
+[28.094853] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl320__traits.hpp\n'}
+[28.128394] (-) TimerEvent: {}
+[28.134826] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl320__type_support.hpp\n'}
+[28.173250] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl__builder.hpp\n'}
+[28.211466] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl__struct.hpp\n'}
+[28.228530] (-) TimerEvent: {}
+[28.250501] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl__traits.hpp\n'}
+[28.283372] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl__type_support.hpp\n'}
+[28.324075] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm__builder.hpp\n'}
+[28.328852] (-) TimerEvent: {}
+[28.362403] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm__struct.hpp\n'}
+[28.395326] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm__traits.hpp\n'}
+[28.428978] (-) TimerEvent: {}
+[28.435453] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm__type_support.hpp\n'}
+[28.474805] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm_ext__builder.hpp\n'}
+[28.515636] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm_ext__struct.hpp\n'}
+[28.529122] (-) TimerEvent: {}
+[28.553801] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm_ext__traits.hpp\n'}
+[28.586797] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm_ext__type_support.hpp\n'}
+[28.626690] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/dynamixel_info.hpp\n'}
+[28.629318] (-) TimerEvent: {}
+[28.659631] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/dynamixel_load_info.hpp\n'}
+[28.697975] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/dynamixel_state.hpp\n'}
+[28.729633] (-) TimerEvent: {}
+[28.733181] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/dynamixel_state_list.hpp\n'}
+[28.770026] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/ex.hpp\n'}
+[28.803319] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/mx.hpp\n'}
+[28.829755] (-) TimerEvent: {}
+[28.842794] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/mx2.hpp\n'}
+[28.882495] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/mx2_ext.hpp\n'}
+[28.914950] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/mx_ext.hpp\n'}
+[28.929910] (-) TimerEvent: {}
+[28.955807] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/pro.hpp\n'}
+[28.994491] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/pro_ext.hpp\n'}
+[29.030055] (-) TimerEvent: {}
+[29.033591] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[29.072698] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/rx.hpp\n'}
+[29.110976] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/xh.hpp\n'}
+[29.130176] (-) TimerEvent: {}
+[29.150904] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/xl.hpp\n'}
+[29.188199] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/xl320.hpp\n'}
+[29.226794] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/xm.hpp\n'}
+[29.230284] (-) TimerEvent: {}
+[29.260365] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/xm_ext.hpp\n'}
+[29.298257] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/dynamixel_command__builder.hpp\n'}
+[29.330404] (-) TimerEvent: {}
+[29.330986] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/dynamixel_command__struct.hpp\n'}
+[29.371701] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/dynamixel_command__traits.hpp\n'}
+[29.410219] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/dynamixel_command__type_support.hpp\n'}
+[29.430534] (-) TimerEvent: {}
+[29.442903] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/get_dynamixel_info__builder.hpp\n'}
+[29.480736] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/get_dynamixel_info__struct.hpp\n'}
+[29.518042] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/get_dynamixel_info__traits.hpp\n'}
+[29.530637] (-) TimerEvent: {}
+[29.551485] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/get_dynamixel_info__type_support.hpp\n'}
+[29.589768] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/dynamixel_command.hpp\n'}
+[29.623224] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/get_dynamixel_info.hpp\n'}
+[29.630942] (-) TimerEvent: {}
+[29.673847] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ax__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.712012] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.731037] (-) TimerEvent: {}
+[29.749861] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_load_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.782395] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.814615] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.831173] (-) TimerEvent: {}
+[29.847996] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ex__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.882978] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.919471] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2_ext__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.931397] (-) TimerEvent: {}
+[29.952960] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.988808] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx_ext__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.026982] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.031805] (-) TimerEvent: {}
+[30.066131] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro_ext__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.099337] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/rx__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.132003] (-) TimerEvent: {}
+[30.138501] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xh__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.171731] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl320__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.210412] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.232141] (-) TimerEvent: {}
+[30.244024] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.282978] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm_ext__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.321208] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/dynamixel_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.332300] (-) TimerEvent: {}
+[30.359510] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/get_dynamixel_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.399954] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/environment/pythonpath.sh\n'}
+[30.432529] (-) TimerEvent: {}
+[30.439088] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/environment/pythonpath.dsv\n'}
+[30.479197] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/__init__.py\n'}
+[30.523754] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/__init__.py\n'}
+[30.532691] (-) TimerEvent: {}
+[30.560126] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_ax.py\n'}
+[30.597694] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_dynamixel_info.py\n'}
+[30.632910] (-) TimerEvent: {}
+[30.635688] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_dynamixel_load_info.py\n'}
+[30.675576] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_dynamixel_state.py\n'}
+[30.714052] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_dynamixel_state_list.py\n'}
+[30.733083] (-) TimerEvent: {}
+[30.747711] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_ex.py\n'}
+[30.787326] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_mx.py\n'}
+[30.826166] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_mx2.py\n'}
+[30.833474] (-) TimerEvent: {}
+[30.863394] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_mx2_ext.py\n'}
+[30.933745] (-) TimerEvent: {}
+[31.043700] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_mx_ext.py\n'}
+[31.044389] (-) TimerEvent: {}
+[31.078254] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_pro.py\n'}
+[31.112360] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_pro_ext.py\n'}
+[31.144581] (-) TimerEvent: {}
+[31.152071] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_rx.py\n'}
+[31.190475] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_xh.py\n'}
+[31.228959] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_xl.py\n'}
+[31.244742] (-) TimerEvent: {}
+[31.266644] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_xl320.py\n'}
+[31.299545] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_xm.py\n'}
+[31.338328] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_xm_ext.py\n'}
+[31.345079] (-) TimerEvent: {}
+[31.379098] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/srv/__init__.py\n'}
+[31.417087] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/srv/_dynamixel_command.py\n'}
+[31.445198] (-) TimerEvent: {}
+[31.454816] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/srv/_get_dynamixel_info.py\n'}
+[31.493008] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/dynamixel_workbench_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[31.536803] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/dynamixel_workbench_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[31.545377] (-) TimerEvent: {}
+[31.574856] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/dynamixel_workbench_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[31.608591] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/libdynamixel_workbench_msgs__python.so\n'}
+[31.645578] (-) TimerEvent: {}
+[31.649577] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/AX.idl\n'}
+[31.688504] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/EX.idl\n'}
+[31.728963] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/MX.idl\n'}
+[31.745753] (-) TimerEvent: {}
+[31.767393] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/MX2.idl\n'}
+[31.807999] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/MX2Ext.idl\n'}
+[31.846100] (-) TimerEvent: {}
+[31.847358] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/MXExt.idl\n'}
+[31.887613] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/PRO.idl\n'}
+[31.925914] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/PROExt.idl\n'}
+[31.946283] (-) TimerEvent: {}
+[31.964057] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/RX.idl\n'}
+[32.004173] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/XH.idl\n'}
+[32.043399] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/XL.idl\n'}
+[32.046476] (-) TimerEvent: {}
+[32.082785] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/XL320.idl\n'}
+[32.115516] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/XM.idl\n'}
+[32.146606] (-) TimerEvent: {}
+[32.155327] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/XMExt.idl\n'}
+[32.194197] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/DynamixelState.idl\n'}
+[32.233464] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/DynamixelStateList.idl\n'}
+[32.246756] (-) TimerEvent: {}
+[32.271181] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/DynamixelInfo.idl\n'}
+[32.312820] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/DynamixelLoadInfo.idl\n'}
+[32.346989] (-) TimerEvent: {}
+[32.351121] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/srv/GetDynamixelInfo.idl\n'}
+[32.392271] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/srv/DynamixelCommand.idl\n'}
+[32.431241] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/AX.msg\n'}
+[32.447142] (-) TimerEvent: {}
+[32.472351] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/EX.msg\n'}
+[32.511011] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/MX.msg\n'}
+[32.547455] (-) TimerEvent: {}
+[32.551014] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/MX2.msg\n'}
+[32.592447] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/MX2Ext.msg\n'}
+[32.631196] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/MXExt.msg\n'}
+[32.647661] (-) TimerEvent: {}
+[32.671176] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/PRO.msg\n'}
+[32.711442] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/PROExt.msg\n'}
+[32.747887] (-) TimerEvent: {}
+[32.750716] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/RX.msg\n'}
+[32.784927] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/XH.msg\n'}
+[32.823396] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/XL.msg\n'}
+[32.848104] (-) TimerEvent: {}
+[32.863558] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/XL320.msg\n'}
+[32.902488] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/XM.msg\n'}
+[32.936440] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/XMExt.msg\n'}
+[32.948231] (-) TimerEvent: {}
+[32.975362] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/DynamixelState.msg\n'}
+[33.018230] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/DynamixelStateList.msg\n'}
+[33.048442] (-) TimerEvent: {}
+[33.059211] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/DynamixelInfo.msg\n'}
+[33.097995] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/DynamixelLoadInfo.msg\n'}
+[33.135990] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/srv/GetDynamixelInfo.srv\n'}
+[33.148567] (-) TimerEvent: {}
+[33.175484] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/srv/GetDynamixelInfo_Request.msg\n'}
+[33.214959] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/srv/GetDynamixelInfo_Response.msg\n'}
+[33.248718] (-) TimerEvent: {}
+[33.256051] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/srv/DynamixelCommand.srv\n'}
+[33.295994] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/srv/DynamixelCommand_Request.msg\n'}
+[33.335987] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/srv/DynamixelCommand_Response.msg\n'}
+[33.348952] (-) TimerEvent: {}
+[33.376414] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/ament_index/resource_index/package_run_dependencies/dynamixel_workbench_msgs\n'}
+[33.417448] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/ament_index/resource_index/parent_prefix_path/dynamixel_workbench_msgs\n'}
+[33.449105] (-) TimerEvent: {}
+[33.459267] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/environment/ament_prefix_path.sh\n'}
+[33.498720] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/environment/ament_prefix_path.dsv\n'}
+[33.539227] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/environment/path.sh\n'}
+[33.549256] (-) TimerEvent: {}
+[33.578654] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/environment/path.dsv\n'}
+[33.618463] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/local_setup.bash\n'}
+[33.649413] (-) TimerEvent: {}
+[33.657410] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/local_setup.sh\n'}
+[33.696109] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/local_setup.zsh\n'}
+[33.736215] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/local_setup.dsv\n'}
+[33.749678] (-) TimerEvent: {}
+[33.775421] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.dsv\n'}
+[33.813825] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/ament_index/resource_index/packages/dynamixel_workbench_msgs\n'}
+[33.847419] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[33.849799] (-) TimerEvent: {}
+[33.881604] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[33.915020] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[33.949361] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[33.950038] (-) TimerEvent: {}
+[33.986657] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[34.025742] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[34.050210] (-) TimerEvent: {}
+[34.064136] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[34.103234] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgsConfig.cmake\n'}
+[34.141722] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgsConfig-version.cmake\n'}
+[34.150501] (-) TimerEvent: {}
+[34.179407] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.xml\n'}
+[34.250743] (-) TimerEvent: {}
+[34.351910] (-) TimerEvent: {}
+[34.364618] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/libdynamixel_workbench_msgs__rosidl_generator_c.so\n'}
+[34.369081] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/libdynamixel_workbench_msgs__rosidl_typesupport_introspection_c.so\n'}
+[34.373060] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/libdynamixel_workbench_msgs__rosidl_typesupport_c.so\n'}
+[34.377309] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/libdynamixel_workbench_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[34.381659] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/libdynamixel_workbench_msgs__rosidl_typesupport_cpp.so\n'}
+[34.452067] (-) TimerEvent: {}
+[34.552726] (-) TimerEvent: {}
+[34.653182] (-) TimerEvent: {}
+[34.753641] (-) TimerEvent: {}
+[34.760799] (dynamixel_workbench_msgs) StdoutLine: {'line': b"Compiling '/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/__init__.py'...\n"}
+[34.853893] (-) TimerEvent: {}
+[34.912491] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs__rosidl_generator_cExport.cmake\n'}
+[34.913149] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[34.914707] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[34.915290] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[34.917013] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs__rosidl_typesupport_cExport.cmake\n'}
+[34.917440] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[34.919089] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs__rosidl_generator_cppExport.cmake\n'}
+[34.920296] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[34.920717] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[34.922320] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[34.922838] (dynamixel_workbench_msgs) StdoutLine: {'line': b'-- Installing: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[34.930645] (dynamixel_workbench_msgs) CommandEnded: {'returncode': 0}
+[34.954329] (-) TimerEvent: {}
+[35.055558] (-) TimerEvent: {}
+[35.157401] (-) TimerEvent: {}
+[35.258147] (-) TimerEvent: {}
+[35.358892] (-) TimerEvent: {}
+[35.459690] (-) TimerEvent: {}
+[35.560439] (-) TimerEvent: {}
+[35.661536] (-) TimerEvent: {}
+[35.762217] (-) TimerEvent: {}
+[35.862890] (-) TimerEvent: {}
+[35.963556] (-) TimerEvent: {}
+[36.064405] (-) TimerEvent: {}
+[36.209347] (-) TimerEvent: {}
+[36.310044] (-) TimerEvent: {}
+[36.410732] (-) TimerEvent: {}
+[36.511423] (-) TimerEvent: {}
+[36.520314] (dynamixel_workbench_msgs) JobEnded: {'identifier': 'dynamixel_workbench_msgs', 'rc': 0}
+[36.523590] (-) EventReactorShutdown: {}

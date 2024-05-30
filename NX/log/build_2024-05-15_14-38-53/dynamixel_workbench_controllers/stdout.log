@@ -1,0 +1,3 @@
+[ 50%] Built target dynamixel_workbench_controllers
+[35m[1mScanning dependencies of target find_dynamixel[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/find_dynamixel.dir/src/find_dynamixel.cpp.o[0m

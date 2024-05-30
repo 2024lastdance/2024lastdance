@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target initialpose[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/initialpose.dir/src/initialpose.cpp.o[0m
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:23:1:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kint[m[K’
+   23 | [01;31m[Kint[m[K main(void){
+      | [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/initialpose.dir/build.make:63: CMakeFiles/initialpose.dir/src/initialpose.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/initialpose.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

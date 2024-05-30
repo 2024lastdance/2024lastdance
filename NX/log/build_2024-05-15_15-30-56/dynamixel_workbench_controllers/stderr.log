@@ -1,0 +1,29 @@
+[01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:[m[K In member function ‘[01m[Kvoid DynamixelController::readCallback()[m[K’:
+[01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:469:50:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kdynamixel_state[m[K’ [[01;35m[K-Wvla[m[K]
+  469 |   dynamixel_workbench_msgs::msg::DynamixelState  [01;35m[Kdynamixel_state[m[K[dynamixel_.size()];
+      |                                                  [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:472:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kget_current[m[K’ [[01;35m[K-Wvla[m[K]
+  472 |   int32_t [01;35m[Kget_current[m[K[dynamixel_.size()];
+      |           [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:473:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kget_velocity[m[K’ [[01;35m[K-Wvla[m[K]
+  473 |   int32_t [01;35m[Kget_velocity[m[K[dynamixel_.size()];
+      |           [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:474:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kget_position[m[K’ [[01;35m[K-Wvla[m[K]
+  474 |   int32_t [01;35m[Kget_position[m[K[dynamixel_.size()];
+      |           [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:476:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kid_array[m[K’ [[01;35m[K-Wvla[m[K]
+  476 |   uint8_t [01;35m[Kid_array[m[K[dynamixel_.size()];
+      |           [01;35m[K^~~~~~~~[m[K
+[01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:555:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kget_all_data[m[K’ [[01;35m[K-Wvla[m[K]
+  555 |       uint32_t [01;35m[Kget_all_data[m[K[length_of_data];
+      |                [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:[m[K In member function ‘[01m[Kvoid DynamixelController::commandVelocityCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:647:10:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kwheel_velocity[m[K’ [[01;35m[K-Wvla[m[K]
+  647 |   double [01;35m[Kwheel_velocity[m[K[dynamixel_.size()];
+      |          [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:648:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kdynamixel_velocity[m[K’ [[01;35m[K-Wvla[m[K]
+  648 |   int32_t [01;35m[Kdynamixel_velocity[m[K[dynamixel_.size()];
+      |           [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:658:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kid_array[m[K’ [[01;35m[K-Wvla[m[K]
+  658 |   uint8_t [01;35m[Kid_array[m[K[dynamixel_.size()];
+      |           [01;35m[K^~~~~~~~[m[K

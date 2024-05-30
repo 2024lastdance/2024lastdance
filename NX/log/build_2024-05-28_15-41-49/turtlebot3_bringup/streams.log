@@ -1,0 +1,68 @@
+[0.061s] Invoking command in '/home/jetsonnx/ros2_ws/build/turtlebot3_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetsonnx/ros2_ws/src/turtlebot3_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetsonnx/ros2_ws/install/turtlebot3_bringup
+[0.404s] -- The C compiler identification is GNU 9.4.0
+[0.835s] -- The CXX compiler identification is GNU 9.4.0
+[0.860s] -- Check for working C compiler: /usr/bin/cc
+[1.334s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.338s] -- Detecting C compiler ABI info
+[1.832s] -- Detecting C compiler ABI info - done
+[1.887s] -- Detecting C compile features
+[1.888s] -- Detecting C compile features - done
+[1.901s] -- Check for working CXX compiler: /usr/bin/c++
+[2.344s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.352s] -- Detecting CXX compiler ABI info
+[2.933s] -- Detecting CXX compiler ABI info - done
+[3.006s] -- Detecting CXX compile features
+[3.008s] -- Detecting CXX compile features - done
+[3.162s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.396s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.397s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.612s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.794s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.370s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.554s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.458s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.675s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.919s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.071s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.081s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.090s] -- Looking for pthread.h
+[9.660s] -- Looking for pthread.h - found
+[9.661s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.162s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[10.164s] -- Looking for pthread_create in pthreads
+[10.759s] -- Looking for pthread_create in pthreads - not found
+[10.760s] -- Looking for pthread_create in pthread
+[11.104s] -- Looking for pthread_create in pthread - found
+[11.121s] -- Found Threads: TRUE  
+[13.184s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[13.685s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.697s] -- Added test 'flake8' to check Python code syntax and style conventions
+[13.701s] -- Added test 'lint_cmake' to check CMake code style
+[13.704s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[13.711s] -- Added test 'xmllint' to check XML markup files
+[13.735s] -- Configuring done
+[13.748s] -- Generating done
+[13.756s] -- Build files have been written to: /home/jetsonnx/ros2_ws/build/turtlebot3_bringup
+[13.801s] Invoked command in '/home/jetsonnx/ros2_ws/build/turtlebot3_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetsonnx/ros2_ws/src/turtlebot3_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetsonnx/ros2_ws/install/turtlebot3_bringup
+[13.816s] Invoking command in '/home/jetsonnx/ros2_ws/build/turtlebot3_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/turtlebot3_bringup -- -j4 -l4
+[13.989s] Invoked command in '/home/jetsonnx/ros2_ws/build/turtlebot3_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/turtlebot3_bringup -- -j4 -l4
+[14.096s] Invoking command in '/home/jetsonnx/ros2_ws/build/turtlebot3_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/turtlebot3_bringup
+[14.132s] -- Install configuration: ""
+[14.136s] -- Execute custom install script
+[14.140s] -- Symlinking: /home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/nav2_launch.py
+[14.180s] -- Symlinking: /home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/ament_index/resource_index/package_run_dependencies/turtlebot3_bringup
+[14.217s] -- Symlinking: /home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/ament_index/resource_index/parent_prefix_path/turtlebot3_bringup
+[14.255s] -- Symlinking: /home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.sh
+[14.336s] -- Symlinking: /home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.dsv
+[14.376s] -- Symlinking: /home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.sh
+[14.419s] -- Symlinking: /home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.dsv
+[14.461s] -- Symlinking: /home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.bash
+[14.498s] -- Symlinking: /home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.sh
+[14.539s] -- Symlinking: /home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.zsh
+[14.578s] -- Symlinking: /home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.dsv
+[14.617s] -- Symlinking: /home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.dsv
+[14.657s] -- Symlinking: /home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/ament_index/resource_index/packages/turtlebot3_bringup
+[14.695s] -- Symlinking: /home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig.cmake
+[14.734s] -- Symlinking: /home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig-version.cmake
+[14.771s] -- Symlinking: /home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.xml
+[14.816s] Invoked command in '/home/jetsonnx/ros2_ws/build/turtlebot3_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/turtlebot3_bringup

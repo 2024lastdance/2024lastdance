@@ -1,0 +1,466 @@
+[0.000000] (-) TimerEvent: {}
+[0.000889] (-) JobUnselected: {'identifier': 'dynamixel_workbench_msgs'}
+[0.001474] (-) JobUnselected: {'identifier': 'dynamixel_workbench_operators'}
+[0.002444] (dynamixel_workbench_controllers) JobQueued: {'identifier': 'dynamixel_workbench_controllers', 'dependencies': OrderedDict()}
+[0.003148] (dynamixel_workbench_controllers) JobStarted: {'identifier': 'dynamixel_workbench_controllers'}
+[0.053821] (dynamixel_workbench_controllers) JobProgress: {'identifier': 'dynamixel_workbench_controllers', 'progress': 'cmake'}
+[0.057347] (dynamixel_workbench_controllers) JobProgress: {'identifier': 'dynamixel_workbench_controllers', 'progress': 'build'}
+[0.060495] (dynamixel_workbench_controllers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers', '--', '-j4', '-l4'], 'cwd': '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetsonnx'), ('SSH_CLIENT', '192.168.0.109 53303 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetsonnx'), ('OLDPWD', '/home/jetsonnx'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-449b40ce-411c-4b27-ad32-3c71021830c3.sock'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jetsonnx/robot_ws'), ('COLCON_PREFIX_PATH', '/home/jetsonnx/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetsonnx'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421621065957'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/jetsonnx/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a85adf8502.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators:/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs:/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.109 53303 192.168.0.70 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators:/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs:/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0000')]), 'shell': False}
+[0.099400] (-) TimerEvent: {}
+[0.200930] (-) TimerEvent: {}
+[0.215627] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.301141] (-) TimerEvent: {}
+[0.402107] (-) TimerEvent: {}
+[0.461399] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.502302] (-) TimerEvent: {}
+[0.603154] (-) TimerEvent: {}
+[0.704056] (-) TimerEvent: {}
+[0.807417] (-) TimerEvent: {}
+[0.909226] (-) TimerEvent: {}
+[1.010098] (-) TimerEvent: {}
+[1.111013] (-) TimerEvent: {}
+[1.211866] (-) TimerEvent: {}
+[1.312692] (-) TimerEvent: {}
+[1.413574] (-) TimerEvent: {}
+[1.514499] (-) TimerEvent: {}
+[1.598263] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.614735] (-) TimerEvent: {}
+[1.661367] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.714968] (-) TimerEvent: {}
+[1.815933] (-) TimerEvent: {}
+[1.916872] (-) TimerEvent: {}
+[1.992009] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.017077] (-) TimerEvent: {}
+[2.117861] (-) TimerEvent: {}
+[2.150893] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.218084] (-) TimerEvent: {}
+[2.318961] (-) TimerEvent: {}
+[2.419841] (-) TimerEvent: {}
+[2.520762] (-) TimerEvent: {}
+[2.621675] (-) TimerEvent: {}
+[2.722587] (-) TimerEvent: {}
+[2.823918] (-) TimerEvent: {}
+[2.924786] (-) TimerEvent: {}
+[3.025707] (-) TimerEvent: {}
+[3.126743] (-) TimerEvent: {}
+[3.227719] (-) TimerEvent: {}
+[3.328613] (-) TimerEvent: {}
+[3.429394] (-) TimerEvent: {}
+[3.453080] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.529618] (-) TimerEvent: {}
+[3.630564] (-) TimerEvent: {}
+[3.732084] (-) TimerEvent: {}
+[3.833096] (-) TimerEvent: {}
+[3.934099] (-) TimerEvent: {}
+[4.035144] (-) TimerEvent: {}
+[4.136162] (-) TimerEvent: {}
+[4.237240] (-) TimerEvent: {}
+[4.252605] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[4.261426] (dynamixel_workbench_controllers) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.337508] (-) TimerEvent: {}
+[4.438532] (-) TimerEvent: {}
+[4.539482] (-) TimerEvent: {}
+[4.640402] (-) TimerEvent: {}
+[4.741393] (-) TimerEvent: {}
+[4.842301] (-) TimerEvent: {}
+[4.943299] (-) TimerEvent: {}
+[5.044270] (-) TimerEvent: {}
+[5.145438] (-) TimerEvent: {}
+[5.246461] (-) TimerEvent: {}
+[5.347495] (-) TimerEvent: {}
+[5.448429] (-) TimerEvent: {}
+[5.549387] (-) TimerEvent: {}
+[5.650237] (-) TimerEvent: {}
+[5.751106] (-) TimerEvent: {}
+[5.852096] (-) TimerEvent: {}
+[5.946972] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[5.952272] (-) TimerEvent: {}
+[6.053203] (-) TimerEvent: {}
+[6.154089] (-) TimerEvent: {}
+[6.209284] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Found dynamixel_workbench_msgs: 2.0.3 (/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake)\n'}
+[6.254324] (-) TimerEvent: {}
+[6.355291] (-) TimerEvent: {}
+[6.456293] (-) TimerEvent: {}
+[6.485925] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[6.556591] (-) TimerEvent: {}
+[6.657505] (-) TimerEvent: {}
+[6.758396] (-) TimerEvent: {}
+[6.859346] (-) TimerEvent: {}
+[6.865321] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[6.959541] (-) TimerEvent: {}
+[7.060340] (-) TimerEvent: {}
+[7.161214] (-) TimerEvent: {}
+[7.262138] (-) TimerEvent: {}
+[7.267415] (dynamixel_workbench_controllers) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[7.334999] (dynamixel_workbench_controllers) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.336363] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/include\n'}
+[7.336949] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.362261] (-) TimerEvent: {}
+[7.462954] (-) TimerEvent: {}
+[7.527590] (dynamixel_workbench_controllers) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[7.528409] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[7.563151] (-) TimerEvent: {}
+[7.663903] (-) TimerEvent: {}
+[7.687512] (dynamixel_workbench_controllers) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.764155] (-) TimerEvent: {}
+[7.865140] (-) TimerEvent: {}
+[7.886149] (dynamixel_workbench_controllers) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.887394] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.965313] (-) TimerEvent: {}
+[8.032115] (dynamixel_workbench_controllers) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.053805] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.065560] (-) TimerEvent: {}
+[8.166600] (-) TimerEvent: {}
+[8.222709] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Generating done\n'}
+[8.234928] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Build files have been written to: /home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers\n'}
+[8.266866] (-) TimerEvent: {}
+[8.355171] (dynamixel_workbench_controllers) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target find_dynamixel\x1b[0m\n'}
+[8.356753] (dynamixel_workbench_controllers) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dynamixel_workbench_controllers\x1b[0m\n'}
+[8.367066] (-) TimerEvent: {}
+[8.464223] (dynamixel_workbench_controllers) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_workbench_controllers.dir/src/dynamixel_item.cpp.o\x1b[0m\n'}
+[8.467264] (-) TimerEvent: {}
+[8.470191] (dynamixel_workbench_controllers) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_workbench_controllers.dir/src/dynamixel_workbench_controllers.cpp.o\x1b[0m\n'}
+[8.511808] (dynamixel_workbench_controllers) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_workbench_controllers.dir/src/dynamixel_driver.cpp.o\x1b[0m\n'}
+[8.567595] (-) TimerEvent: {}
+[8.669249] (-) TimerEvent: {}
+[8.715396] (dynamixel_workbench_controllers) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/find_dynamixel.dir/src/find_dynamixel.cpp.o\x1b[0m\n'}
+[8.769463] (-) TimerEvent: {}
+[8.870728] (-) TimerEvent: {}
+[8.972695] (-) TimerEvent: {}
+[9.011073] (dynamixel_workbench_controllers) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_workbench_controllers.dir/src/dynamixel_tool.cpp.o\x1b[0m\n'}
+[9.072948] (-) TimerEvent: {}
+[9.173930] (-) TimerEvent: {}
+[9.274916] (-) TimerEvent: {}
+[9.375901] (-) TimerEvent: {}
+[9.477273] (-) TimerEvent: {}
+[9.546309] (dynamixel_workbench_controllers) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_workbench_controllers.dir/src/dynamixel_workbench.cpp.o\x1b[0m\n'}
+[9.577532] (-) TimerEvent: {}
+[9.679449] (-) TimerEvent: {}
+[9.687962] (dynamixel_workbench_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool DynamixelDriver::readRegister(uint8_t, uint16_t, uint16_t, uint32_t*, const char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.688893] (dynamixel_workbench_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_driver.cpp:789:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Kdata_read\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wvla\x1b[m\x1b[K]\n'}
+[9.689279] (dynamixel_workbench_controllers) StderrLine: {'line': b'  789 |   uint8_t \x1b[01;35m\x1b[Kdata_read\x1b[m\x1b[K[length];\n'}
+[9.690717] (dynamixel_workbench_controllers) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.705322] (dynamixel_workbench_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool DynamixelDriver::syncWrite(uint8_t, uint8_t*, uint8_t, int32_t*, uint8_t, const char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.706052] (dynamixel_workbench_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_driver.cpp:1026:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Kmulti_parameter\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wvla\x1b[m\x1b[K]\n'}
+[9.706494] (dynamixel_workbench_controllers) StderrLine: {'line': b' 1026 |   uint8_t \x1b[01;35m\x1b[Kmulti_parameter\x1b[m\x1b[K[4*data_num_for_each_id];\n'}
+[9.706822] (dynamixel_workbench_controllers) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.779693] (-) TimerEvent: {}
+[9.880691] (-) TimerEvent: {}
+[9.981635] (-) TimerEvent: {}
+[10.082644] (-) TimerEvent: {}
+[10.183636] (-) TimerEvent: {}
+[10.292868] (-) TimerEvent: {}
+[10.393834] (-) TimerEvent: {}
+[10.495931] (-) TimerEvent: {}
+[10.515650] (dynamixel_workbench_controllers) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/find_dynamixel.dir/src/dynamixel_driver.cpp.o\x1b[0m\n'}
+[10.596226] (-) TimerEvent: {}
+[10.698411] (-) TimerEvent: {}
+[10.800450] (-) TimerEvent: {}
+[10.902615] (-) TimerEvent: {}
+[11.004713] (-) TimerEvent: {}
+[11.107245] (-) TimerEvent: {}
+[11.209468] (-) TimerEvent: {}
+[11.311741] (-) TimerEvent: {}
+[11.414030] (-) TimerEvent: {}
+[11.517389] (-) TimerEvent: {}
+[11.602150] (dynamixel_workbench_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool DynamixelDriver::readRegister(uint8_t, uint16_t, uint16_t, uint32_t*, const char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.603594] (dynamixel_workbench_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_driver.cpp:789:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Kdata_read\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wvla\x1b[m\x1b[K]\n'}
+[11.604700] (dynamixel_workbench_controllers) StderrLine: {'line': b'  789 |   uint8_t \x1b[01;35m\x1b[Kdata_read\x1b[m\x1b[K[length];\n'}
+[11.605224] (dynamixel_workbench_controllers) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.617797] (dynamixel_workbench_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool DynamixelDriver::syncWrite(uint8_t, uint8_t*, uint8_t, int32_t*, uint8_t, const char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.618580] (-) TimerEvent: {}
+[11.620340] (dynamixel_workbench_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_driver.cpp:1026:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Kmulti_parameter\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wvla\x1b[m\x1b[K]\n'}
+[11.621534] (dynamixel_workbench_controllers) StderrLine: {'line': b' 1026 |   uint8_t \x1b[01;35m\x1b[Kmulti_parameter\x1b[m\x1b[K[4*data_num_for_each_id];\n'}
+[11.622407] (dynamixel_workbench_controllers) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.649344] (dynamixel_workbench_controllers) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/find_dynamixel.dir/src/dynamixel_item.cpp.o\x1b[0m\n'}
+[11.718911] (-) TimerEvent: {}
+[11.820958] (-) TimerEvent: {}
+[11.922683] (-) TimerEvent: {}
+[12.024621] (-) TimerEvent: {}
+[12.096775] (dynamixel_workbench_controllers) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/find_dynamixel.dir/src/dynamixel_tool.cpp.o\x1b[0m\n'}
+[12.124777] (-) TimerEvent: {}
+[12.226485] (-) TimerEvent: {}
+[12.328155] (-) TimerEvent: {}
+[12.420086] (dynamixel_workbench_controllers) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/find_dynamixel.dir/src/dynamixel_workbench.cpp.o\x1b[0m\n'}
+[12.428423] (-) TimerEvent: {}
+[12.529424] (-) TimerEvent: {}
+[12.631416] (-) TimerEvent: {}
+[12.732390] (-) TimerEvent: {}
+[12.833509] (-) TimerEvent: {}
+[12.934453] (-) TimerEvent: {}
+[13.035350] (-) TimerEvent: {}
+[13.199877] (-) TimerEvent: {}
+[13.301130] (-) TimerEvent: {}
+[13.402271] (-) TimerEvent: {}
+[13.504077] (-) TimerEvent: {}
+[13.605968] (-) TimerEvent: {}
+[13.708272] (-) TimerEvent: {}
+[13.810370] (-) TimerEvent: {}
+[13.911483] (-) TimerEvent: {}
+[14.013349] (-) TimerEvent: {}
+[14.115241] (-) TimerEvent: {}
+[14.217447] (-) TimerEvent: {}
+[14.319340] (-) TimerEvent: {}
+[14.420672] (-) TimerEvent: {}
+[14.521905] (-) TimerEvent: {}
+[14.623209] (-) TimerEvent: {}
+[14.724490] (-) TimerEvent: {}
+[14.825855] (-) TimerEvent: {}
+[14.927035] (-) TimerEvent: {}
+[15.028818] (-) TimerEvent: {}
+[15.130421] (-) TimerEvent: {}
+[15.232079] (-) TimerEvent: {}
+[15.333297] (-) TimerEvent: {}
+[15.434787] (-) TimerEvent: {}
+[15.535920] (-) TimerEvent: {}
+[15.540882] (dynamixel_workbench_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DynamixelController::readCallback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.542232] (dynamixel_workbench_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:469:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Kdynamixel_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wvla\x1b[m\x1b[K]\n'}
+[15.543954] (dynamixel_workbench_controllers) StderrLine: {'line': b'  469 |   dynamixel_workbench_msgs::msg::DynamixelState  \x1b[01;35m\x1b[Kdynamixel_state\x1b[m\x1b[K[dynamixel_.size()];\n'}
+[15.544479] (dynamixel_workbench_controllers) StderrLine: {'line': b'      |                                                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.546579] (dynamixel_workbench_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:472:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Kget_current\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wvla\x1b[m\x1b[K]\n'}
+[15.547107] (dynamixel_workbench_controllers) StderrLine: {'line': b'  472 |   int32_t \x1b[01;35m\x1b[Kget_current\x1b[m\x1b[K[dynamixel_.size()];\n'}
+[15.547532] (dynamixel_workbench_controllers) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.547926] (dynamixel_workbench_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:473:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Kget_velocity\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wvla\x1b[m\x1b[K]\n'}
+[15.548373] (dynamixel_workbench_controllers) StderrLine: {'line': b'  473 |   int32_t \x1b[01;35m\x1b[Kget_velocity\x1b[m\x1b[K[dynamixel_.size()];\n'}
+[15.548837] (dynamixel_workbench_controllers) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.549242] (dynamixel_workbench_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:474:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Kget_position\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wvla\x1b[m\x1b[K]\n'}
+[15.549618] (dynamixel_workbench_controllers) StderrLine: {'line': b'  474 |   int32_t \x1b[01;35m\x1b[Kget_position\x1b[m\x1b[K[dynamixel_.size()];\n'}
+[15.549988] (dynamixel_workbench_controllers) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.550382] (dynamixel_workbench_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:476:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Kid_array\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wvla\x1b[m\x1b[K]\n'}
+[15.550801] (dynamixel_workbench_controllers) StderrLine: {'line': b'  476 |   uint8_t \x1b[01;35m\x1b[Kid_array\x1b[m\x1b[K[dynamixel_.size()];\n'}
+[15.551217] (dynamixel_workbench_controllers) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[15.555906] (dynamixel_workbench_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:555:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Kget_all_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wvla\x1b[m\x1b[K]\n'}
+[15.556856] (dynamixel_workbench_controllers) StderrLine: {'line': b'  555 |       uint32_t \x1b[01;35m\x1b[Kget_all_data\x1b[m\x1b[K[length_of_data];\n'}
+[15.557364] (dynamixel_workbench_controllers) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.625088] (dynamixel_workbench_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DynamixelController::commandVelocityCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.625930] (dynamixel_workbench_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:647:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Kwheel_velocity\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wvla\x1b[m\x1b[K]\n'}
+[15.628065] (dynamixel_workbench_controllers) StderrLine: {'line': b'  647 |   double \x1b[01;35m\x1b[Kwheel_velocity\x1b[m\x1b[K[dynamixel_.size()];\n'}
+[15.628649] (dynamixel_workbench_controllers) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.629169] (dynamixel_workbench_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:648:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Kdynamixel_velocity\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wvla\x1b[m\x1b[K]\n'}
+[15.629580] (dynamixel_workbench_controllers) StderrLine: {'line': b'  648 |   int32_t \x1b[01;35m\x1b[Kdynamixel_velocity\x1b[m\x1b[K[dynamixel_.size()];\n'}
+[15.630054] (dynamixel_workbench_controllers) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.630417] (dynamixel_workbench_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:658:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Kid_array\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wvla\x1b[m\x1b[K]\n'}
+[15.630947] (dynamixel_workbench_controllers) StderrLine: {'line': b'  658 |   uint8_t \x1b[01;35m\x1b[Kid_array\x1b[m\x1b[K[dynamixel_.size()];\n'}
+[15.631304] (dynamixel_workbench_controllers) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[15.636138] (-) TimerEvent: {}
+[15.737260] (-) TimerEvent: {}
+[15.838280] (-) TimerEvent: {}
+[15.939330] (-) TimerEvent: {}
+[16.041403] (-) TimerEvent: {}
+[16.142535] (-) TimerEvent: {}
+[16.243516] (-) TimerEvent: {}
+[16.344594] (-) TimerEvent: {}
+[16.445601] (-) TimerEvent: {}
+[16.546490] (-) TimerEvent: {}
+[16.563372] (dynamixel_workbench_controllers) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable find_dynamixel\x1b[0m\n'}
+[16.646754] (-) TimerEvent: {}
+[16.748419] (-) TimerEvent: {}
+[16.850988] (-) TimerEvent: {}
+[16.952129] (-) TimerEvent: {}
+[17.039626] (dynamixel_workbench_controllers) StdoutLine: {'line': b'[ 91%] Built target find_dynamixel\n'}
+[17.052375] (-) TimerEvent: {}
+[17.153479] (-) TimerEvent: {}
+[17.254643] (-) TimerEvent: {}
+[17.355918] (-) TimerEvent: {}
+[17.457083] (-) TimerEvent: {}
+[17.558385] (-) TimerEvent: {}
+[17.659514] (-) TimerEvent: {}
+[17.760731] (-) TimerEvent: {}
+[17.861901] (-) TimerEvent: {}
+[17.963104] (-) TimerEvent: {}
+[18.208072] (-) TimerEvent: {}
+[18.308993] (-) TimerEvent: {}
+[18.409889] (-) TimerEvent: {}
+[18.510814] (-) TimerEvent: {}
+[18.611975] (-) TimerEvent: {}
+[18.712946] (-) TimerEvent: {}
+[18.814323] (-) TimerEvent: {}
+[18.915671] (-) TimerEvent: {}
+[19.016996] (-) TimerEvent: {}
+[19.118325] (-) TimerEvent: {}
+[19.219698] (-) TimerEvent: {}
+[19.321117] (-) TimerEvent: {}
+[19.422434] (-) TimerEvent: {}
+[19.523381] (-) TimerEvent: {}
+[19.624207] (-) TimerEvent: {}
+[19.725164] (-) TimerEvent: {}
+[19.826158] (-) TimerEvent: {}
+[19.927079] (-) TimerEvent: {}
+[20.028153] (-) TimerEvent: {}
+[20.129268] (-) TimerEvent: {}
+[20.230189] (-) TimerEvent: {}
+[20.331167] (-) TimerEvent: {}
+[20.432111] (-) TimerEvent: {}
+[20.533062] (-) TimerEvent: {}
+[20.633967] (-) TimerEvent: {}
+[20.734958] (-) TimerEvent: {}
+[20.835890] (-) TimerEvent: {}
+[20.936940] (-) TimerEvent: {}
+[21.037806] (-) TimerEvent: {}
+[21.138700] (-) TimerEvent: {}
+[21.239638] (-) TimerEvent: {}
+[21.340685] (-) TimerEvent: {}
+[21.441621] (-) TimerEvent: {}
+[21.542526] (-) TimerEvent: {}
+[21.643452] (-) TimerEvent: {}
+[21.744384] (-) TimerEvent: {}
+[21.845690] (-) TimerEvent: {}
+[21.946625] (-) TimerEvent: {}
+[22.047606] (-) TimerEvent: {}
+[22.148650] (-) TimerEvent: {}
+[22.249657] (-) TimerEvent: {}
+[22.350705] (-) TimerEvent: {}
+[22.451676] (-) TimerEvent: {}
+[22.552707] (-) TimerEvent: {}
+[22.653698] (-) TimerEvent: {}
+[22.754646] (-) TimerEvent: {}
+[22.855700] (-) TimerEvent: {}
+[22.956655] (-) TimerEvent: {}
+[23.057589] (-) TimerEvent: {}
+[23.207465] (-) TimerEvent: {}
+[23.308620] (-) TimerEvent: {}
+[23.409612] (-) TimerEvent: {}
+[23.510991] (-) TimerEvent: {}
+[23.613199] (-) TimerEvent: {}
+[23.715256] (-) TimerEvent: {}
+[23.817003] (-) TimerEvent: {}
+[23.918871] (-) TimerEvent: {}
+[24.020762] (-) TimerEvent: {}
+[24.123147] (-) TimerEvent: {}
+[24.225273] (-) TimerEvent: {}
+[24.326960] (-) TimerEvent: {}
+[24.428607] (-) TimerEvent: {}
+[24.530086] (-) TimerEvent: {}
+[24.631565] (-) TimerEvent: {}
+[24.733414] (-) TimerEvent: {}
+[24.835041] (-) TimerEvent: {}
+[24.936744] (-) TimerEvent: {}
+[25.038400] (-) TimerEvent: {}
+[25.140034] (-) TimerEvent: {}
+[25.241903] (-) TimerEvent: {}
+[25.343471] (-) TimerEvent: {}
+[25.446049] (-) TimerEvent: {}
+[25.547839] (-) TimerEvent: {}
+[25.649107] (-) TimerEvent: {}
+[25.750316] (-) TimerEvent: {}
+[25.851472] (-) TimerEvent: {}
+[25.952656] (-) TimerEvent: {}
+[26.053745] (-) TimerEvent: {}
+[26.154821] (-) TimerEvent: {}
+[26.255918] (-) TimerEvent: {}
+[26.357243] (-) TimerEvent: {}
+[26.458460] (-) TimerEvent: {}
+[26.559576] (-) TimerEvent: {}
+[26.660750] (-) TimerEvent: {}
+[26.761919] (-) TimerEvent: {}
+[26.863127] (-) TimerEvent: {}
+[26.964283] (-) TimerEvent: {}
+[27.065489] (-) TimerEvent: {}
+[27.166539] (-) TimerEvent: {}
+[27.268050] (-) TimerEvent: {}
+[27.369660] (-) TimerEvent: {}
+[27.471181] (-) TimerEvent: {}
+[27.572723] (-) TimerEvent: {}
+[27.674219] (-) TimerEvent: {}
+[27.775751] (-) TimerEvent: {}
+[27.877348] (-) TimerEvent: {}
+[27.980774] (-) TimerEvent: {}
+[28.207393] (-) TimerEvent: {}
+[28.309727] (-) TimerEvent: {}
+[28.411337] (-) TimerEvent: {}
+[28.513159] (-) TimerEvent: {}
+[28.614736] (-) TimerEvent: {}
+[28.716465] (-) TimerEvent: {}
+[28.817663] (-) TimerEvent: {}
+[28.918797] (-) TimerEvent: {}
+[29.019907] (-) TimerEvent: {}
+[29.121121] (-) TimerEvent: {}
+[29.222243] (-) TimerEvent: {}
+[29.323317] (-) TimerEvent: {}
+[29.424470] (-) TimerEvent: {}
+[29.525841] (-) TimerEvent: {}
+[29.626918] (-) TimerEvent: {}
+[29.728052] (-) TimerEvent: {}
+[29.829789] (-) TimerEvent: {}
+[29.931420] (-) TimerEvent: {}
+[30.033544] (-) TimerEvent: {}
+[30.134818] (-) TimerEvent: {}
+[30.236001] (-) TimerEvent: {}
+[30.338880] (-) TimerEvent: {}
+[30.440219] (-) TimerEvent: {}
+[30.541199] (-) TimerEvent: {}
+[30.642100] (-) TimerEvent: {}
+[30.743042] (-) TimerEvent: {}
+[30.844012] (-) TimerEvent: {}
+[30.944935] (-) TimerEvent: {}
+[31.045882] (-) TimerEvent: {}
+[31.146935] (-) TimerEvent: {}
+[31.247839] (-) TimerEvent: {}
+[31.349276] (-) TimerEvent: {}
+[31.450309] (-) TimerEvent: {}
+[31.551137] (-) TimerEvent: {}
+[31.652027] (-) TimerEvent: {}
+[31.753064] (-) TimerEvent: {}
+[31.853989] (-) TimerEvent: {}
+[31.954829] (-) TimerEvent: {}
+[32.055756] (-) TimerEvent: {}
+[32.156713] (-) TimerEvent: {}
+[32.257645] (-) TimerEvent: {}
+[32.358755] (-) TimerEvent: {}
+[32.459675] (-) TimerEvent: {}
+[32.560661] (-) TimerEvent: {}
+[32.661541] (-) TimerEvent: {}
+[32.762448] (-) TimerEvent: {}
+[32.863317] (-) TimerEvent: {}
+[32.964288] (-) TimerEvent: {}
+[33.065338] (-) TimerEvent: {}
+[33.207394] (-) TimerEvent: {}
+[33.308332] (-) TimerEvent: {}
+[33.380198] (dynamixel_workbench_controllers) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable dynamixel_workbench_controllers\x1b[0m\n'}
+[33.408584] (-) TimerEvent: {}
+[33.509447] (-) TimerEvent: {}
+[33.610349] (-) TimerEvent: {}
+[33.711285] (-) TimerEvent: {}
+[33.812238] (-) TimerEvent: {}
+[33.913248] (-) TimerEvent: {}
+[34.014783] (-) TimerEvent: {}
+[34.116216] (-) TimerEvent: {}
+[34.217280] (-) TimerEvent: {}
+[34.318911] (-) TimerEvent: {}
+[34.420156] (-) TimerEvent: {}
+[34.521478] (-) TimerEvent: {}
+[34.622904] (-) TimerEvent: {}
+[34.670730] (dynamixel_workbench_controllers) StdoutLine: {'line': b'[100%] Built target dynamixel_workbench_controllers\n'}
+[34.723109] (-) TimerEvent: {}
+[34.823289] (dynamixel_workbench_controllers) CommandEnded: {'returncode': 0}
+[34.827143] (-) TimerEvent: {}
+[34.933415] (-) TimerEvent: {}
+[34.978032] (dynamixel_workbench_controllers) JobProgress: {'identifier': 'dynamixel_workbench_controllers', 'progress': 'install'}
+[35.035304] (-) TimerEvent: {}
+[35.045745] (dynamixel_workbench_controllers) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers'], 'cwd': '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetsonnx'), ('SSH_CLIENT', '192.168.0.109 53303 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetsonnx'), ('OLDPWD', '/home/jetsonnx'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-449b40ce-411c-4b27-ad32-3c71021830c3.sock'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jetsonnx/robot_ws'), ('COLCON_PREFIX_PATH', '/home/jetsonnx/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetsonnx'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421621065957'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/jetsonnx/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a85adf8502.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators:/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs:/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.109 53303 192.168.0.70 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators:/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs:/home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0000')]), 'shell': False}
+[35.093395] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[35.095647] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[35.098616] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/lib/dynamixel_workbench_controllers/find_dynamixel\n'}
+[35.100001] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/lib/dynamixel_workbench_controllers/dynamixel_workbench_controllers\n'}
+[35.101878] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/ament_index/resource_index/package_run_dependencies/dynamixel_workbench_controllers\n'}
+[35.103468] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/ament_index/resource_index/parent_prefix_path/dynamixel_workbench_controllers\n'}
+[35.105124] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/environment/ament_prefix_path.sh\n'}
+[35.106752] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/environment/ament_prefix_path.dsv\n'}
+[35.108263] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/environment/path.sh\n'}
+[35.109854] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/environment/path.dsv\n'}
+[35.111352] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/local_setup.bash\n'}
+[35.112810] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/local_setup.sh\n'}
+[35.114340] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/local_setup.zsh\n'}
+[35.115768] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/local_setup.dsv\n'}
+[35.116920] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Symlinking: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/package.dsv\n'}
+[35.134967] (-) TimerEvent: {}
+[35.156717] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/ament_index/resource_index/packages/dynamixel_workbench_controllers\n'}
+[35.158236] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/cmake/dynamixel_workbench_controllersConfig.cmake\n'}
+[35.159405] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/cmake/dynamixel_workbench_controllersConfig-version.cmake\n'}
+[35.161285] (dynamixel_workbench_controllers) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/package.xml\n'}
+[35.171281] (dynamixel_workbench_controllers) CommandEnded: {'returncode': 0}
+[35.236048] (-) TimerEvent: {}
+[35.337844] (-) TimerEvent: {}
+[35.440446] (-) TimerEvent: {}
+[35.460436] (dynamixel_workbench_controllers) JobEnded: {'identifier': 'dynamixel_workbench_controllers', 'rc': 0}
+[35.464848] (-) EventReactorShutdown: {}

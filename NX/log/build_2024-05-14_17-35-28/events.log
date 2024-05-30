@@ -1,0 +1,355 @@
+[0.000000] (-) TimerEvent: {}
+[0.001468] (-) JobUnselected: {'identifier': 'dynamixel_workbench_msgs'}
+[0.002874] (dynamixel_workbench_operators) JobQueued: {'identifier': 'dynamixel_workbench_operators', 'dependencies': OrderedDict()}
+[0.004218] (dynamixel_workbench_operators) JobStarted: {'identifier': 'dynamixel_workbench_operators'}
+[0.046355] (dynamixel_workbench_operators) JobProgress: {'identifier': 'dynamixel_workbench_operators', 'progress': 'cmake'}
+[0.049173] (dynamixel_workbench_operators) Command: {'cmd': ['/usr/bin/cmake', '/home/jetsonnx/ros2_ws/src/dynamixel_workbench_operators', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators'], 'cwd': '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_operators', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetsonnx'), ('SSH_CLIENT', '192.168.0.109 62968 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetsonnx'), ('OLDPWD', '/home/jetsonnx'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-32fa124f-3239-4fa9-bf28-131c6be75c53.sock'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jetsonnx/robot_ws'), ('COLCON_PREFIX_PATH', '/home/jetsonnx/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetsonnx'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421621065957'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/jetsonnx/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-79bce65547.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_operators'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.109 62968 192.168.0.70 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0000')]), 'shell': False}
+[0.099391] (-) TimerEvent: {}
+[0.200806] (-) TimerEvent: {}
+[0.301894] (-) TimerEvent: {}
+[0.358831] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.402114] (-) TimerEvent: {}
+[0.503171] (-) TimerEvent: {}
+[0.604754] (-) TimerEvent: {}
+[0.642385] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.666535] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.704961] (-) TimerEvent: {}
+[0.806497] (-) TimerEvent: {}
+[0.908063] (-) TimerEvent: {}
+[0.986827] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.991060] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.008272] (-) TimerEvent: {}
+[1.109294] (-) TimerEvent: {}
+[1.210878] (-) TimerEvent: {}
+[1.313444] (-) TimerEvent: {}
+[1.321301] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.375795] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.377953] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.387797] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.413379] (-) TimerEvent: {}
+[1.514401] (-) TimerEvent: {}
+[1.616192] (-) TimerEvent: {}
+[1.717904] (-) TimerEvent: {}
+[1.745431] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.751651] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.818167] (-) TimerEvent: {}
+[1.920215] (-) TimerEvent: {}
+[2.021789] (-) TimerEvent: {}
+[2.116915] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.122205] (-) TimerEvent: {}
+[2.175311] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.178217] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.187614] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.222359] (-) TimerEvent: {}
+[2.284043] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.284926] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.322528] (-) TimerEvent: {}
+[2.423449] (-) TimerEvent: {}
+[2.524290] (-) TimerEvent: {}
+[2.625495] (-) TimerEvent: {}
+[2.726348] (-) TimerEvent: {}
+[2.827196] (-) TimerEvent: {}
+[2.928055] (-) TimerEvent: {}
+[3.008889] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.028329] (-) TimerEvent: {}
+[3.129319] (-) TimerEvent: {}
+[3.230326] (-) TimerEvent: {}
+[3.331228] (-) TimerEvent: {}
+[3.391878] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.431462] (-) TimerEvent: {}
+[3.532444] (-) TimerEvent: {}
+[3.580998] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.605336] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.632642] (-) TimerEvent: {}
+[3.733583] (-) TimerEvent: {}
+[3.834580] (-) TimerEvent: {}
+[3.935578] (-) TimerEvent: {}
+[4.068675] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[4.069384] (-) TimerEvent: {}
+[4.101143] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[4.169657] (-) TimerEvent: {}
+[4.270849] (-) TimerEvent: {}
+[4.371898] (-) TimerEvent: {}
+[4.394189] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.472154] (-) TimerEvent: {}
+[4.573187] (-) TimerEvent: {}
+[4.674181] (-) TimerEvent: {}
+[4.775201] (-) TimerEvent: {}
+[4.876277] (-) TimerEvent: {}
+[4.902814] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[4.911262] (dynamixel_workbench_operators) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.917963] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.976472] (-) TimerEvent: {}
+[5.078075] (-) TimerEvent: {}
+[5.179779] (-) TimerEvent: {}
+[5.275363] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.277389] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.279999] (-) TimerEvent: {}
+[5.380969] (-) TimerEvent: {}
+[5.482579] (-) TimerEvent: {}
+[5.584348] (-) TimerEvent: {}
+[5.685416] (-) TimerEvent: {}
+[5.772675] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[5.774290] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[5.785610] (-) TimerEvent: {}
+[5.886487] (-) TimerEvent: {}
+[5.987578] (-) TimerEvent: {}
+[6.088553] (-) TimerEvent: {}
+[6.189523] (-) TimerEvent: {}
+[6.290521] (-) TimerEvent: {}
+[6.354357] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[6.356253] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[6.390730] (-) TimerEvent: {}
+[6.491947] (-) TimerEvent: {}
+[6.592953] (-) TimerEvent: {}
+[6.684949] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[6.694063] (-) TimerEvent: {}
+[6.703853] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.794000] (-) TimerEvent: {}
+[6.895241] (-) TimerEvent: {}
+[6.996221] (-) TimerEvent: {}
+[7.097553] (-) TimerEvent: {}
+[7.198553] (-) TimerEvent: {}
+[7.299626] (-) TimerEvent: {}
+[7.400514] (-) TimerEvent: {}
+[7.501482] (-) TimerEvent: {}
+[7.603097] (-) TimerEvent: {}
+[7.704637] (-) TimerEvent: {}
+[7.806114] (-) TimerEvent: {}
+[7.907147] (-) TimerEvent: {}
+[8.008241] (-) TimerEvent: {}
+[8.109284] (-) TimerEvent: {}
+[8.210297] (-) TimerEvent: {}
+[8.311343] (-) TimerEvent: {}
+[8.410014] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[8.411442] (-) TimerEvent: {}
+[8.512215] (-) TimerEvent: {}
+[8.613884] (-) TimerEvent: {}
+[8.691315] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[8.714072] (-) TimerEvent: {}
+[8.815380] (-) TimerEvent: {}
+[8.916696] (-) TimerEvent: {}
+[9.017758] (-) TimerEvent: {}
+[9.197378] (-) TimerEvent: {}
+[9.298333] (-) TimerEvent: {}
+[9.399399] (-) TimerEvent: {}
+[9.500384] (-) TimerEvent: {}
+[9.590487] (dynamixel_workbench_operators) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[9.600513] (-) TimerEvent: {}
+[9.635556] (dynamixel_workbench_operators) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.636637] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/jetsonnx/ros2_ws/src/dynamixel_workbench_operators/include\n'}
+[9.637086] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.700713] (-) TimerEvent: {}
+[9.801623] (-) TimerEvent: {}
+[9.817916] (dynamixel_workbench_operators) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[9.819242] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[9.901766] (-) TimerEvent: {}
+[9.974759] (dynamixel_workbench_operators) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.001972] (-) TimerEvent: {}
+[10.103355] (-) TimerEvent: {}
+[10.162618] (dynamixel_workbench_operators) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.163544] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.203525] (-) TimerEvent: {}
+[10.304842] (-) TimerEvent: {}
+[10.308233] (dynamixel_workbench_operators) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.331508] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.369879] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Generating done\n'}
+[10.376983] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Build files have been written to: /home/jetsonnx/ros2_ws/build/dynamixel_workbench_operators\n'}
+[10.405136] (-) TimerEvent: {}
+[10.417391] (dynamixel_workbench_operators) CommandEnded: {'returncode': 0}
+[10.420334] (dynamixel_workbench_operators) JobProgress: {'identifier': 'dynamixel_workbench_operators', 'progress': 'build'}
+[10.425065] (dynamixel_workbench_operators) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_operators', '--', '-j4', '-l4'], 'cwd': '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_operators', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetsonnx'), ('SSH_CLIENT', '192.168.0.109 62968 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetsonnx'), ('OLDPWD', '/home/jetsonnx'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-32fa124f-3239-4fa9-bf28-131c6be75c53.sock'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jetsonnx/robot_ws'), ('COLCON_PREFIX_PATH', '/home/jetsonnx/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetsonnx'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421621065957'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/jetsonnx/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-79bce65547.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_operators'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.109 62968 192.168.0.70 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0000')]), 'shell': False}
+[10.505620] (-) TimerEvent: {}
+[10.600946] (dynamixel_workbench_operators) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dynamixel_workbench_operators\x1b[0m\n'}
+[10.605805] (-) TimerEvent: {}
+[10.706894] (-) TimerEvent: {}
+[10.807768] (-) TimerEvent: {}
+[10.908829] (-) TimerEvent: {}
+[11.009837] (-) TimerEvent: {}
+[11.110747] (-) TimerEvent: {}
+[11.211783] (-) TimerEvent: {}
+[11.253697] (dynamixel_workbench_operators) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_workbench_operators.dir/src/wheel_operator.cpp.o\x1b[0m\n'}
+[11.312033] (-) TimerEvent: {}
+[11.413088] (-) TimerEvent: {}
+[11.514112] (-) TimerEvent: {}
+[11.615096] (-) TimerEvent: {}
+[11.716056] (-) TimerEvent: {}
+[11.817182] (-) TimerEvent: {}
+[11.918111] (-) TimerEvent: {}
+[12.018959] (-) TimerEvent: {}
+[12.119875] (-) TimerEvent: {}
+[12.220787] (-) TimerEvent: {}
+[12.321694] (-) TimerEvent: {}
+[12.422675] (-) TimerEvent: {}
+[12.523692] (-) TimerEvent: {}
+[12.624650] (-) TimerEvent: {}
+[12.725632] (-) TimerEvent: {}
+[12.826556] (-) TimerEvent: {}
+[12.927543] (-) TimerEvent: {}
+[13.028523] (-) TimerEvent: {}
+[13.129618] (-) TimerEvent: {}
+[13.230824] (-) TimerEvent: {}
+[13.332047] (-) TimerEvent: {}
+[13.433114] (-) TimerEvent: {}
+[13.534299] (-) TimerEvent: {}
+[13.635518] (-) TimerEvent: {}
+[13.736638] (-) TimerEvent: {}
+[13.837761] (-) TimerEvent: {}
+[13.938900] (-) TimerEvent: {}
+[14.040066] (-) TimerEvent: {}
+[14.141160] (-) TimerEvent: {}
+[14.291769] (-) TimerEvent: {}
+[14.392947] (-) TimerEvent: {}
+[14.494230] (-) TimerEvent: {}
+[14.595508] (-) TimerEvent: {}
+[14.696876] (-) TimerEvent: {}
+[14.798071] (-) TimerEvent: {}
+[14.899267] (-) TimerEvent: {}
+[15.000459] (-) TimerEvent: {}
+[15.102098] (-) TimerEvent: {}
+[15.203992] (-) TimerEvent: {}
+[15.305637] (-) TimerEvent: {}
+[15.408445] (-) TimerEvent: {}
+[15.510965] (-) TimerEvent: {}
+[15.613666] (-) TimerEvent: {}
+[15.716334] (-) TimerEvent: {}
+[15.818890] (-) TimerEvent: {}
+[15.920952] (-) TimerEvent: {}
+[16.022848] (-) TimerEvent: {}
+[16.124794] (-) TimerEvent: {}
+[16.226749] (-) TimerEvent: {}
+[16.328909] (-) TimerEvent: {}
+[16.430963] (-) TimerEvent: {}
+[16.533110] (-) TimerEvent: {}
+[16.635263] (-) TimerEvent: {}
+[16.737306] (-) TimerEvent: {}
+[16.839448] (-) TimerEvent: {}
+[16.941470] (-) TimerEvent: {}
+[17.043519] (-) TimerEvent: {}
+[17.145505] (-) TimerEvent: {}
+[17.247628] (-) TimerEvent: {}
+[17.349787] (-) TimerEvent: {}
+[17.451998] (-) TimerEvent: {}
+[17.554088] (-) TimerEvent: {}
+[17.636860] (dynamixel_workbench_operators) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_operators/src/wheel_operator.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDynamixelWorkbenchOperator::DynamixelWorkbenchOperator()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.641478] (dynamixel_workbench_operators) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_operators/src/wheel_operator.cpp:146:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDynamixelWorkbenchOperator::count_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[17.645133] (dynamixel_workbench_operators) StderrLine: {'line': b'  146 |     size_t \x1b[01;35m\x1b[Kcount_\x1b[m\x1b[K;\n'}
+[17.648424] (dynamixel_workbench_operators) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[17.651576] (dynamixel_workbench_operators) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_operators/src/wheel_operator.cpp:144:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kdouble DynamixelWorkbenchOperator::lin_vel_step\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[17.654558] (-) TimerEvent: {}
+[17.655698] (dynamixel_workbench_operators) StderrLine: {'line': b'  144 |     double \x1b[01;35m\x1b[Klin_vel_step\x1b[m\x1b[K;\n'}
+[17.658712] (dynamixel_workbench_operators) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.661771] (dynamixel_workbench_operators) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_operators/src/wheel_operator.cpp:81:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[17.664965] (dynamixel_workbench_operators) StderrLine: {'line': b'   81 |     \x1b[01;35m\x1b[KDynamixelWorkbenchOperator\x1b[m\x1b[K() : Node("dynamixel_workbench_operator"), count_(0),lin_vel_step(0.01), ang_vel_step(0.1)\n'}
+[17.668198] (dynamixel_workbench_operators) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.754881] (-) TimerEvent: {}
+[17.856089] (-) TimerEvent: {}
+[17.957179] (-) TimerEvent: {}
+[18.058217] (-) TimerEvent: {}
+[18.159343] (-) TimerEvent: {}
+[18.260461] (-) TimerEvent: {}
+[18.361651] (-) TimerEvent: {}
+[18.462798] (-) TimerEvent: {}
+[18.564461] (-) TimerEvent: {}
+[18.665579] (-) TimerEvent: {}
+[18.766729] (-) TimerEvent: {}
+[18.868517] (-) TimerEvent: {}
+[18.970216] (-) TimerEvent: {}
+[19.071975] (-) TimerEvent: {}
+[19.173659] (-) TimerEvent: {}
+[19.414831] (-) TimerEvent: {}
+[19.516454] (-) TimerEvent: {}
+[19.617581] (-) TimerEvent: {}
+[19.718711] (-) TimerEvent: {}
+[19.819877] (-) TimerEvent: {}
+[19.921258] (-) TimerEvent: {}
+[20.022566] (-) TimerEvent: {}
+[20.124061] (-) TimerEvent: {}
+[20.225504] (-) TimerEvent: {}
+[20.326942] (-) TimerEvent: {}
+[20.428506] (-) TimerEvent: {}
+[20.529929] (-) TimerEvent: {}
+[20.631444] (-) TimerEvent: {}
+[20.732903] (-) TimerEvent: {}
+[20.834323] (-) TimerEvent: {}
+[20.935679] (-) TimerEvent: {}
+[21.037211] (-) TimerEvent: {}
+[21.138755] (-) TimerEvent: {}
+[21.240697] (-) TimerEvent: {}
+[21.342121] (-) TimerEvent: {}
+[21.443520] (-) TimerEvent: {}
+[21.544985] (-) TimerEvent: {}
+[21.646499] (-) TimerEvent: {}
+[21.748116] (-) TimerEvent: {}
+[21.849234] (-) TimerEvent: {}
+[21.950414] (-) TimerEvent: {}
+[22.051647] (-) TimerEvent: {}
+[22.152873] (-) TimerEvent: {}
+[22.254040] (-) TimerEvent: {}
+[22.355270] (-) TimerEvent: {}
+[22.456351] (-) TimerEvent: {}
+[22.557971] (-) TimerEvent: {}
+[22.659126] (-) TimerEvent: {}
+[22.760154] (-) TimerEvent: {}
+[22.861228] (-) TimerEvent: {}
+[22.962357] (-) TimerEvent: {}
+[23.063578] (-) TimerEvent: {}
+[23.164567] (-) TimerEvent: {}
+[23.265586] (-) TimerEvent: {}
+[23.366806] (-) TimerEvent: {}
+[23.468005] (-) TimerEvent: {}
+[23.569214] (-) TimerEvent: {}
+[23.670329] (-) TimerEvent: {}
+[23.771861] (-) TimerEvent: {}
+[23.874143] (-) TimerEvent: {}
+[23.975995] (-) TimerEvent: {}
+[24.078340] (-) TimerEvent: {}
+[24.180286] (-) TimerEvent: {}
+[24.424090] (-) TimerEvent: {}
+[24.434227] (dynamixel_workbench_operators) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable dynamixel_workbench_operators\x1b[0m\n'}
+[24.524354] (-) TimerEvent: {}
+[24.625956] (-) TimerEvent: {}
+[24.727408] (-) TimerEvent: {}
+[24.828491] (-) TimerEvent: {}
+[24.929554] (-) TimerEvent: {}
+[25.030665] (-) TimerEvent: {}
+[25.131757] (-) TimerEvent: {}
+[25.232739] (-) TimerEvent: {}
+[25.274781] (dynamixel_workbench_operators) StdoutLine: {'line': b'[100%] Built target dynamixel_workbench_operators\n'}
+[25.332972] (-) TimerEvent: {}
+[25.425553] (dynamixel_workbench_operators) CommandEnded: {'returncode': 0}
+[25.433831] (-) TimerEvent: {}
+[25.529724] (dynamixel_workbench_operators) JobProgress: {'identifier': 'dynamixel_workbench_operators', 'progress': 'install'}
+[25.539740] (-) TimerEvent: {}
+[25.589995] (dynamixel_workbench_operators) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_operators'], 'cwd': '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_operators', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetsonnx'), ('SSH_CLIENT', '192.168.0.109 62968 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetsonnx'), ('OLDPWD', '/home/jetsonnx'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-32fa124f-3239-4fa9-bf28-131c6be75c53.sock'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/jetsonnx/robot_ws'), ('COLCON_PREFIX_PATH', '/home/jetsonnx/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetsonnx'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421621065957'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetsonnx/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/jetsonnx/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-79bce65547.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_operators'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.109 62968 192.168.0.70 22'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/jetsonnx/ros2_ws/install/dynamixel_workbench_msgs:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0000')]), 'shell': False}
+[25.635404] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.637579] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[25.639212] (-) TimerEvent: {}
+[25.641929] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Symlinking: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/lib/dynamixel_workbench_operators/dynamixel_workbench_operators\n'}
+[25.679682] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Symlinking: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/ament_index/resource_index/package_run_dependencies/dynamixel_workbench_operators\n'}
+[25.717233] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Symlinking: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/ament_index/resource_index/parent_prefix_path/dynamixel_workbench_operators\n'}
+[25.739466] (-) TimerEvent: {}
+[25.756206] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Symlinking: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/environment/ament_prefix_path.sh\n'}
+[25.792922] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Symlinking: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/environment/ament_prefix_path.dsv\n'}
+[25.830207] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Symlinking: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/environment/path.sh\n'}
+[25.839624] (-) TimerEvent: {}
+[25.867257] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Symlinking: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/environment/path.dsv\n'}
+[25.924882] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Symlinking: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/local_setup.bash\n'}
+[25.939838] (-) TimerEvent: {}
+[25.968600] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Symlinking: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/local_setup.sh\n'}
+[26.011169] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Symlinking: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/local_setup.zsh\n'}
+[26.040105] (-) TimerEvent: {}
+[26.056144] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Symlinking: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/local_setup.dsv\n'}
+[26.099280] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Symlinking: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/package.dsv\n'}
+[26.140340] (-) TimerEvent: {}
+[26.145194] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Symlinking: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/ament_index/resource_index/packages/dynamixel_workbench_operators\n'}
+[26.192803] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Symlinking: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/cmake/dynamixel_workbench_operatorsConfig.cmake\n'}
+[26.236693] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Symlinking: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/cmake/dynamixel_workbench_operatorsConfig-version.cmake\n'}
+[26.241474] (-) TimerEvent: {}
+[26.281919] (dynamixel_workbench_operators) StdoutLine: {'line': b'-- Symlinking: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/package.xml\n'}
+[26.341916] (-) TimerEvent: {}
+[26.344938] (dynamixel_workbench_operators) CommandEnded: {'returncode': 0}
+[26.442713] (-) TimerEvent: {}
+[26.545242] (-) TimerEvent: {}
+[26.577728] (dynamixel_workbench_operators) JobEnded: {'identifier': 'dynamixel_workbench_operators', 'rc': 0}
+[26.583223] (-) EventReactorShutdown: {}

@@ -1,0 +1,18 @@
+[0.000000] (-) TimerEvent: {}
+[0.001560] (dynamixel_workbench_msgs) JobQueued: {'identifier': 'dynamixel_workbench_msgs', 'dependencies': OrderedDict()}
+[0.002042] (dynamixel_workbench_operators) JobQueued: {'identifier': 'dynamixel_workbench_operators', 'dependencies': OrderedDict()}
+[0.002404] (initial_pose) JobQueued: {'identifier': 'initial_pose', 'dependencies': OrderedDict()}
+[0.002762] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.002853] (turtlebot3_navigation2) JobQueued: {'identifier': 'turtlebot3_navigation2', 'dependencies': OrderedDict()}
+[0.002937] (dynamixel_workbench_msgs) JobStarted: {'identifier': 'dynamixel_workbench_msgs'}
+[0.035308] (dynamixel_workbench_operators) JobStarted: {'identifier': 'dynamixel_workbench_operators'}
+[0.061790] (initial_pose) JobStarted: {'identifier': 'initial_pose'}
+[0.088886] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.099181] (-) TimerEvent: {}
+[0.105603] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[0.108398] (turtlebot3_navigation2) JobStarted: {'identifier': 'turtlebot3_navigation2'}
+[0.135003] (dynamixel_workbench_msgs) JobEnded: {'identifier': 'dynamixel_workbench_msgs', 'rc': 'SIGINT'}
+[0.139011] (dynamixel_workbench_operators) JobEnded: {'identifier': 'dynamixel_workbench_operators', 'rc': 'SIGINT'}
+[0.142085] (initial_pose) JobEnded: {'identifier': 'initial_pose', 'rc': 'SIGINT'}
+[0.143645] (turtlebot3_navigation2) JobEnded: {'identifier': 'turtlebot3_navigation2', 'rc': 'SIGINT'}
+[0.154058] (-) EventReactorShutdown: {}

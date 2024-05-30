@@ -1,0 +1,11 @@
+[0.172s] Invoking command in '/home/jetson/ros2_ws/build/inital_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/inital_pose -- -j8 -l8
+[0.339s] [35m[1mScanning dependencies of target initialpose[0m
+[0.693s] [ 50%] [32mBuilding CXX object CMakeFiles/initialpose.dir/src/initialpose.cpp.o[0m
+[1.111s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/PoseWithCovariance.hpp: No such file or directory
+[1.112s]     9 | #include [01;31m[K"geometry_msgs/msg/PoseWithCovariance.hpp"[m[K
+[1.113s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.113s] compilation terminated.
+[1.158s] make[2]: *** [CMakeFiles/initialpose.dir/build.make:63: CMakeFiles/initialpose.dir/src/initialpose.cpp.o] Error 1
+[1.159s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/initialpose.dir/all] Error 2
+[1.160s] make: *** [Makefile:141: all] Error 2
+[1.169s] Invoked command in '/home/jetson/ros2_ws/build/inital_pose' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/inital_pose -- -j8 -l8

@@ -1,0 +1,63 @@
+[0.314s] Invoking command in '/home/jetson/ros2_ws/build/inital_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros2_ws/src/inital_pose -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros2_ws/install/inital_pose
+[0.557s] -- The C compiler identification is GNU 9.4.0
+[0.823s] -- The CXX compiler identification is GNU 9.4.0
+[0.843s] -- Check for working C compiler: /usr/bin/cc
+[1.272s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.275s] -- Detecting C compiler ABI info
+[1.671s] -- Detecting C compiler ABI info - done
+[1.722s] -- Detecting C compile features
+[1.724s] -- Detecting C compile features - done
+[1.735s] -- Check for working CXX compiler: /usr/bin/c++
+[2.067s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.071s] -- Detecting CXX compiler ABI info
+[2.454s] -- Detecting CXX compiler ABI info - done
+[2.502s] -- Detecting CXX compile features
+[2.504s] -- Detecting CXX compile features - done
+[2.515s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.598s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.598s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.202s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.444s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.858s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.896s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.756s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.001s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.729s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.310s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.318s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.326s] -- Looking for pthread.h
+[6.816s] -- Looking for pthread.h - found
+[6.818s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.288s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.289s] -- Looking for pthread_create in pthreads
+[7.855s] -- Looking for pthread_create in pthreads - not found
+[7.856s] -- Looking for pthread_create in pthread
+[8.159s] -- Looking for pthread_create in pthread - found
+[8.166s] -- Found Threads: TRUE  
+[10.170s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[10.479s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[11.048s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.053s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.054s] -- Configured cppcheck include dirs: 
+[11.054s] -- Configured cppcheck exclude dirs and/or files: 
+[11.059s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.059s] -- Configured cpplint exclude dirs and/or files: 
+[11.063s] -- Added test 'lint_cmake' to check CMake code style
+[11.068s] -- Added test 'uncrustify' to check C / C++ code style
+[11.068s] -- Configured uncrustify additional arguments: 
+[11.070s] -- Added test 'xmllint' to check XML markup files
+[11.088s] -- Configuring done
+[11.120s] -- Generating done
+[11.127s] -- Build files have been written to: /home/jetson/ros2_ws/build/inital_pose
+[11.166s] Invoked command in '/home/jetson/ros2_ws/build/inital_pose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros2_ws/src/inital_pose -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros2_ws/install/inital_pose
+[11.179s] Invoking command in '/home/jetson/ros2_ws/build/inital_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/inital_pose -- -j8 -l8
+[11.332s] [35m[1mScanning dependencies of target initialpose[0m
+[11.852s] [ 50%] [32mBuilding CXX object CMakeFiles/initialpose.dir/src/initialpose.cpp.o[0m
+[12.867s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/PoseWithCovarianceStamped.h: No such file or directory
+[12.868s]     8 | #include [01;31m[K"geometry_msgs/msg/PoseWithCovarianceStamped.h"[m[K
+[12.868s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.868s] compilation terminated.
+[13.011s] make[2]: *** [CMakeFiles/initialpose.dir/build.make:63: CMakeFiles/initialpose.dir/src/initialpose.cpp.o] Error 1
+[13.012s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/initialpose.dir/all] Error 2
+[13.013s] make: *** [Makefile:141: all] Error 2
+[13.020s] Invoked command in '/home/jetson/ros2_ws/build/inital_pose' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/inital_pose -- -j8 -l8

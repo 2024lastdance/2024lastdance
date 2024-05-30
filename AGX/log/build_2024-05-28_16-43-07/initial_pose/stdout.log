@@ -1,0 +1,23 @@
+[35m[1mScanning dependencies of target initialpose[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/initialpose.dir/src/initialpose.cpp.o[0m
+[100%] [32m[1mLinking CXX executable initialpose[0m
+[100%] Built target initialpose
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jetson/ros2_ws/install/initial_pose/lib/initial_pose/initialpose
+-- Symlinking: /home/jetson/ros2_ws/install/initial_pose/share/ament_index/resource_index/package_run_dependencies/initial_pose
+-- Symlinking: /home/jetson/ros2_ws/install/initial_pose/share/ament_index/resource_index/parent_prefix_path/initial_pose
+-- Symlinking: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/environment/ament_prefix_path.sh
+-- Symlinking: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/environment/path.sh
+-- Symlinking: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/environment/path.dsv
+-- Symlinking: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/local_setup.bash
+-- Symlinking: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/local_setup.sh
+-- Symlinking: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/local_setup.zsh
+-- Symlinking: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/local_setup.dsv
+-- Symlinking: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/package.dsv
+-- Symlinking: /home/jetson/ros2_ws/install/initial_pose/share/ament_index/resource_index/packages/initial_pose
+-- Symlinking: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/cmake/initial_poseConfig.cmake
+-- Symlinking: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/cmake/initial_poseConfig-version.cmake
+-- Symlinking: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/package.xml

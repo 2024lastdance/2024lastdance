@@ -1,0 +1,27 @@
+[0.153s] Invoking command in '/home/jetsonnx/ros2_ws/build/msg_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/msg_pub -- -j4 -l4
+[0.394s] [35m[1mScanning dependencies of target msg_pub[0m
+[0.660s] [ 50%] [32mBuilding CXX object CMakeFiles/msg_pub.dir/src/msg_publisher.cpp.o[0m
+[12.479s] [100%] [32m[1mLinking CXX executable msg_pub[0m
+[13.055s] [100%] Built target msg_pub
+[13.208s] Invoked command in '/home/jetsonnx/ros2_ws/build/msg_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/msg_pub -- -j4 -l4
+[13.331s] Invoking command in '/home/jetsonnx/ros2_ws/build/msg_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/msg_pub
+[13.363s] -- Install configuration: ""
+[13.365s] -- Execute custom install script
+[13.369s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/lib/msg_pub/msg_pub
+[13.371s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/ament_index/resource_index/package_run_dependencies/msg_pub
+[13.372s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/ament_index/resource_index/parent_prefix_path/msg_pub
+[13.373s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/environment/ament_prefix_path.sh
+[13.375s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/environment/ament_prefix_path.dsv
+[13.376s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/environment/path.sh
+[13.378s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/environment/path.dsv
+[13.379s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/local_setup.bash
+[13.380s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/local_setup.sh
+[13.381s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/local_setup.zsh
+[13.383s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/local_setup.dsv
+[13.384s] -- Symlinking: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/package.dsv
+[13.420s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/ament_index/resource_index/packages/msg_pub
+[13.422s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.423s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/cmake/msg_pubConfig.cmake
+[13.424s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/cmake/msg_pubConfig-version.cmake
+[13.425s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/package.xml
+[13.437s] Invoked command in '/home/jetsonnx/ros2_ws/build/msg_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/msg_pub

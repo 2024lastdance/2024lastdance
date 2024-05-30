@@ -1,0 +1,4 @@
+[ 10%] Built target sllidar_client
+[100%] Built target sllidar_node
+make[1]: *** [CMakeFiles/Makefile2:81: CMakeFiles/sllidar_node.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

@@ -1,0 +1,172 @@
+[0.169s] Invoking command in '/home/jetsonnx/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/rplidar_ros -- -j4 -l4
+[0.500s] [35m[1mScanning dependencies of target rplidar_composition_node[0m
+[0.548s] [35m[1mScanning dependencies of target rplidarNode[0m
+[0.877s] [ 11%] Built target rplidarNodeClient
+[1.233s] [ 16%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/src/rplidar_node.cpp.o[0m
+[1.331s] [ 22%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/src/node.cpp.o[0m
+[2.252s] In file included from [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:36[m[K:
+[2.260s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/include/rplidar_node.hpp:50:[m[K [01;35m[Kwarning: [m[K"M_PI" redefined
+[2.260s]    50 | #define M_PI 3.1415926535897932384626433832795
+[2.260s]       | 
+[2.261s] In file included from [01m[K/usr/include/c++/9/cmath:45[m[K,
+[2.261s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[2.261s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[2.262s]                  from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[2.262s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[2.263s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[2.263s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.263s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.264s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.264s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.264s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.265s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.265s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.265s]                  from [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/include/rplidar_node.hpp:34[m[K,
+[2.266s]                  from [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:36[m[K:
+[2.266s] [01m[K/usr/include/math.h:1070:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[2.266s]  1070 | # define M_PI  3.14159265358979323846 /* pi */
+[2.267s]       | 
+[2.329s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/node.cpp:51:[m[K [01;35m[Kwarning: [m[K"M_PI" redefined
+[2.329s]    51 | #define M_PI 3.1415926535897932384626433832795
+[2.330s]       | 
+[2.331s] In file included from [01m[K/usr/include/c++/9/cmath:45[m[K,
+[2.331s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/types.hpp:18[m[K,
+[2.332s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:24[m[K,
+[2.332s]                  from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[2.332s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[2.333s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[2.333s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.334s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.334s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.335s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.335s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.335s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.336s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.336s]                  from [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/node.cpp:36[m[K:
+[2.336s] [01m[K/usr/include/math.h:1070:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[2.337s]  1070 | # define M_PI  3.14159265358979323846 /* pi */
+[2.337s]       | 
+[2.338s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/node.cpp:231:14:[m[K [01;35m[Kwarning: [m[Kinvalid suffix on literal; C++11 requires a space between literal and string macro [[01;35m[K-Wliteral-suffix[m[K]
+[2.338s]   231 |     ROS_INFO([01;35m[K"[m[KRPLIDAR running on ROS package rplidar_ros. SDK Version:"RPLIDAR_SDK_VERSION"");
+[2.339s]       |              [01;35m[K^[m[K
+[9.019s] In file included from [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[9.020s]                  from [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/node.cpp:45[m[K:
+[9.021s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[9.021s]    59 |     _u8 data[[01;35m[K0[m[K];
+[9.022s]       |              [01;35m[K^[m[K
+[9.023s] In file included from [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[9.024s]                  from [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/node.cpp:45[m[K:
+[9.024s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[9.025s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[9.025s]       |                  [01;35m[K^[m[K
+[9.051s] In file included from [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[9.052s]                  from [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/include/rplidar_node.hpp:41[m[K,
+[9.052s]                  from [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:36[m[K:
+[9.053s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[9.053s]    59 |     _u8 data[[01;35m[K0[m[K];
+[9.053s]       |              [01;35m[K^[m[K
+[9.057s] In file included from [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[9.058s]                  from [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/include/rplidar_node.hpp:41[m[K,
+[9.058s]                  from [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:36[m[K:
+[9.059s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[9.059s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[9.059s]       |                  [01;35m[K^[m[K
+[9.121s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/node.cpp:[m[K In function ‘[01m[Kbool stop_motor(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[9.121s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/node.cpp:166:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.122s]   166 | bool stop_motor([01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[9.122s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.127s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/node.cpp:167:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.128s]   167 |                 [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> res[m[K)
+[9.128s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.129s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/node.cpp:[m[K In function ‘[01m[Kbool start_motor(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[9.129s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/node.cpp:178:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.129s]   178 | bool start_motor([01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[9.130s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.130s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/node.cpp:179:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.131s]   179 |                  [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> res[m[K)
+[9.131s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.236s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[9.237s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/node.cpp:356:60:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kangle_compensate_nodes[m[K’ [[01;35m[K-Wvla[m[K]
+[9.239s]   356 |                     rplidar_response_measurement_node_hq_t [01;35m[Kangle_compensate_nodes[m[K[angle_compensate_nodes_count];
+[9.239s]       |                                                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.239s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/node.cpp:360:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[9.240s]   360 |                     for( ; [01;35m[Ki < count[m[K; i++ ) {
+[9.240s]       |                            [01;35m[K~~^~~~~~~[m[K
+[9.414s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:[m[K In member function ‘[01m[Kvoid rplidar_ros::rplidar_node::stop_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)[m[K’:
+[9.415s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:245:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.416s]   245 | void rplidar_node::stop_motor([01;35m[Kconst EmptyRequest req[m[K, EmptyResponse res)
+[9.419s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.420s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:245:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.420s]   245 | void rplidar_node::stop_motor(const EmptyRequest req, [01;35m[KEmptyResponse res[m[K)
+[9.421s]       |                                                       [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[9.421s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:[m[K In member function ‘[01m[Kvoid rplidar_ros::rplidar_node::start_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)[m[K’:
+[9.421s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:256:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.422s]   256 | void rplidar_node::start_motor([01;35m[Kconst EmptyRequest req[m[K, EmptyResponse res)
+[9.424s]       |                                [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.424s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:256:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.424s]   256 | void rplidar_node::start_motor(const EmptyRequest req, [01;35m[KEmptyResponse res[m[K)
+[9.425s]       |                                                        [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[9.448s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:[m[K In member function ‘[01m[Kvoid rplidar_ros::rplidar_node::publish_loop()[m[K’:
+[9.450s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:343:46:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kangle_compensate_nodes[m[K’ [[01;35m[K-Wvla[m[K]
+[9.451s]   343 |       rplidar_response_measurement_node_hq_t [01;35m[Kangle_compensate_nodes[m[K[angle_compensate_nodes_count];
+[9.451s]       |                                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.452s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:353:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[9.452s]   353 |           for (j = 0; [01;35m[Kj < m_angle_compensate_multiple[m[K; j++) {
+[9.452s]       |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.456s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:374:44:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[9.459s]   374 |       for (size_t x = start_node, y = 0; [01;35m[Kx < end_node[m[K; ++x, ++y) {
+[9.459s]       |                                          [01;35m[K~~^~~~~~~~~~[m[K
+[9.460s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:381:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_min[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[9.460s]   381 |     float [01;35m[Kangle_min[m[K = deg_2_rad(0.0f);
+[9.460s]       |           [01;35m[K^~~~~~~~~[m[K
+[9.461s] [01m[K/home/jetsonnx/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:382:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_max[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[9.461s]   382 |     float [01;35m[Kangle_max[m[K = deg_2_rad(359.0f);
+[9.462s]       |           [01;35m[K^~~~~~~~~[m[K
+[17.731s] [ 27%] [32m[1mLinking CXX executable rplidarNode[0m
+[18.573s] [ 55%] Built target rplidarNode
+[19.168s] [ 61%] [32m[1mLinking CXX shared library librplidar_composition_node.so[0m
+[20.018s] [ 88%] Built target rplidar_composition_node
+[20.157s] [ 94%] [32m[1mLinking CXX executable rplidar_composition[0m
+[20.663s] [100%] Built target rplidar_composition
+[20.815s] Invoked command in '/home/jetsonnx/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/rplidar_ros -- -j4 -l4
+[21.048s] Invoking command in '/home/jetsonnx/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/rplidar_ros
+[21.080s] -- Install configuration: ""
+[21.083s] -- Execute custom install script
+[21.085s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNode
+[21.087s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient
+[21.089s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[21.092s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py
+[21.093s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py
+[21.094s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py
+[21.095s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py
+[21.096s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar.launch.py
+[21.097s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py
+[21.098s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py
+[21.099s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py
+[21.100s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py
+[21.101s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py
+[21.103s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz
+[21.105s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/lib/librplidar_composition_node.so
+[21.107s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/include/rplidar_node.hpp
+[21.108s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/include/visibility.h
+[21.110s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNode
+[21.112s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient
+[21.113s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[21.115s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[21.116s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[21.118s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[21.119s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[21.121s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[21.122s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[21.123s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[21.125s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[21.126s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[21.127s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[21.129s] -- Symlinking: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[21.169s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[21.170s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.172s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.173s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[21.174s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[21.175s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[21.187s] Invoked command in '/home/jetsonnx/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/rplidar_ros

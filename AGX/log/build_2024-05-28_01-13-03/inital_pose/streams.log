@@ -1,0 +1,12 @@
+[0.155s] Invoking command in '/home/jetson/ros2_ws/build/inital_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/inital_pose -- -j8 -l8
+[0.348s] [35m[1mScanning dependencies of target initialpose[0m
+[0.632s] [ 50%] [32mBuilding CXX object CMakeFiles/initialpose.dir/src/initialpose.cpp.o[0m
+[4.877s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:[m[K In member function ‘[01m[Kvoid InitalposePublisher::publish_initalpose_msg()[m[K’:
+[4.878s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:33:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose[m[K’ was not declared in this scope; did you mean ‘[01m[Kpclose[m[K’?
+[4.878s]    33 |         [01;31m[Kpose[m[K.header.frame_id=fixed_frame;
+[4.878s]       |         [01;31m[K^~~~[m[K
+[4.878s]       |         [32m[Kpclose[m[K
+[7.300s] make[2]: *** [CMakeFiles/initialpose.dir/build.make:63: CMakeFiles/initialpose.dir/src/initialpose.cpp.o] Error 1
+[7.302s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/initialpose.dir/all] Error 2
+[7.302s] make: *** [Makefile:141: all] Error 2
+[7.309s] Invoked command in '/home/jetson/ros2_ws/build/inital_pose' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/inital_pose -- -j8 -l8

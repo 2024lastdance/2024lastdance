@@ -1,0 +1,6 @@
+Invoking command in '/home/jetsonnx/ros2_ws/build/msg_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetsonnx/ros2_ws/src/msg_pub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetsonnx/ros2_ws/install/msg_pub
+Invoked command in '/home/jetsonnx/ros2_ws/build/msg_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetsonnx/ros2_ws/src/msg_pub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetsonnx/ros2_ws/install/msg_pub
+Invoking command in '/home/jetsonnx/ros2_ws/build/msg_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/msg_pub -- -j4 -l4
+Invoked command in '/home/jetsonnx/ros2_ws/build/msg_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/msg_pub -- -j4 -l4
+Invoking command in '/home/jetsonnx/ros2_ws/build/msg_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/msg_pub
+Invoked command in '/home/jetsonnx/ros2_ws/build/msg_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/msg_pub

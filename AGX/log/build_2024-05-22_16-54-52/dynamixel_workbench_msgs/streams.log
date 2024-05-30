@@ -1,0 +1,436 @@
+[0.179s] Invoking command in '/home/jetson/ros2_ws/build/dynamixel_workbench_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros2_ws/install/dynamixel_workbench_msgs
+[0.533s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.536s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.538s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.117s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.152s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.167s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.342s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.020s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.131s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[2.506s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[7.712s] -- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[7.716s] -- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[7.721s] -- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[7.736s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[9.854s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.129s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.367s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[11.508s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[11.735s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.735s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[11.736s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[12.315s] -- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[12.320s] -- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[12.570s] -- Configuring done
+[14.086s] -- Generating done
+[14.100s] -- Build files have been written to: /home/jetson/ros2_ws/build/dynamixel_workbench_msgs
+[14.131s] Invoked command in '/home/jetson/ros2_ws/build/dynamixel_workbench_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros2_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros2_ws/install/dynamixel_workbench_msgs
+[14.149s] Invoking command in '/home/jetson/ros2_ws/build/dynamixel_workbench_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/dynamixel_workbench_msgs -- -j8 -l8
+[14.481s] [  0%] Built target dynamixel_workbench_msgs__cpp
+[14.688s] [ 12%] Built target dynamixel_workbench_msgs__rosidl_generator_c
+[14.874s] [ 24%] Built target dynamixel_workbench_msgs__rosidl_typesupport_cpp
+[14.879s] [ 37%] Built target dynamixel_workbench_msgs__rosidl_typesupport_introspection_cpp
+[14.908s] [ 37%] [32m[1mLinking CXX shared library libdynamixel_workbench_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[15.057s] [ 49%] Built target dynamixel_workbench_msgs__rosidl_typesupport_c
+[15.063s] [ 61%] Built target dynamixel_workbench_msgs__rosidl_typesupport_introspection_c
+[15.448s] [ 73%] Built target dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_cpp
+[15.717s] [ 73%] [32m[1mLinking CXX shared library libdynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[16.142s] [ 85%] Built target dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c
+[16.361s] [ 85%] Built target dynamixel_workbench_msgs
+[16.586s] [ 86%] Built target dynamixel_workbench_msgs__py
+[17.027s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_workbench_msgs/libdynamixel_workbench_msgs__python.so[0m
+[17.398s] [ 97%] Built target dynamixel_workbench_msgs__python
+[17.778s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_workbench_msgs/dynamixel_workbench_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[17.779s] [ 97%] [32m[1mLinking CXX shared library rosidl_generator_py/dynamixel_workbench_msgs/dynamixel_workbench_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[17.779s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_workbench_msgs/dynamixel_workbench_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[18.218s] [ 99%] Built target dynamixel_workbench_msgs__rosidl_typesupport_introspection_c__pyext
+[18.218s] [ 99%] Built target dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c__pyext
+[18.219s] [100%] Built target dynamixel_workbench_msgs__rosidl_typesupport_c__pyext
+[18.268s] Invoked command in '/home/jetson/ros2_ws/build/dynamixel_workbench_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/dynamixel_workbench_msgs -- -j8 -l8
+[19.722s] Invoking command in '/home/jetson/ros2_ws/build/dynamixel_workbench_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/dynamixel_workbench_msgs
+[19.758s] -- Install configuration: ""
+[19.761s] -- Execute custom install script
+[19.763s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/ament_index/resource_index/rosidl_interfaces/dynamixel_workbench_msgs
+[19.804s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/ax.h
+[19.838s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ax__functions.h
+[19.874s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ax__struct.h
+[19.910s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ax__type_support.h
+[19.945s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_info__functions.h
+[19.981s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_info__struct.h
+[20.021s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_info__type_support.h
+[20.060s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_load_info__functions.h
+[20.096s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_load_info__struct.h
+[20.137s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_load_info__type_support.h
+[20.180s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state__functions.h
+[20.220s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state__struct.h
+[20.259s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state__type_support.h
+[20.301s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state_list__functions.h
+[20.340s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state_list__struct.h
+[20.380s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state_list__type_support.h
+[20.420s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ex__functions.h
+[20.460s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ex__struct.h
+[20.500s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ex__type_support.h
+[20.538s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2__functions.h
+[20.577s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2__struct.h
+[20.616s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2__type_support.h
+[20.650s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2_ext__functions.h
+[20.690s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2_ext__struct.h
+[20.730s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2_ext__type_support.h
+[20.773s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx__functions.h
+[20.812s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx__struct.h
+[21.007s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx__type_support.h
+[21.041s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx_ext__functions.h
+[21.078s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx_ext__struct.h
+[21.121s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx_ext__type_support.h
+[21.164s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro__functions.h
+[21.204s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro__struct.h
+[21.252s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro__type_support.h
+[21.290s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro_ext__functions.h
+[21.330s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro_ext__struct.h
+[21.371s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro_ext__type_support.h
+[21.409s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/rx__functions.h
+[21.449s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/rx__struct.h
+[21.492s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/rx__type_support.h
+[21.533s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xh__functions.h
+[21.574s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xh__struct.h
+[21.612s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xh__type_support.h
+[21.646s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl320__functions.h
+[21.687s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl320__struct.h
+[21.728s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl320__type_support.h
+[21.761s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl__functions.h
+[21.802s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl__struct.h
+[21.842s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl__type_support.h
+[21.881s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm__functions.h
+[21.921s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm__struct.h
+[21.960s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm__type_support.h
+[21.994s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm_ext__functions.h
+[22.033s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm_ext__struct.h
+[22.073s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm_ext__type_support.h
+[22.112s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/dynamixel_info.h
+[22.155s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/dynamixel_load_info.h
+[22.196s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/dynamixel_state.h
+[22.237s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/dynamixel_state_list.h
+[22.276s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/ex.h
+[22.309s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/mx.h
+[22.349s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/mx2.h
+[22.384s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/mx2_ext.h
+[22.429s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/mx_ext.h
+[22.469s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/pro.h
+[22.508s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/pro_ext.h
+[22.548s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/rosidl_generator_c__visibility_control.h
+[22.587s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/rx.h
+[22.626s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/xh.h
+[22.665s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/xl.h
+[22.705s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/xl320.h
+[22.744s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/xm.h
+[22.780s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/xm_ext.h
+[22.819s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/dynamixel_command__functions.h
+[22.857s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/dynamixel_command__struct.h
+[22.895s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/dynamixel_command__type_support.h
+[22.935s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/get_dynamixel_info__functions.h
+[22.972s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/get_dynamixel_info__struct.h
+[23.008s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/get_dynamixel_info__type_support.h
+[23.046s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/dynamixel_command.h
+[23.085s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/get_dynamixel_info.h
+[23.124s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/environment/library_path.sh
+[23.165s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/environment/library_path.dsv
+[23.217s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ax__rosidl_typesupport_fastrtps_c.h
+[23.254s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_info__rosidl_typesupport_fastrtps_c.h
+[23.291s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_load_info__rosidl_typesupport_fastrtps_c.h
+[23.327s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state__rosidl_typesupport_fastrtps_c.h
+[23.360s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state_list__rosidl_typesupport_fastrtps_c.h
+[23.399s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ex__rosidl_typesupport_fastrtps_c.h
+[23.438s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2__rosidl_typesupport_fastrtps_c.h
+[23.478s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2_ext__rosidl_typesupport_fastrtps_c.h
+[23.516s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx__rosidl_typesupport_fastrtps_c.h
+[23.550s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx_ext__rosidl_typesupport_fastrtps_c.h
+[23.590s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro__rosidl_typesupport_fastrtps_c.h
+[23.628s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro_ext__rosidl_typesupport_fastrtps_c.h
+[23.661s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/rx__rosidl_typesupport_fastrtps_c.h
+[23.700s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xh__rosidl_typesupport_fastrtps_c.h
+[23.733s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl320__rosidl_typesupport_fastrtps_c.h
+[23.772s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl__rosidl_typesupport_fastrtps_c.h
+[23.806s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm__rosidl_typesupport_fastrtps_c.h
+[23.845s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm_ext__rosidl_typesupport_fastrtps_c.h
+[23.886s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[23.925s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/dynamixel_command__rosidl_typesupport_fastrtps_c.h
+[23.964s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/get_dynamixel_info__rosidl_typesupport_fastrtps_c.h
+[24.003s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/libdynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c.so
+[24.058s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ax__rosidl_typesupport_fastrtps_cpp.hpp
+[24.094s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_info__rosidl_typesupport_fastrtps_cpp.hpp
+[24.132s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_load_info__rosidl_typesupport_fastrtps_cpp.hpp
+[24.169s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state__rosidl_typesupport_fastrtps_cpp.hpp
+[24.207s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state_list__rosidl_typesupport_fastrtps_cpp.hpp
+[24.245s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ex__rosidl_typesupport_fastrtps_cpp.hpp
+[24.283s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2__rosidl_typesupport_fastrtps_cpp.hpp
+[24.322s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2_ext__rosidl_typesupport_fastrtps_cpp.hpp
+[24.360s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx__rosidl_typesupport_fastrtps_cpp.hpp
+[24.393s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx_ext__rosidl_typesupport_fastrtps_cpp.hpp
+[24.434s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro__rosidl_typesupport_fastrtps_cpp.hpp
+[24.472s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro_ext__rosidl_typesupport_fastrtps_cpp.hpp
+[24.511s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/rx__rosidl_typesupport_fastrtps_cpp.hpp
+[24.548s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xh__rosidl_typesupport_fastrtps_cpp.hpp
+[24.582s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl320__rosidl_typesupport_fastrtps_cpp.hpp
+[24.621s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl__rosidl_typesupport_fastrtps_cpp.hpp
+[24.660s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm__rosidl_typesupport_fastrtps_cpp.hpp
+[24.697s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm_ext__rosidl_typesupport_fastrtps_cpp.hpp
+[24.738s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[24.776s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/dynamixel_command__rosidl_typesupport_fastrtps_cpp.hpp
+[24.810s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/get_dynamixel_info__rosidl_typesupport_fastrtps_cpp.hpp
+[24.850s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/libdynamixel_workbench_msgs__rosidl_typesupport_fastrtps_cpp.so
+[24.887s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ax__rosidl_typesupport_introspection_c.h
+[24.922s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_info__rosidl_typesupport_introspection_c.h
+[24.958s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_load_info__rosidl_typesupport_introspection_c.h
+[24.997s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state__rosidl_typesupport_introspection_c.h
+[25.038s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state_list__rosidl_typesupport_introspection_c.h
+[25.077s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ex__rosidl_typesupport_introspection_c.h
+[25.115s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2__rosidl_typesupport_introspection_c.h
+[25.152s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2_ext__rosidl_typesupport_introspection_c.h
+[25.185s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx__rosidl_typesupport_introspection_c.h
+[25.224s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx_ext__rosidl_typesupport_introspection_c.h
+[25.262s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro__rosidl_typesupport_introspection_c.h
+[25.300s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro_ext__rosidl_typesupport_introspection_c.h
+[25.337s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/rx__rosidl_typesupport_introspection_c.h
+[25.376s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xh__rosidl_typesupport_introspection_c.h
+[25.411s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl320__rosidl_typesupport_introspection_c.h
+[25.448s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl__rosidl_typesupport_introspection_c.h
+[25.483s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm__rosidl_typesupport_introspection_c.h
+[25.521s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm_ext__rosidl_typesupport_introspection_c.h
+[25.562s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[25.600s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/dynamixel_command__rosidl_typesupport_introspection_c.h
+[25.636s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/get_dynamixel_info__rosidl_typesupport_introspection_c.h
+[25.692s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/ax.hpp
+[25.728s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ax__builder.hpp
+[25.765s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ax__struct.hpp
+[25.805s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ax__traits.hpp
+[25.841s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ax__type_support.hpp
+[26.021s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_info__builder.hpp
+[26.058s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_info__struct.hpp
+[26.093s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_info__traits.hpp
+[26.137s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_info__type_support.hpp
+[26.177s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_load_info__builder.hpp
+[26.216s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_load_info__struct.hpp
+[26.250s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_load_info__traits.hpp
+[26.288s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_load_info__type_support.hpp
+[26.332s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state__builder.hpp
+[26.369s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state__struct.hpp
+[26.408s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state__traits.hpp
+[26.447s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state__type_support.hpp
+[26.485s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state_list__builder.hpp
+[26.526s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state_list__struct.hpp
+[26.564s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state_list__traits.hpp
+[26.604s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state_list__type_support.hpp
+[26.642s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ex__builder.hpp
+[26.681s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ex__struct.hpp
+[26.720s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ex__traits.hpp
+[26.758s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ex__type_support.hpp
+[26.796s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2__builder.hpp
+[26.834s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2__struct.hpp
+[26.872s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2__traits.hpp
+[26.914s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2__type_support.hpp
+[26.953s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2_ext__builder.hpp
+[26.991s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2_ext__struct.hpp
+[27.029s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2_ext__traits.hpp
+[27.069s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2_ext__type_support.hpp
+[27.109s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx__builder.hpp
+[27.147s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx__struct.hpp
+[27.185s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx__traits.hpp
+[27.227s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx__type_support.hpp
+[27.264s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx_ext__builder.hpp
+[27.297s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx_ext__struct.hpp
+[27.336s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx_ext__traits.hpp
+[27.376s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx_ext__type_support.hpp
+[27.413s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro__builder.hpp
+[27.453s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro__struct.hpp
+[27.493s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro__traits.hpp
+[27.532s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro__type_support.hpp
+[27.574s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro_ext__builder.hpp
+[27.612s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro_ext__struct.hpp
+[27.646s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro_ext__traits.hpp
+[27.684s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro_ext__type_support.hpp
+[27.717s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/rx__builder.hpp
+[27.756s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/rx__struct.hpp
+[27.790s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/rx__traits.hpp
+[27.829s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/rx__type_support.hpp
+[27.868s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xh__builder.hpp
+[27.901s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xh__struct.hpp
+[27.941s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xh__traits.hpp
+[27.981s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xh__type_support.hpp
+[28.020s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl320__builder.hpp
+[28.054s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl320__struct.hpp
+[28.093s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl320__traits.hpp
+[28.133s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl320__type_support.hpp
+[28.171s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl__builder.hpp
+[28.209s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl__struct.hpp
+[28.248s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl__traits.hpp
+[28.282s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl__type_support.hpp
+[28.322s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm__builder.hpp
+[28.360s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm__struct.hpp
+[28.394s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm__traits.hpp
+[28.434s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm__type_support.hpp
+[28.473s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm_ext__builder.hpp
+[28.514s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm_ext__struct.hpp
+[28.551s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm_ext__traits.hpp
+[28.585s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm_ext__type_support.hpp
+[28.624s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/dynamixel_info.hpp
+[28.658s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/dynamixel_load_info.hpp
+[28.695s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/dynamixel_state.hpp
+[28.732s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/dynamixel_state_list.hpp
+[28.768s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/ex.hpp
+[28.801s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/mx.hpp
+[28.841s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/mx2.hpp
+[28.880s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/mx2_ext.hpp
+[28.912s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/mx_ext.hpp
+[28.955s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/pro.hpp
+[28.992s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/pro_ext.hpp
+[29.031s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[29.071s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/rx.hpp
+[29.109s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/xh.hpp
+[29.149s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/xl.hpp
+[29.186s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/xl320.hpp
+[29.224s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/xm.hpp
+[29.258s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/xm_ext.hpp
+[29.296s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/dynamixel_command__builder.hpp
+[29.328s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/dynamixel_command__struct.hpp
+[29.370s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/dynamixel_command__traits.hpp
+[29.408s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/dynamixel_command__type_support.hpp
+[29.440s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/get_dynamixel_info__builder.hpp
+[29.479s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/get_dynamixel_info__struct.hpp
+[29.515s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/get_dynamixel_info__traits.hpp
+[29.549s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/get_dynamixel_info__type_support.hpp
+[29.587s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/dynamixel_command.hpp
+[29.621s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/get_dynamixel_info.hpp
+[29.672s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ax__rosidl_typesupport_introspection_cpp.hpp
+[29.710s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_info__rosidl_typesupport_introspection_cpp.hpp
+[29.747s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_load_info__rosidl_typesupport_introspection_cpp.hpp
+[29.780s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state__rosidl_typesupport_introspection_cpp.hpp
+[29.812s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/dynamixel_state_list__rosidl_typesupport_introspection_cpp.hpp
+[29.846s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/ex__rosidl_typesupport_introspection_cpp.hpp
+[29.881s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2__rosidl_typesupport_introspection_cpp.hpp
+[29.917s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx2_ext__rosidl_typesupport_introspection_cpp.hpp
+[29.951s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx__rosidl_typesupport_introspection_cpp.hpp
+[29.987s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/mx_ext__rosidl_typesupport_introspection_cpp.hpp
+[30.025s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro__rosidl_typesupport_introspection_cpp.hpp
+[30.064s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/pro_ext__rosidl_typesupport_introspection_cpp.hpp
+[30.097s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/rx__rosidl_typesupport_introspection_cpp.hpp
+[30.136s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xh__rosidl_typesupport_introspection_cpp.hpp
+[30.170s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl320__rosidl_typesupport_introspection_cpp.hpp
+[30.208s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xl__rosidl_typesupport_introspection_cpp.hpp
+[30.242s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm__rosidl_typesupport_introspection_cpp.hpp
+[30.281s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/msg/detail/xm_ext__rosidl_typesupport_introspection_cpp.hpp
+[30.319s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/dynamixel_command__rosidl_typesupport_introspection_cpp.hpp
+[30.358s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/include/dynamixel_workbench_msgs/srv/detail/get_dynamixel_info__rosidl_typesupport_introspection_cpp.hpp
+[30.399s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/environment/pythonpath.sh
+[30.437s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/environment/pythonpath.dsv
+[30.477s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/__init__.py
+[30.522s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/__init__.py
+[30.558s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_ax.py
+[30.596s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_dynamixel_info.py
+[30.634s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_dynamixel_load_info.py
+[30.674s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_dynamixel_state.py
+[30.712s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_dynamixel_state_list.py
+[30.746s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_ex.py
+[30.786s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_mx.py
+[30.824s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_mx2.py
+[30.862s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_mx2_ext.py
+[31.041s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_mx_ext.py
+[31.076s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_pro.py
+[31.110s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_pro_ext.py
+[31.151s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_rx.py
+[31.188s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_xh.py
+[31.227s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_xl.py
+[31.264s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_xl320.py
+[31.298s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_xm.py
+[31.336s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/msg/_xm_ext.py
+[31.377s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/srv/__init__.py
+[31.415s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/srv/_dynamixel_command.py
+[31.453s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/srv/_get_dynamixel_info.py
+[31.491s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/dynamixel_workbench_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[31.535s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/dynamixel_workbench_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[31.572s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/dynamixel_workbench_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[31.606s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/libdynamixel_workbench_msgs__python.so
+[31.647s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/AX.idl
+[31.686s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/EX.idl
+[31.727s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/MX.idl
+[31.765s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/MX2.idl
+[31.806s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/MX2Ext.idl
+[31.845s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/MXExt.idl
+[31.886s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/PRO.idl
+[31.924s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/PROExt.idl
+[31.962s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/RX.idl
+[32.002s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/XH.idl
+[32.041s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/XL.idl
+[32.080s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/XL320.idl
+[32.114s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/XM.idl
+[32.156s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/XMExt.idl
+[32.192s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/DynamixelState.idl
+[32.231s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/DynamixelStateList.idl
+[32.269s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/DynamixelInfo.idl
+[32.311s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/DynamixelLoadInfo.idl
+[32.349s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/srv/GetDynamixelInfo.idl
+[32.391s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/srv/DynamixelCommand.idl
+[32.429s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/AX.msg
+[32.471s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/EX.msg
+[32.509s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/MX.msg
+[32.549s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/MX2.msg
+[32.591s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/MX2Ext.msg
+[32.629s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/MXExt.msg
+[32.669s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/PRO.msg
+[32.710s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/PROExt.msg
+[32.748s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/RX.msg
+[32.783s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/XH.msg
+[32.821s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/XL.msg
+[32.862s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/XL320.msg
+[32.900s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/XM.msg
+[32.934s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/XMExt.msg
+[32.973s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/DynamixelState.msg
+[33.017s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/DynamixelStateList.msg
+[33.057s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/DynamixelInfo.msg
+[33.096s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/msg/DynamixelLoadInfo.msg
+[33.134s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/srv/GetDynamixelInfo.srv
+[33.174s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/srv/GetDynamixelInfo_Request.msg
+[33.213s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/srv/GetDynamixelInfo_Response.msg
+[33.254s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/srv/DynamixelCommand.srv
+[33.294s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/srv/DynamixelCommand_Request.msg
+[33.334s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/srv/DynamixelCommand_Response.msg
+[33.374s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/ament_index/resource_index/package_run_dependencies/dynamixel_workbench_msgs
+[33.416s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/ament_index/resource_index/parent_prefix_path/dynamixel_workbench_msgs
+[33.457s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/environment/ament_prefix_path.sh
+[33.497s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/environment/ament_prefix_path.dsv
+[33.537s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/environment/path.sh
+[33.576s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/environment/path.dsv
+[33.616s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/local_setup.bash
+[33.655s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/local_setup.sh
+[33.694s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/local_setup.zsh
+[33.735s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/local_setup.dsv
+[33.773s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.dsv
+[33.811s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/ament_index/resource_index/packages/dynamixel_workbench_msgs
+[33.845s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/rosidl_cmake-extras.cmake
+[33.879s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.913s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[33.947s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[33.985s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[34.023s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[34.062s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[34.101s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgsConfig.cmake
+[34.140s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgsConfig-version.cmake
+[34.177s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/package.xml
+[34.362s] -- Up-to-date: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/libdynamixel_workbench_msgs__rosidl_generator_c.so
+[34.367s] -- Up-to-date: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/libdynamixel_workbench_msgs__rosidl_typesupport_introspection_c.so
+[34.371s] -- Up-to-date: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/libdynamixel_workbench_msgs__rosidl_typesupport_c.so
+[34.375s] -- Up-to-date: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/libdynamixel_workbench_msgs__rosidl_typesupport_introspection_cpp.so
+[34.379s] -- Up-to-date: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/libdynamixel_workbench_msgs__rosidl_typesupport_cpp.so
+[34.758s] Compiling '/home/jetson/ros2_ws/install/dynamixel_workbench_msgs/lib/python3.8/site-packages/dynamixel_workbench_msgs/__init__.py'...
+[34.910s] -- Up-to-date: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs__rosidl_generator_cExport.cmake
+[34.910s] -- Installing: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs__rosidl_generator_cExport-noconfig.cmake
+[34.912s] -- Up-to-date: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs__rosidl_typesupport_introspection_cExport.cmake
+[34.913s] -- Installing: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[34.914s] -- Up-to-date: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs__rosidl_typesupport_cExport.cmake
+[34.915s] -- Installing: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[34.916s] -- Up-to-date: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs__rosidl_generator_cppExport.cmake
+[34.918s] -- Up-to-date: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[34.918s] -- Installing: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[34.920s] -- Up-to-date: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs__rosidl_typesupport_cppExport.cmake
+[34.920s] -- Installing: /home/jetson/ros2_ws/install/dynamixel_workbench_msgs/share/dynamixel_workbench_msgs/cmake/dynamixel_workbench_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[34.931s] Invoked command in '/home/jetson/ros2_ws/build/dynamixel_workbench_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/dynamixel_workbench_msgs

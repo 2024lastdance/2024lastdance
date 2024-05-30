@@ -1,0 +1,32 @@
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:45:44:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kgeometry_msgs::msg::PoseWithCovariance InitalposePublisher::pose[m[K’
+   45 |     geometry_msgs::msg::PoseWithCovariance [01;31m[Kpose[m[K;
+      |                                            [01;31m[K^~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:44:51:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kgeometry_msgs::msg::PoseWithCovarianceStamped InitalposePublisher::pose[m[K’
+   44 |     geometry_msgs::msg::PoseWithCovarianceStamped [01;36m[Kpose[m[K;
+      |                                                   [01;36m[K^~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:46:30:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kgeometry_msgs::msg::Pose InitalposePublisher::pose[m[K’
+   46 |     geometry_msgs::msg::Pose [01;31m[Kpose[m[K;
+      |                              [01;31m[K^~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:44:51:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kgeometry_msgs::msg::PoseWithCovarianceStamped InitalposePublisher::pose[m[K’
+   44 |     geometry_msgs::msg::PoseWithCovarianceStamped [01;36m[Kpose[m[K;
+      |                                                   [01;36m[K^~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:[m[K In member function ‘[01m[Kvoid InitalposePublisher::publish_initalpose_msg()[m[K’:
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:38:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose2[m[K’; did you mean ‘[01m[Kpose[m[K’?
+   38 |         pose.pose.[01;31m[Kpose2[m[K.position.x=0.0;
+      |                   [01;31m[K^~~~~[m[K
+      |                   [32m[Kpose[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:39:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose2[m[K’; did you mean ‘[01m[Kpose[m[K’?
+   39 |         pose.pose.[01;31m[Kpose2[m[K.position.y=0.0;
+      |                   [01;31m[K^~~~~[m[K
+      |                   [32m[Kpose[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:40:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose2[m[K’; did you mean ‘[01m[Kpose[m[K’?
+   40 |         pose.pose.[01;31m[Kpose2[m[K.position.z=0.0;
+      |                   [01;31m[K^~~~~[m[K
+      |                   [32m[Kpose[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:41:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose2[m[K’; did you mean ‘[01m[Kpose[m[K’?
+   41 |         pose.pose.[01;31m[Kpose2[m[K.orientation.w=0.1;
+      |                   [01;31m[K^~~~~[m[K
+      |                   [32m[Kpose[m[K
+make[2]: *** [CMakeFiles/initialpose.dir/build.make:63: CMakeFiles/initialpose.dir/src/initialpose.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/initialpose.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

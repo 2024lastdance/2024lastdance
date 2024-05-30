@@ -1,0 +1,5 @@
+[0.186s] Invoking command in '/home/jetson/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/sllidar_ros2 -- -j8 -l8
+[0.461s] [ 10%] Built target sllidar_client
+[0.492s] [100%] Built target sllidar_node
+[0.540s] make[1]: *** [CMakeFiles/Makefile2:81: CMakeFiles/sllidar_node.dir/all] Interrupt
+[0.540s] make: *** [Makefile:141: all] Interrupt

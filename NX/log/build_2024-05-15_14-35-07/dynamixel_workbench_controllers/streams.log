@@ -1,0 +1,57 @@
+[0.067s] Invoking command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers -- -j4 -l4
+[0.263s] [35m[1mScanning dependencies of target dynamixel_workbench_controllers[0m
+[0.341s] [ 50%] Built target find_dynamixel
+[0.502s] [ 58%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_controllers.dir/src/dynamixel_workbench_controllers.cpp.o[0m
+[6.042s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:[m[K In member function ‘[01m[Kvoid DynamixelController::readCallback()[m[K’:
+[6.044s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:469:50:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kdynamixel_state[m[K’ [[01;35m[K-Wvla[m[K]
+[6.044s]   469 |   dynamixel_workbench_msgs::msg::DynamixelState  [01;35m[Kdynamixel_state[m[K[dynamixel_.size()];
+[6.044s]       |                                                  [01;35m[K^~~~~~~~~~~~~~~[m[K
+[6.045s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:472:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kget_current[m[K’ [[01;35m[K-Wvla[m[K]
+[6.045s]   472 |   int32_t [01;35m[Kget_current[m[K[dynamixel_.size()];
+[6.046s]       |           [01;35m[K^~~~~~~~~~~[m[K
+[6.046s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:473:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kget_velocity[m[K’ [[01;35m[K-Wvla[m[K]
+[6.046s]   473 |   int32_t [01;35m[Kget_velocity[m[K[dynamixel_.size()];
+[6.047s]       |           [01;35m[K^~~~~~~~~~~~[m[K
+[6.048s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:474:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kget_position[m[K’ [[01;35m[K-Wvla[m[K]
+[6.048s]   474 |   int32_t [01;35m[Kget_position[m[K[dynamixel_.size()];
+[6.048s]       |           [01;35m[K^~~~~~~~~~~~[m[K
+[6.049s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:476:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kid_array[m[K’ [[01;35m[K-Wvla[m[K]
+[6.049s]   476 |   uint8_t [01;35m[Kid_array[m[K[dynamixel_.size()];
+[6.049s]       |           [01;35m[K^~~~~~~~[m[K
+[6.055s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:555:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kget_all_data[m[K’ [[01;35m[K-Wvla[m[K]
+[6.056s]   555 |       uint32_t [01;35m[Kget_all_data[m[K[length_of_data];
+[6.056s]       |                [01;35m[K^~~~~~~~~~~~[m[K
+[6.119s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:[m[K In member function ‘[01m[Kvoid DynamixelController::commandVelocityCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.120s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:647:10:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kwheel_velocity[m[K’ [[01;35m[K-Wvla[m[K]
+[6.121s]   647 |   double [01;35m[Kwheel_velocity[m[K[dynamixel_.size()];
+[6.121s]       |          [01;35m[K^~~~~~~~~~~~~~[m[K
+[6.121s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:648:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kdynamixel_velocity[m[K’ [[01;35m[K-Wvla[m[K]
+[6.122s]   648 |   int32_t [01;35m[Kdynamixel_velocity[m[K[dynamixel_.size()];
+[6.122s]       |           [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.123s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench_controllers.cpp:658:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kid_array[m[K’ [[01;35m[K-Wvla[m[K]
+[6.123s]   658 |   uint8_t [01;35m[Kid_array[m[K[dynamixel_.size()];
+[6.123s]       |           [01;35m[K^~~~~~~~[m[K
+[23.041s] [ 66%] [32m[1mLinking CXX executable dynamixel_workbench_controllers[0m
+[24.279s] [100%] Built target dynamixel_workbench_controllers
+[24.432s] Invoked command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers -- -j4 -l4
+[24.695s] Invoking command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers
+[24.726s] -- Install configuration: ""
+[24.728s] -- Execute custom install script
+[24.731s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/lib/dynamixel_workbench_controllers/find_dynamixel
+[24.733s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/lib/dynamixel_workbench_controllers/dynamixel_workbench_controllers
+[24.734s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/ament_index/resource_index/package_run_dependencies/dynamixel_workbench_controllers
+[24.736s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/ament_index/resource_index/parent_prefix_path/dynamixel_workbench_controllers
+[24.738s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/environment/ament_prefix_path.sh
+[24.739s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/environment/ament_prefix_path.dsv
+[24.741s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/environment/path.sh
+[24.743s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/environment/path.dsv
+[24.745s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/local_setup.bash
+[24.746s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/local_setup.sh
+[24.748s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/local_setup.zsh
+[24.749s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/local_setup.dsv
+[24.751s] -- Symlinking: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/package.dsv
+[24.790s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/ament_index/resource_index/packages/dynamixel_workbench_controllers
+[24.791s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/cmake/dynamixel_workbench_controllersConfig.cmake
+[24.792s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/cmake/dynamixel_workbench_controllersConfig-version.cmake
+[24.793s] -- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/dynamixel_workbench_controllers/share/dynamixel_workbench_controllers/package.xml
+[24.811s] Invoked command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers

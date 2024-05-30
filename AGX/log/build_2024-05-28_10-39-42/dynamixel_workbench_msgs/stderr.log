@@ -1,0 +1,9 @@
+make[1]: *** wait: No child processes.  Stop.
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** wait: No child processes.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:442: CMakeFiles/dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:497: CMakeFiles/dynamixel_workbench_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:469: CMakeFiles/dynamixel_workbench_msgs__rosidl_typesupport_introspection_c.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/dynamixel_workbench_msgs__rosidl_typesupport_cpp.dir/all] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:415: CMakeFiles/dynamixel_workbench_msgs__rosidl_typesupport_c.dir/all] Error 2
+make: *** [Makefile:141: all] Interrupt

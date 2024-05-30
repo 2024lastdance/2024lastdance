@@ -1,0 +1,7 @@
+[35m[1mScanning dependencies of target find_dynamixel[0m
+[35m[1mScanning dependencies of target dynamixel_workbench_controllers[0m
+[  8%] [32mBuilding CXX object CMakeFiles/find_dynamixel.dir/src/dynamixel_driver.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/find_dynamixel.dir/src/dynamixel_item.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_controllers.dir/src/dynamixel_driver.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/find_dynamixel.dir/src/dynamixel_tool.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_controllers.dir/src/dynamixel_item.cpp.o[0m

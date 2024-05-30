@@ -1,0 +1,22 @@
+[0.186s] Invoking command in '/home/jetson/ros2_ws/build/inital_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/inital_pose -- -j8 -l8
+[0.349s] [35m[1mScanning dependencies of target initialpose[0m
+[0.660s] [ 50%] [32mBuilding CXX object CMakeFiles/initialpose.dir/src/initialpose.cpp.o[0m
+[5.190s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:16:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_with_covariance_stamped[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+[5.190s]    16 | geometry_msgs::[01;31m[Kpose_with_covariance_stamped[m[K pose;
+[5.191s]       |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.191s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:17:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_with_covariance[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+[5.191s]    17 | geometry_msgs::[01;31m[Kpose_with_covariance[m[K pose1;
+[5.191s]       |                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.192s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:18:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+[5.192s]    18 | geometry_msgs::[01;31m[Kpose[m[K pose2;
+[5.192s]       |                [01;31m[K^~~~[m[K
+[5.192s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:19:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+[5.193s]    19 | geometry_msgs::[01;31m[Kpoint[m[K position;
+[5.193s]       |                [01;31m[K^~~~~[m[K
+[5.193s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:20:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kquaternion[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+[5.193s]    20 | geometry_msgs::[01;31m[Kquaternion[m[K orientation
+[5.194s]       |                [01;31m[K^~~~~~~~~~[m[K
+[6.512s] make[2]: *** [CMakeFiles/initialpose.dir/build.make:63: CMakeFiles/initialpose.dir/src/initialpose.cpp.o] Error 1
+[6.514s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/initialpose.dir/all] Error 2
+[6.515s] make: *** [Makefile:141: all] Error 2
+[6.526s] Invoked command in '/home/jetson/ros2_ws/build/inital_pose' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/inital_pose -- -j8 -l8

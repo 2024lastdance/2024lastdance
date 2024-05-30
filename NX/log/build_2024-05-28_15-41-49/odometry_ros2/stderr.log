@@ -1,0 +1,4 @@
+[01m[K/home/jetsonnx/ros2_ws/src/odometry_ros2/src/odometry.cpp:[m[K In member function ‘[01m[Kbool robotis::turtlebot3::Odometry::calculate_odometry(const rclcpp::Duration&)[m[K’:
+[01m[K/home/jetsonnx/ros2_ws/src/odometry_ros2/src/odometry.cpp:244:17:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Klast_theta[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  244 |   static double [01;35m[Klast_theta[m[K = 0.0;
+      |                 [01;35m[K^~~~~~~~~~[m[K

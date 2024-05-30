@@ -1,0 +1,16 @@
+/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/nav2_launch.py
+/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/ament_index/resource_index/package_run_dependencies/turtlebot3_bringup
+/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/ament_index/resource_index/parent_prefix_path/turtlebot3_bringup
+/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.sh
+/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.dsv
+/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.sh
+/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.dsv
+/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.bash
+/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.sh
+/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.zsh
+/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.dsv
+/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.dsv
+/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/ament_index/resource_index/packages/turtlebot3_bringup
+/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig.cmake
+/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig-version.cmake
+/home/jetsonnx/ros2_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.xml

@@ -1,0 +1,15 @@
+[0.180s] Invoking command in '/home/jetson/ros2_ws/build/dynamixel_workbench_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/dynamixel_workbench_msgs -- -j8 -l8
+[0.431s] [  0%] Built target dynamixel_workbench_msgs__cpp
+[0.460s] [ 12%] Built target dynamixel_workbench_msgs__rosidl_generator_c
+[0.606s] [ 31%] Built target dynamixel_workbench_msgs__rosidl_typesupport_introspection_cpp
+[0.606s] [ 37%] Built target dynamixel_workbench_msgs__rosidl_typesupport_c
+[0.629s] [ 49%] Built target dynamixel_workbench_msgs__rosidl_typesupport_cpp
+[0.683s] [ 61%] Built target dynamixel_workbench_msgs__rosidl_typesupport_introspection_c
+[0.694s] [ 73%] Built target dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_cpp
+[0.834s] [ 85%] Built target dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c
+[0.925s] [ 85%] Built target dynamixel_workbench_msgs
+[1.032s] [ 86%] Built target dynamixel_workbench_msgs__py
+[1.174s] [ 97%] Built target dynamixel_workbench_msgs__python
+[1.281s] [ 98%] Built target dynamixel_workbench_msgs__rosidl_typesupport_c__pyext
+[1.282s] [100%] Built target dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.283s] [100%] Built target dynamixel_workbench_msgs__rosidl_typesupport_introspection_c__pyext

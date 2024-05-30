@@ -1,0 +1,23 @@
+[0.147s] Invoking command in '/home/jetson/ros2_ws/build/dynamixel_workbench_operators': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/dynamixel_workbench_operators -- -j8 -l8
+[0.398s] [100%] Built target dynamixel_workbench_operators
+[0.453s] Invoked command in '/home/jetson/ros2_ws/build/dynamixel_workbench_operators' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/dynamixel_workbench_operators -- -j8 -l8
+[0.590s] Invoking command in '/home/jetson/ros2_ws/build/dynamixel_workbench_operators': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/dynamixel_workbench_operators
+[0.610s] -- Install configuration: ""
+[0.613s] -- Execute custom install script
+[0.615s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/lib/dynamixel_workbench_operators/dynamixel_workbench_operators
+[0.616s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/ament_index/resource_index/package_run_dependencies/dynamixel_workbench_operators
+[0.618s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/ament_index/resource_index/parent_prefix_path/dynamixel_workbench_operators
+[0.619s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/environment/ament_prefix_path.sh
+[0.621s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/environment/ament_prefix_path.dsv
+[0.622s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/environment/path.sh
+[0.624s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/environment/path.dsv
+[0.625s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/local_setup.bash
+[0.627s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/local_setup.sh
+[0.628s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/local_setup.zsh
+[0.630s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/local_setup.dsv
+[0.631s] -- Symlinking: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/package.dsv
+[0.667s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/ament_index/resource_index/packages/dynamixel_workbench_operators
+[0.670s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/cmake/dynamixel_workbench_operatorsConfig.cmake
+[0.670s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/cmake/dynamixel_workbench_operatorsConfig-version.cmake
+[0.670s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/dynamixel_workbench_operators/share/dynamixel_workbench_operators/package.xml
+[0.714s] Invoked command in '/home/jetson/ros2_ws/build/dynamixel_workbench_operators' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/dynamixel_workbench_operators

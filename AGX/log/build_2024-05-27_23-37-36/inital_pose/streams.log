@@ -1,0 +1,10 @@
+[0.184s] Invoking command in '/home/jetson/ros2_ws/build/inital_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/inital_pose -- -j8 -l8
+[0.353s] [35m[1mScanning dependencies of target initialpose[0m
+[0.617s] [ 50%] [32mBuilding CXX object CMakeFiles/initialpose.dir/src/initialpose.cpp.o[0m
+[4.979s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:23:1:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kvoid[m[K’
+[4.980s]    23 | [01;31m[Kvoid[m[K main(){
+[4.980s]       | [01;31m[K^~~~[m[K
+[6.200s] make[2]: *** [CMakeFiles/initialpose.dir/build.make:63: CMakeFiles/initialpose.dir/src/initialpose.cpp.o] Error 1
+[6.201s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/initialpose.dir/all] Error 2
+[6.201s] make: *** [Makefile:141: all] Error 2
+[6.210s] Invoked command in '/home/jetson/ros2_ws/build/inital_pose' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/inital_pose -- -j8 -l8

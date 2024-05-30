@@ -1,0 +1,35 @@
+[0.169s] Invoking command in '/home/jetson/ros2_ws/build/inital_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/inital_pose -- -j8 -l8
+[0.344s] [35m[1mScanning dependencies of target initialpose[0m
+[0.600s] [ 50%] [32mBuilding CXX object CMakeFiles/initialpose.dir/src/initialpose.cpp.o[0m
+[4.851s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:70:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.852s]    70 |     geometry_msgs::msg::Quaternion [01;31m[Korientation[m[K
+[4.853s]       |                                    [01;31m[K^~~~~~~~~~~[m[K
+[4.853s]       |                                               [32m[K;[m[K
+[4.853s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:71:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[4.853s]    71 | }
+[4.854s]       |  [01;31m[K^[m[K
+[4.854s]       |  [32m[K;[m[K
+[4.854s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:66:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kgeometry_msgs[m[K’
+[4.855s]    66 |     [01;31m[Kgeometry_msgs[m[K::msg::PoseWithCovarianceStamped pose;
+[4.855s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[4.855s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:[m[K In constructor ‘[01m[KInitalposePublisher::InitalposePublisher()[m[K’:
+[4.855s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:50:36:[m[K [01;31m[Kerror: [m[K‘[01m[KQos[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[KQoS[m[K’?
+[4.856s]    50 |         auto qos_profile = rclcpp::[01;31m[KQos[m[K(rclcpp::KeepLast(10));
+[4.856s]       |                                    [01;31m[K^~~[m[K
+[4.856s]       |                                    [32m[KQoS[m[K
+[4.859s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:51:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitalpose_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[KInitalposePublisher[m[K’?
+[4.860s]    51 |         [01;31m[Kinitalpose_publisher_[m[K = this->create_publisher<geometry_msgs::msg::PoseWithCovarianceStamped>("initalpose",qos_profile);
+[4.860s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.860s]       |         [32m[KInitalposePublisher[m[K
+[4.864s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:[m[K In member function ‘[01m[Kvoid InitalposePublisher::publish_initalpose_msg()[m[K’:
+[4.865s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:56:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose[m[K’ was not declared in this scope; did you mean ‘[01m[Kpose1[m[K’?
+[4.865s]    56 |         [01;31m[Kpose[m[K.header.frame_id=fixed_frame;
+[4.865s]       |         [01;31m[K^~~~[m[K
+[4.865s]       |         [32m[Kpose1[m[K
+[4.866s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:57:41:[m[K [01;31m[Kerror: [m[K‘[01m[Know[m[K’ is not a member of ‘[01m[Krclcpp::Time[m[K’
+[4.866s]    57 |         pose.header.stamp=rclcpp::Time::[01;31m[Know[m[K();
+[4.866s]       |                                         [01;31m[K^~~[m[K
+[6.109s] make[2]: *** [CMakeFiles/initialpose.dir/build.make:63: CMakeFiles/initialpose.dir/src/initialpose.cpp.o] Error 1
+[6.109s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/initialpose.dir/all] Error 2
+[6.110s] make: *** [Makefile:141: all] Error 2
+[6.117s] Invoked command in '/home/jetson/ros2_ws/build/inital_pose' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/inital_pose -- -j8 -l8

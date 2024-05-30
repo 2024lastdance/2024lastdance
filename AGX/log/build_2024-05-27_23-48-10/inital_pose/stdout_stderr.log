@@ -1,0 +1,25 @@
+[35m[1mScanning dependencies of target initialpose[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/initialpose.dir/src/initialpose.cpp.o[0m
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:69:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   69 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:63:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kgeometry_msgs[m[K’
+   63 |     [01;31m[Kgeometry_msgs[m[K::msg::PoseWithCovarianceStamped pose;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:[m[K In constructor ‘[01m[KInitalposePublisher::InitalposePublisher()[m[K’:
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:47:36:[m[K [01;31m[Kerror: [m[K‘[01m[KQos[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[KQoS[m[K’?
+   47 |         auto qos_profile = rclcpp::[01;31m[KQos[m[K(rclcpp::KeepLast(10));
+      |                                    [01;31m[K^~~[m[K
+      |                                    [32m[KQoS[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:[m[K In member function ‘[01m[Kvoid InitalposePublisher::publish_initalpose_msg()[m[K’:
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:53:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose[m[K’ was not declared in this scope; did you mean ‘[01m[Kpose1[m[K’?
+   53 |         [01;31m[Kpose[m[K.header.frame_id=fixed_frame;
+      |         [01;31m[K^~~~[m[K
+      |         [32m[Kpose1[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:54:41:[m[K [01;31m[Kerror: [m[K‘[01m[Know[m[K’ is not a member of ‘[01m[Krclcpp::Time[m[K’
+   54 |         pose.header.stamp=rclcpp::Time::[01;31m[Know[m[K();
+      |                                         [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/initialpose.dir/build.make:63: CMakeFiles/initialpose.dir/src/initialpose.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/initialpose.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

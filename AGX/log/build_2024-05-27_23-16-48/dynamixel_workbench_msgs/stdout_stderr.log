@@ -1,0 +1,14 @@
+[  0%] Built target dynamixel_workbench_msgs__cpp
+[ 12%] Built target dynamixel_workbench_msgs__rosidl_generator_c
+[ 24%] Built target dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_cpp
+[ 36%] Built target dynamixel_workbench_msgs__rosidl_typesupport_cpp
+[ 52%] Built target dynamixel_workbench_msgs__rosidl_typesupport_introspection_cpp
+[ 61%] Built target dynamixel_workbench_msgs__rosidl_typesupport_introspection_c
+[ 73%] Built target dynamixel_workbench_msgs__rosidl_typesupport_c
+[ 85%] Built target dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c
+[ 85%] Built target dynamixel_workbench_msgs
+[ 86%] Built target dynamixel_workbench_msgs__py
+[ 97%] Built target dynamixel_workbench_msgs__python
+[ 98%] Built target dynamixel_workbench_msgs__rosidl_typesupport_c__pyext
+[ 99%] Built target dynamixel_workbench_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target dynamixel_workbench_msgs__rosidl_typesupport_fastrtps_c__pyext

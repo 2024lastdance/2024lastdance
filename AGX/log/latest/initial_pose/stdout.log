@@ -1,0 +1,20 @@
+[100%] Built target initialpose
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/initial_pose/lib/initial_pose/initialpose
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/initial_pose/share/ament_index/resource_index/package_run_dependencies/initial_pose
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/initial_pose/share/ament_index/resource_index/parent_prefix_path/initial_pose
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/environment/path.sh
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/environment/path.dsv
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/local_setup.bash
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/local_setup.sh
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/local_setup.zsh
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/local_setup.dsv
+-- Symlinking: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/package.dsv
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/initial_pose/share/ament_index/resource_index/packages/initial_pose
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/cmake/initial_poseConfig.cmake
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/cmake/initial_poseConfig-version.cmake
+-- Up-to-date symlink: /home/jetson/ros2_ws/install/initial_pose/share/initial_pose/package.xml

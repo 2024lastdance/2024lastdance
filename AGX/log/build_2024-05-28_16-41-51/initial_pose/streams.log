@@ -1,0 +1,11 @@
+[0.170s] Invoking command in '/home/jetson/ros2_ws/build/initial_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/initial_pose -- -j8 -l8
+[0.363s] [35m[1mScanning dependencies of target initialpose[0m
+[0.686s] [ 50%] [32mBuilding CXX object CMakeFiles/initialpose.dir/src/initialpose.cpp.o[0m
+[5.087s] [01m[K/home/jetson/ros2_ws/src/initial_pose/src/initialpose.cpp:[m[K In member function ‘[01m[Kvoid InitalposePublisher::subscribe_topic_message(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[5.087s] [01m[K/home/jetson/ros2_ws/src/initial_pose/src/initialpose.cpp:37:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[5.088s]    37 |         str=msg.[01;31m[Kdata[m[K;
+[5.088s]       |                 [01;31m[K^~~~[m[K
+[9.576s] make[2]: *** [CMakeFiles/initialpose.dir/build.make:63: CMakeFiles/initialpose.dir/src/initialpose.cpp.o] Error 1
+[9.577s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/initialpose.dir/all] Error 2
+[9.578s] make: *** [Makefile:141: all] Error 2
+[9.586s] Invoked command in '/home/jetson/ros2_ws/build/initial_pose' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/initial_pose -- -j8 -l8

@@ -1,0 +1,13 @@
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:57:26:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kstatic[m[K’
+   57 |     InitalposePublisher::[01;31m[Kstatic[m[K int count=0;
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:[m[K In member function ‘[01m[Kvoid InitalposePublisher::publish_initalpose_msg()[m[K’:
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:44:17:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[K<unresolved overloaded function type>[m[K’ and ‘[01m[Kint[m[K’ to binary ‘[01m[Koperator==[m[K’
+   44 |         if([01;31m[Kcount==0[m[K){
+      |            [01;31m[K~~~~~^~~[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:51:14:[m[K [01;31m[Kerror: [m[Kno post-increment operator for type
+   51 |         count[01;31m[K++[m[K;
+      |              [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/initialpose.dir/build.make:63: CMakeFiles/initialpose.dir/src/initialpose.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/initialpose.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

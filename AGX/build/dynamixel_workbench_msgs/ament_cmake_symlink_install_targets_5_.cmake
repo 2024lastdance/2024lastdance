@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jetson/ros2_ws/build/dynamixel_workbench_msgs/rosidl_generator_py/dynamixel_workbench_msgs/libdynamixel_workbench_msgs__python.so" "TARGETS" "dynamixel_workbench_msgs__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

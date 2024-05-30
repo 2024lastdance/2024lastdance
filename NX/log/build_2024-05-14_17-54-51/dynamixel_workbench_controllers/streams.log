@@ -1,0 +1,52 @@
+[0.068s] Invoking command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers -- -j4 -l4
+[0.266s] [35m[1mScanning dependencies of target find_dynamixel[0m
+[0.272s] [35m[1mScanning dependencies of target dynamixel_workbench_controllers[0m
+[0.447s] [  8%] [32mBuilding CXX object CMakeFiles/find_dynamixel.dir/src/dynamixel_driver.cpp.o[0m
+[0.470s] [ 16%] [32mBuilding CXX object CMakeFiles/find_dynamixel.dir/src/dynamixel_tool.cpp.o[0m
+[0.482s] [ 25%] [32mBuilding CXX object CMakeFiles/find_dynamixel.dir/src/dynamixel_workbench.cpp.o[0m
+[0.494s] [ 33%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_controllers.dir/src/dynamixel_driver.cpp.o[0m
+[0.553s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_tool.cpp:19:10:[m[K [01;31m[Kfatal error: [m[K/home/ncslab/ros2_ws/src/dynamixel_workbench_controllers/include/dynamixel_workbench_controllers/dynamixel_tool.h: No such file or directory
+[0.568s]    19 | #include [01;31m[K"/home/ncslab/ros2_ws/src/dynamixel_workbench_controllers/include/dynamixel_workbench_controllers/dynamixel_tool.h"[m[K
+[0.568s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.569s] compilation terminated.
+[0.599s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench.cpp:19:10:[m[K [01;31m[Kfatal error: [m[K/home/ncslab/ros2_ws/src/dynamixel_workbench_controllers/include/dynamixel_workbench_controllers/dynamixel_workbench.h: No such file or directory
+[0.600s]    19 | #include [01;31m[K"/home/ncslab/ros2_ws/src/dynamixel_workbench_controllers/include/dynamixel_workbench_controllers/dynamixel_workbench.h"[m[K
+[0.601s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.601s] compilation terminated.
+[0.713s] make[2]: *** [CMakeFiles/find_dynamixel.dir/build.make:102: CMakeFiles/find_dynamixel.dir/src/dynamixel_tool.cpp.o] Error 1
+[0.713s] make[2]: *** Waiting for unfinished jobs....
+[0.715s] make[2]: *** [CMakeFiles/find_dynamixel.dir/build.make:115: CMakeFiles/find_dynamixel.dir/src/dynamixel_workbench.cpp.o] Error 1
+[0.756s] [ 41%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_controllers.dir/src/dynamixel_tool.cpp.o[0m
+[0.793s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_controllers.dir/src/dynamixel_workbench.cpp.o[0m
+[0.816s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_tool.cpp:19:10:[m[K [01;31m[Kfatal error: [m[K/home/ncslab/ros2_ws/src/dynamixel_workbench_controllers/include/dynamixel_workbench_controllers/dynamixel_tool.h: No such file or directory
+[0.816s]    19 | #include [01;31m[K"/home/ncslab/ros2_ws/src/dynamixel_workbench_controllers/include/dynamixel_workbench_controllers/dynamixel_tool.h"[m[K
+[0.816s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.817s] compilation terminated.
+[0.843s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_workbench.cpp:19:10:[m[K [01;31m[Kfatal error: [m[K/home/ncslab/ros2_ws/src/dynamixel_workbench_controllers/include/dynamixel_workbench_controllers/dynamixel_workbench.h: No such file or directory
+[0.843s]    19 | #include [01;31m[K"/home/ncslab/ros2_ws/src/dynamixel_workbench_controllers/include/dynamixel_workbench_controllers/dynamixel_workbench.h"[m[K
+[0.844s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.844s] compilation terminated.
+[0.966s] make[2]: *** [CMakeFiles/dynamixel_workbench_controllers.dir/build.make:102: CMakeFiles/dynamixel_workbench_controllers.dir/src/dynamixel_tool.cpp.o] Error 1
+[0.967s] make[2]: *** Waiting for unfinished jobs....
+[0.971s] make[2]: *** [CMakeFiles/dynamixel_workbench_controllers.dir/build.make:115: CMakeFiles/dynamixel_workbench_controllers.dir/src/dynamixel_workbench.cpp.o] Error 1
+[1.422s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_driver.cpp:[m[K In member function ‘[01m[Kbool DynamixelDriver::readRegister(uint8_t, uint16_t, uint16_t, uint32_t*, const char**)[m[K’:
+[1.424s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_driver.cpp:789:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kdata_read[m[K’ [[01;35m[K-Wvla[m[K]
+[1.425s]   789 |   uint8_t [01;35m[Kdata_read[m[K[length];
+[1.425s]       |           [01;35m[K^~~~~~~~~[m[K
+[1.433s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_driver.cpp:[m[K In member function ‘[01m[Kbool DynamixelDriver::syncWrite(uint8_t, uint8_t*, uint8_t, int32_t*, uint8_t, const char**)[m[K’:
+[1.434s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_driver.cpp:1026:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kmulti_parameter[m[K’ [[01;35m[K-Wvla[m[K]
+[1.434s]  1026 |   uint8_t [01;35m[Kmulti_parameter[m[K[4*data_num_for_each_id];
+[1.437s]       |           [01;35m[K^~~~~~~~~~~~~~~[m[K
+[1.630s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_driver.cpp:[m[K In member function ‘[01m[Kbool DynamixelDriver::readRegister(uint8_t, uint16_t, uint16_t, uint32_t*, const char**)[m[K’:
+[1.631s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_driver.cpp:789:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kdata_read[m[K’ [[01;35m[K-Wvla[m[K]
+[1.631s]   789 |   uint8_t [01;35m[Kdata_read[m[K[length];
+[1.632s]       |           [01;35m[K^~~~~~~~~[m[K
+[1.642s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_driver.cpp:[m[K In member function ‘[01m[Kbool DynamixelDriver::syncWrite(uint8_t, uint8_t*, uint8_t, int32_t*, uint8_t, const char**)[m[K’:
+[1.643s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_driver.cpp:1026:11:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kmulti_parameter[m[K’ [[01;35m[K-Wvla[m[K]
+[1.644s]  1026 |   uint8_t [01;35m[Kmulti_parameter[m[K[4*data_num_for_each_id];
+[1.644s]       |           [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.050s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/find_dynamixel.dir/all] Error 2
+[2.050s] make[1]: *** Waiting for unfinished jobs....
+[2.379s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/dynamixel_workbench_controllers.dir/all] Error 2
+[2.387s] make: *** [Makefile:141: all] Error 2
+[2.400s] Invoked command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers -- -j4 -l4

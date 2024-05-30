@@ -1,0 +1,10 @@
+[0.184s] Invoking command in '/home/jetson/ros2_ws/build/inital_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/inital_pose -- -j8 -l8
+[0.394s] [35m[1mScanning dependencies of target initialpose[0m
+[0.685s] [ 50%] [32mBuilding CXX object CMakeFiles/initialpose.dir/src/initialpose.cpp.o[0m
+[5.337s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:57:16:[m[K [01;31m[Kerror: [m[KISO C++ forbids in-class initialization of non-const static member ‘[01m[KInitalposePublisher::count[m[K’
+[5.338s]    57 |     static int [01;31m[Kcount[m[K=0;
+[5.338s]       |                [01;31m[K^~~~~[m[K
+[8.141s] make[2]: *** [CMakeFiles/initialpose.dir/build.make:63: CMakeFiles/initialpose.dir/src/initialpose.cpp.o] Error 1
+[8.142s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/initialpose.dir/all] Error 2
+[8.143s] make: *** [Makefile:141: all] Error 2
+[8.153s] Invoked command in '/home/jetson/ros2_ws/build/inital_pose' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/inital_pose -- -j8 -l8

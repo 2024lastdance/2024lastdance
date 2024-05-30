@@ -1,0 +1,23 @@
+[35m[1mScanning dependencies of target msg_pub[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/msg_pub.dir/src/msg_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable msg_pub[0m
+[100%] Built target msg_pub
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/lib/msg_pub/msg_pub
+-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/ament_index/resource_index/package_run_dependencies/msg_pub
+-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/ament_index/resource_index/parent_prefix_path/msg_pub
+-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/environment/path.sh
+-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/environment/path.dsv
+-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/local_setup.bash
+-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/local_setup.sh
+-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/local_setup.zsh
+-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/local_setup.dsv
+-- Symlinking: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/package.dsv
+-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/ament_index/resource_index/packages/msg_pub
+-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/cmake/msg_pubConfig.cmake
+-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/cmake/msg_pubConfig-version.cmake
+-- Up-to-date symlink: /home/jetsonnx/ros2_ws/install/msg_pub/share/msg_pub/package.xml

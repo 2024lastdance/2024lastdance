@@ -1,0 +1,53 @@
+[0.189s] Invoking command in '/home/jetson/ros2_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros2_ws/src/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros2_ws/install/turtlebot3_navigation2
+[2.153s] -- The C compiler identification is GNU 9.4.0
+[3.051s] -- The CXX compiler identification is GNU 9.4.0
+[3.217s] -- Check for working C compiler: /usr/bin/cc
+[3.759s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.904s] -- Detecting C compiler ABI info
+[4.524s] -- Detecting C compiler ABI info - done
+[4.738s] -- Detecting C compile features
+[4.740s] -- Detecting C compile features - done
+[4.752s] -- Check for working CXX compiler: /usr/bin/c++
+[5.089s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.095s] -- Detecting CXX compiler ABI info
+[5.611s] -- Detecting CXX compiler ABI info - done
+[5.677s] -- Detecting CXX compile features
+[5.679s] -- Detecting CXX compile features - done
+[5.859s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.119s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.120s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.161s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.660s] -- Configuring done
+[7.668s] -- Generating done
+[7.672s] -- Build files have been written to: /home/jetson/ros2_ws/build/turtlebot3_navigation2
+[7.697s] Invoked command in '/home/jetson/ros2_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros2_ws/src/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros2_ws/install/turtlebot3_navigation2
+[7.707s] Invoking command in '/home/jetson/ros2_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/turtlebot3_navigation2 -- -j8 -l8
+[7.859s] Invoked command in '/home/jetson/ros2_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/turtlebot3_navigation2 -- -j8 -l8
+[8.009s] Invoking command in '/home/jetson/ros2_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/turtlebot3_navigation2
+[8.043s] -- Install configuration: ""
+[8.044s] -- Execute custom install script
+[8.047s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[8.084s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[8.118s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[8.152s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/serverconf.yaml
+[8.187s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.pgm
+[8.225s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.yaml
+[8.262s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[8.300s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[8.339s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[8.380s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[8.422s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[8.464s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[8.503s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[8.543s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[8.585s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[8.627s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[8.665s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[8.701s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[8.742s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[8.780s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[8.817s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[8.861s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[8.901s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[8.942s] -- Symlinking: /home/jetson/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[9.001s] Invoked command in '/home/jetson/ros2_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/turtlebot3_navigation2

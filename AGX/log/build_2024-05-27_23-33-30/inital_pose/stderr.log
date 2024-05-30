@@ -1,0 +1,18 @@
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:16:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_with_covariance_stamped[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+   16 | geometry_msgs::[01;31m[Kpose_with_covariance_stamped[m[K pose;
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:17:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_with_covariance[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+   17 | geometry_msgs::[01;31m[Kpose_with_covariance[m[K pose1;
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:18:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+   18 | geometry_msgs::[01;31m[Kpose[m[K pose2;
+      |                [01;31m[K^~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:19:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+   19 | geometry_msgs::[01;31m[Kpoint[m[K position;
+      |                [01;31m[K^~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:20:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kquaternion[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+   20 | geometry_msgs::[01;31m[Kquaternion[m[K orientation
+      |                [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/initialpose.dir/build.make:63: CMakeFiles/initialpose.dir/src/initialpose.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/initialpose.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

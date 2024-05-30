@@ -1,0 +1,47 @@
+[0.160s] Invoking command in '/home/jetson/ros2_ws/build/inital_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/inital_pose -- -j8 -l8
+[0.338s] [35m[1mScanning dependencies of target initialpose[0m
+[0.574s] [ 50%] [32mBuilding CXX object CMakeFiles/initialpose.dir/src/initialpose.cpp.o[0m
+[4.860s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:70:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.861s]    70 |     geometry_msgs::msg::Quaternion [01;31m[Korientation[m[K
+[4.861s]       |                                    [01;31m[K^~~~~~~~~~~[m[K
+[4.861s]       |                                               [32m[K;[m[K
+[4.867s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:71:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+[4.867s]    71 |     rclcpp::Publisher<[01;31m[Ksensor_msgs[m[K::msg::LaserScan>::SharedPtr initalpose_pub;
+[4.867s]       |                       [01;31m[K^~~~~~~~~~~[m[K
+[4.868s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:71:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.868s]    71 |     rclcpp::Publisher<sensor_msgs::msg::LaserScan[01;31m[K>[m[K::SharedPtr initalpose_pub;
+[4.868s]       |                                                  [01;31m[K^[m[K
+[4.868s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:71:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.869s]    71 |     rclcpp::Publisher<sensor_msgs::msg::LaserScan>::[01;31m[KSharedPtr[m[K initalpose_pub;
+[4.869s]       |                                                     [01;31m[K^~~~~~~~~[m[K
+[4.869s]       |                                                              [32m[K;[m[K
+[4.874s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:71:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitalpose_pub[m[K’ does not name a type
+[4.874s]    71 |     rclcpp::Publisher<sensor_msgs::msg::LaserScan>::SharedPtr [01;31m[Kinitalpose_pub[m[K;
+[4.874s]       |                                                               [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.875s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:72:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[4.876s]    72 | }
+[4.876s]       |  [01;31m[K^[m[K
+[4.876s]       |  [32m[K;[m[K
+[4.877s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:66:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kgeometry_msgs[m[K’
+[4.877s]    66 |     [01;31m[Kgeometry_msgs[m[K::msg::PoseWithCovarianceStamped pose;
+[4.877s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[4.877s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:[m[K In constructor ‘[01m[KInitalposePublisher::InitalposePublisher()[m[K’:
+[4.878s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:50:36:[m[K [01;31m[Kerror: [m[K‘[01m[KQos[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[KQoS[m[K’?
+[4.878s]    50 |         auto qos_profile = rclcpp::[01;31m[KQos[m[K(rclcpp::KeepLast(10));
+[4.878s]       |                                    [01;31m[K^~~[m[K
+[4.878s]       |                                    [32m[KQoS[m[K
+[4.884s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:51:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitalpose_pub[m[K’ was not declared in this scope
+[4.885s]    51 |         [01;31m[Kinitalpose_pub[m[K = this->create_publisher<geometry_msgs::msg::PoseWithCovarianceStamped>("initalpose",qos_profile);
+[4.885s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.889s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:[m[K In member function ‘[01m[Kvoid InitalposePublisher::publish_initalpose_msg()[m[K’:
+[4.889s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:56:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose[m[K’ was not declared in this scope; did you mean ‘[01m[Kpose1[m[K’?
+[4.889s]    56 |         [01;31m[Kpose[m[K.header.frame_id=fixed_frame;
+[4.889s]       |         [01;31m[K^~~~[m[K
+[4.890s]       |         [32m[Kpose1[m[K
+[4.890s] [01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:57:41:[m[K [01;31m[Kerror: [m[K‘[01m[Know[m[K’ is not a member of ‘[01m[Krclcpp::Time[m[K’
+[4.890s]    57 |         pose.header.stamp=rclcpp::Time::[01;31m[Know[m[K();
+[4.890s]       |                                         [01;31m[K^~~[m[K
+[6.155s] make[2]: *** [CMakeFiles/initialpose.dir/build.make:63: CMakeFiles/initialpose.dir/src/initialpose.cpp.o] Error 1
+[6.155s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/initialpose.dir/all] Error 2
+[6.156s] make: *** [Makefile:141: all] Error 2
+[6.164s] Invoked command in '/home/jetson/ros2_ws/build/inital_pose' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/inital_pose -- -j8 -l8

@@ -1,0 +1,27 @@
+[0.162s] Invoking command in '/home/jetson/ros2_ws/build/inital_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/inital_pose -- -j8 -l8
+[0.336s] [35m[1mScanning dependencies of target initialpose[0m
+[0.588s] [ 50%] [32mBuilding CXX object CMakeFiles/initialpose.dir/src/initialpose.cpp.o[0m
+[9.573s] [100%] [32m[1mLinking CXX executable initialpose[0m
+[10.079s] [100%] Built target initialpose
+[10.228s] Invoked command in '/home/jetson/ros2_ws/build/inital_pose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/inital_pose -- -j8 -l8
+[10.344s] Invoking command in '/home/jetson/ros2_ws/build/inital_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/inital_pose
+[10.374s] -- Install configuration: ""
+[10.376s] -- Execute custom install script
+[10.377s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/inital_pose/lib/inital_pose/initialpose
+[10.379s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/inital_pose/share/ament_index/resource_index/package_run_dependencies/inital_pose
+[10.380s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/inital_pose/share/ament_index/resource_index/parent_prefix_path/inital_pose
+[10.381s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/inital_pose/share/inital_pose/environment/ament_prefix_path.sh
+[10.382s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/inital_pose/share/inital_pose/environment/ament_prefix_path.dsv
+[10.384s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/inital_pose/share/inital_pose/environment/path.sh
+[10.385s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/inital_pose/share/inital_pose/environment/path.dsv
+[10.386s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/inital_pose/share/inital_pose/local_setup.bash
+[10.387s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/inital_pose/share/inital_pose/local_setup.sh
+[10.388s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/inital_pose/share/inital_pose/local_setup.zsh
+[10.389s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/inital_pose/share/inital_pose/local_setup.dsv
+[10.390s] -- Symlinking: /home/jetson/ros2_ws/install/inital_pose/share/inital_pose/package.dsv
+[10.426s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/inital_pose/share/ament_index/resource_index/packages/inital_pose
+[10.427s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/inital_pose/share/inital_pose/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.428s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/inital_pose/share/inital_pose/cmake/inital_poseConfig.cmake
+[10.428s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/inital_pose/share/inital_pose/cmake/inital_poseConfig-version.cmake
+[10.429s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/inital_pose/share/inital_pose/package.xml
+[10.446s] Invoked command in '/home/jetson/ros2_ws/build/inital_pose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/inital_pose

@@ -1,0 +1,30 @@
+[0.072s] Invoking command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers -- -j4 -l4
+[0.257s] [35m[1mScanning dependencies of target find_dynamixel[0m
+[0.259s] [35m[1mScanning dependencies of target dynamixel_workbench_controllers[0m
+[0.471s] [  8%] [32mBuilding CXX object CMakeFiles/find_dynamixel.dir/src/dynamixel_driver.cpp.o[0m
+[0.476s] [ 16%] [32mBuilding CXX object CMakeFiles/find_dynamixel.dir/src/dynamixel_item.cpp.o[0m
+[0.498s] [ 25%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_controllers.dir/src/dynamixel_driver.cpp.o[0m
+[0.503s] [ 33%] [32mBuilding CXX object CMakeFiles/find_dynamixel.dir/src/dynamixel_tool.cpp.o[0m
+[0.541s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_driver.cpp:19:10:[m[K [01;31m[Kfatal error: [m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/include/dynamixel_workbench_controllers: No such file or directory
+[0.542s]    19 | #include [01;31m[K"/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/include/dynamixel_workbench_controllers"[m[K
+[0.542s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.543s] compilation terminated.
+[0.649s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_driver.cpp:19:10:[m[K [01;31m[Kfatal error: [m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/include/dynamixel_workbench_controllers: No such file or directory
+[0.650s]    19 | #include [01;31m[K"/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/include/dynamixel_workbench_controllers"[m[K
+[0.650s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.651s] compilation terminated.
+[0.659s] [01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/dynamixel_tool.cpp:19:10:[m[K [01;31m[Kfatal error: [m[K/home/ncslab/ros2_ws/src/dynamixel_workbench_controllers/include/dynamixel_workbench_controllers/dynamixel_tool.h: No such file or directory
+[0.660s]    19 | #include [01;31m[K"/home/ncslab/ros2_ws/src/dynamixel_workbench_controllers/include/dynamixel_workbench_controllers/dynamixel_tool.h"[m[K
+[0.660s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.661s] compilation terminated.
+[0.702s] make[2]: *** [CMakeFiles/find_dynamixel.dir/build.make:76: CMakeFiles/find_dynamixel.dir/src/dynamixel_driver.cpp.o] Error 1
+[0.703s] make[2]: *** Waiting for unfinished jobs....
+[0.706s] make[2]: *** [CMakeFiles/find_dynamixel.dir/build.make:102: CMakeFiles/find_dynamixel.dir/src/dynamixel_tool.cpp.o] Error 1
+[0.707s] make[2]: *** [CMakeFiles/dynamixel_workbench_controllers.dir/build.make:76: CMakeFiles/dynamixel_workbench_controllers.dir/src/dynamixel_driver.cpp.o] Error 1
+[0.707s] make[2]: *** Waiting for unfinished jobs....
+[0.743s] [ 41%] [32mBuilding CXX object CMakeFiles/dynamixel_workbench_controllers.dir/src/dynamixel_item.cpp.o[0m
+[0.863s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/find_dynamixel.dir/all] Error 2
+[0.863s] make[1]: *** Waiting for unfinished jobs....
+[1.100s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/dynamixel_workbench_controllers.dir/all] Error 2
+[1.101s] make: *** [Makefile:141: all] Error 2
+[1.111s] Invoked command in '/home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetsonnx/ros2_ws/build/dynamixel_workbench_controllers -- -j4 -l4

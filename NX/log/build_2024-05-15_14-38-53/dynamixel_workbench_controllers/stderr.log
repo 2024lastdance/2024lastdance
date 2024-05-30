@@ -1,0 +1,7 @@
+[01m[K/home/jetsonnx/ros2_ws/src/dynamixel_workbench_controllers/src/find_dynamixel.cpp:22:10:[m[K [01;31m[Kfatal error: [m[K/home/jetsonnx/ros2_ws/install/dynamixel_workbench_toolbox/include/dynamixel_workbench_toolbox/dynamixel_workbench.h: No such file or directory
+   22 | #include [01;31m[K"/home/jetsonnx/ros2_ws/install/dynamixel_workbench_toolbox/include/dynamixel_workbench_toolbox/dynamixel_workbench.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/find_dynamixel.dir/build.make:63: CMakeFiles/find_dynamixel.dir/src/find_dynamixel.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/find_dynamixel.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

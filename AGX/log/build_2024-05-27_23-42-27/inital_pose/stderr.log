@@ -1,0 +1,36 @@
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:68:20:[m[K [01;31m[Kerror: [m[K‘[01m[KPose[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+   68 |     geometry_msgs::[01;31m[KPose[m[K pose2;
+      |                    [01;31m[K^~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:69:20:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+   69 |     geometry_msgs::[01;31m[KPoint[m[K position;
+      |                    [01;31m[K^~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:70:20:[m[K [01;31m[Kerror: [m[K‘[01m[KQuaternion[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+   70 |     geometry_msgs::[01;31m[KQuaternion[m[K orientation
+      |                    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:71:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   71 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:66:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kgeometry_msgs[m[K’
+   66 |     [01;31m[Kgeometry_msgs[m[K::msg::PoseWithCovarianceStamped pose;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:[m[K In constructor ‘[01m[KInitalposePublisher::InitalposePublisher()[m[K’:
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:50:36:[m[K [01;31m[Kerror: [m[K‘[01m[KQos[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[KQoS[m[K’?
+   50 |         auto qos_profile = rclcpp::[01;31m[KQos[m[K(rclcpp::KeepLast(10));
+      |                                    [01;31m[K^~~[m[K
+      |                                    [32m[KQoS[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:51:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitalpose_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[KInitalposePublisher[m[K’?
+   51 |         [01;31m[Kinitalpose_publisher_[m[K = this->create_publisher<geometry_msgs::msg::PoseWithCovarianceStamped>("initalpose",qos_profile);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[KInitalposePublisher[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:[m[K In member function ‘[01m[Kvoid InitalposePublisher::publish_initalpose_msg()[m[K’:
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:56:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose[m[K’ was not declared in this scope; did you mean ‘[01m[Kpose1[m[K’?
+   56 |         [01;31m[Kpose[m[K.header.frame_id=fixed_frame;
+      |         [01;31m[K^~~~[m[K
+      |         [32m[Kpose1[m[K
+[01m[K/home/jetson/ros2_ws/src/inital_pose/src/initialpose.cpp:57:41:[m[K [01;31m[Kerror: [m[K‘[01m[Know[m[K’ is not a member of ‘[01m[Krclcpp::Time[m[K’
+   57 |         pose.header.stamp=rclcpp::Time::[01;31m[Know[m[K();
+      |                                         [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/initialpose.dir/build.make:63: CMakeFiles/initialpose.dir/src/initialpose.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/initialpose.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
