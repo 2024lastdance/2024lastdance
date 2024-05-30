@@ -32,9 +32,9 @@ https://www.notion.so/71b85f8e52444099b91ac87357384003
 
 
 ## 발표자료
-(5/30) Gui Tool을 사용하지 않고 initialpose 지정하기
+* (5/30) Gui Tool을 사용하지 않고 initialpose 지정하기
 https://cafe.daum.net/SmartRobot/RoVa/1868
 
 ## 영상
-(5/30) Gui Tool을 사용하지 않고 initialpose 지정하기
+* (5/30) Gui Tool을 사용하지 않고 initialpose 지정하기
 https://youtu.be/SEUnL01Dujs?si=LJ69eRZWxriuvmTn
