@@ -32,7 +32,7 @@ https://www.notion.so/71b85f8e52444099b91ac87357384003
 
 
 ## 발표자료
-
+https://cafe.daum.net/SmartRobot/RoVa/1868
 
 ## 영상
 
