@@ -17,6 +17,8 @@ https://www.notion.so/71b85f8e52444099b91ac87357384003
 ## 블록도
 ![화면 캡처 2024-06-20 140739](https://github.com/2024lastdance/2024lastdance/assets/112371402/a0409b4f-ba13-4ab3-a6c1-b51046bf3bc0)
 
+![image](https://github.com/user-attachments/assets/06d7494f-75a1-4c1c-be27-dbc17e0ab188)
+
 
 
 ## 분담파트
