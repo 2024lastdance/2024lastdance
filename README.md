@@ -44,3 +44,9 @@ https://youtu.be/SEUnL01Dujs?si=LJ69eRZWxriuvmTn
 
 * (6/20) 음성인식을 이용한 자율주행
 https://www.youtube.com/watch?v=vx8dUM0Y3QE
+
+* (10/11) object tracking (person)
+https://youtu.be/h4otNbJnf7A
+
+* (10/11) depth camera (person)
+https://youtu.be/TFRPSksmDNQ 
