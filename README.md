@@ -7,12 +7,10 @@
 ## Notion
 https://www.notion.so/71b85f8e52444099b91ac87357384003
 
-## 문제점
-* 마트에서 물건을 찾기 힘들어서 직원분들께 도움을 요청하는 일이 빈번하다. 그럴 때 마다 직원분들이 전부 다 알려주시기 힘들기 때문에 마트 이곳저곳 돌아다니며 안내를 해줄 수 있는 로봇을 만들어 보기로 하였다.
 
 ## 목적
-* 사람 대신 로봇이 물건을 찾아준다.
-* 마트 이곳저곳 다니며 도움이 필요한 사람을 도와준다.
+- 마트에서 사람이 직접 끌지않아도 사람을 따라오는 카트를 구현
+
 
 ## 블록도
 ![image](https://github.com/user-attachments/assets/4efca7f3-0fed-4c61-af59-6869a5dd234a)
@@ -48,4 +46,7 @@ https://www.youtube.com/watch?v=vx8dUM0Y3QE
 https://youtu.be/h4otNbJnf7A
 
 * (10/11) depth camera (person)
-https://youtu.be/TFRPSksmDNQ 
+https://youtu.be/TFRPSksmDNQ
+
+* (11/13) tracking robot
+https://youtu.be/Ss5idd7cWN4
